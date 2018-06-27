@@ -1,0 +1,1 @@
+/usr/bin/g++  -O3 -DNDEBUG  -rdynamic  -Wl,--no-as-needed -lrt CMakeFiles/TestReferenceAmoebaMultipoleForce.dir/TestReferenceAmoebaMultipoleForce.cpp.o  -o ../../../../../TestReferenceAmoebaMultipoleForce -Wl,-rpath,/ccs/home/hm0/Pkgs/openmm/build_openmm ../../../../../libOpenMMAmoebaReference.so ../../../../../libOpenMMAmoeba.so ../../../../../libOpenMM.so -ldl -lpthread 

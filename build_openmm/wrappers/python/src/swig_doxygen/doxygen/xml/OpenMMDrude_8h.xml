@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="OpenMMDrude_8h" kind="file">
+    <compoundname>OpenMMDrude.h</compoundname>
+    <includes refid="DrudeForce_8h" local="yes">openmm/DrudeForce.h</includes>
+    <includes refid="DrudeLangevinIntegrator_8h" local="yes">openmm/DrudeLangevinIntegrator.h</includes>
+    <includes refid="DrudeSCFIntegrator_8h" local="yes">openmm/DrudeSCFIntegrator.h</includes>
+    <incdepgraph>
+      <node id="805">
+        <label>internal/OSRngSeed.h</label>
+      </node>
+      <node id="804">
+        <label>System.h</label>
+        <link refid="System_8h_source"/>
+        <childnode refid="797" relation="include">
+        </childnode>
+        <childnode refid="802" relation="include">
+        </childnode>
+        <childnode refid="803" relation="include">
+        </childnode>
+      </node>
+      <node id="795">
+        <label>Integrator.h</label>
+        <link refid="Integrator_8h_source"/>
+        <childnode refid="796" relation="include">
+        </childnode>
+        <childnode refid="797" relation="include">
+        </childnode>
+        <childnode refid="800" relation="include">
+        </childnode>
+        <childnode refid="802" relation="include">
+        </childnode>
+        <childnode refid="803" relation="include">
+        </childnode>
+      </node>
+      <node id="803">
+        <label>internal/windowsExport.h</label>
+      </node>
+      <node id="798">
+        <label>cassert</label>
+      </node>
+      <node id="809">
+        <label>openmm/Kernel.h</label>
+      </node>
+      <node id="811">
+        <label>openmm/DrudeSCFIntegrator.h</label>
+        <link refid="DrudeSCFIntegrator_8h_source"/>
+        <childnode refid="795" relation="include">
+        </childnode>
+        <childnode refid="809" relation="include">
+        </childnode>
+        <childnode refid="810" relation="include">
+        </childnode>
+      </node>
+      <node id="801">
+        <label>string</label>
+      </node>
+      <node id="792">
+        <label>/ccs/home/hm0/Pkgs/openmm/plugins/drude/openmmapi/include/OpenMMDrude.h</label>
+        <link refid="OpenMMDrude.h"/>
+        <childnode refid="793" relation="include">
+        </childnode>
+        <childnode refid="808" relation="include">
+        </childnode>
+        <childnode refid="811" relation="include">
+        </childnode>
+      </node>
+      <node id="800">
+        <label>map</label>
+      </node>
+      <node id="808">
+        <label>openmm/DrudeLangevinIntegrator.h</label>
+        <link refid="DrudeLangevinIntegrator_8h_source"/>
+        <childnode refid="795" relation="include">
+        </childnode>
+        <childnode refid="809" relation="include">
+        </childnode>
+        <childnode refid="810" relation="include">
+        </childnode>
+      </node>
+      <node id="806">
+        <label>openmm/Force.h</label>
+        <link refid="Force_8h_source"/>
+        <childnode refid="803" relation="include">
+        </childnode>
+      </node>
+      <node id="802">
+        <label>vector</label>
+      </node>
+      <node id="796">
+        <label>State.h</label>
+        <link refid="State_8h_source"/>
+        <childnode refid="797" relation="include">
+        </childnode>
+        <childnode refid="800" relation="include">
+        </childnode>
+        <childnode refid="801" relation="include">
+        </childnode>
+        <childnode refid="802" relation="include">
+        </childnode>
+        <childnode refid="803" relation="include">
+        </childnode>
+      </node>
+      <node id="799">
+        <label>iosfwd</label>
+      </node>
+      <node id="810">
+        <label>openmm/internal/windowsExportDrude.h</label>
+      </node>
+      <node id="794">
+        <label>openmm/Context.h</label>
+        <link refid="Context_8h_source"/>
+        <childnode refid="795" relation="include">
+        </childnode>
+        <childnode refid="796" relation="include">
+        </childnode>
+        <childnode refid="804" relation="include">
+        </childnode>
+        <childnode refid="799" relation="include">
+        </childnode>
+        <childnode refid="800" relation="include">
+        </childnode>
+        <childnode refid="801" relation="include">
+        </childnode>
+        <childnode refid="802" relation="include">
+        </childnode>
+        <childnode refid="803" relation="include">
+        </childnode>
+        <childnode refid="805" relation="include">
+        </childnode>
+      </node>
+      <node id="793">
+        <label>openmm/DrudeForce.h</label>
+        <link refid="DrudeForce_8h_source"/>
+        <childnode refid="794" relation="include">
+        </childnode>
+        <childnode refid="806" relation="include">
+        </childnode>
+        <childnode refid="802" relation="include">
+        </childnode>
+        <childnode refid="807" relation="include">
+        </childnode>
+      </node>
+      <node id="807">
+        <label>internal/windowsExportDrude.h</label>
+      </node>
+      <node id="797">
+        <label>Vec3.h</label>
+        <link refid="Vec3_8h_source"/>
+        <childnode refid="798" relation="include">
+        </childnode>
+        <childnode refid="799" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/ccs/home/hm0/Pkgs/openmm/plugins/drude/openmmapi/include/OpenMMDrude.h"/>
+  </compounddef>
+</doxygen>

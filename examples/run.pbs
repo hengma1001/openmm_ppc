@@ -1,0 +1,12 @@
+#!/bin/bash
+#    Begin PBS directives
+#PBS -A CSC249ADOA01 
+#PBS -N test
+#PBS -j oe
+#PBS -o $PBS_JOBID.out
+#PBS -l walltime=00:10:00,nodes=1
+#PBS -l gres=atlas1%atlas2
+#PBS -q debug
+date
+cd $PBS_O_WORKDIR
+aprun -n 1 python simulatePdb.py

@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="VirtualSite_8h" kind="file">
+    <compoundname>VirtualSite.h</compoundname>
+    <includes refid="Vec3_8h" local="no">openmm/Vec3.h</includes>
+    <includes local="yes">internal/windowsExport.h</includes>
+    <includes local="no">vector</includes>
+    <includedby refid="OpenMM_8h" local="yes">/ccs/home/hm0/Pkgs/openmm/openmmapi/include/OpenMM.h</includedby>
+    <incdepgraph>
+      <node id="584">
+        <label>internal/windowsExport.h</label>
+      </node>
+      <node id="582">
+        <label>cassert</label>
+      </node>
+      <node id="585">
+        <label>vector</label>
+      </node>
+      <node id="580">
+        <label>/ccs/home/hm0/Pkgs/openmm/openmmapi/include/openmm/VirtualSite.h</label>
+        <link refid="VirtualSite.h"/>
+        <childnode refid="581" relation="include">
+        </childnode>
+        <childnode refid="584" relation="include">
+        </childnode>
+        <childnode refid="585" relation="include">
+        </childnode>
+      </node>
+      <node id="583">
+        <label>iosfwd</label>
+      </node>
+      <node id="581">
+        <label>openmm/Vec3.h</label>
+        <link refid="Vec3_8h"/>
+        <childnode refid="582" relation="include">
+        </childnode>
+        <childnode refid="583" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="587">
+        <label>/ccs/home/hm0/Pkgs/openmm/openmmapi/include/OpenMM.h</label>
+        <link refid="OpenMM_8h"/>
+      </node>
+      <node id="586">
+        <label>/ccs/home/hm0/Pkgs/openmm/openmmapi/include/openmm/VirtualSite.h</label>
+        <link refid="VirtualSite.h"/>
+        <childnode refid="587" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classOpenMM_1_1VirtualSite" prot="public">OpenMM::VirtualSite</innerclass>
+    <innerclass refid="classOpenMM_1_1TwoParticleAverageSite" prot="public">OpenMM::TwoParticleAverageSite</innerclass>
+    <innerclass refid="classOpenMM_1_1ThreeParticleAverageSite" prot="public">OpenMM::ThreeParticleAverageSite</innerclass>
+    <innerclass refid="classOpenMM_1_1OutOfPlaneSite" prot="public">OpenMM::OutOfPlaneSite</innerclass>
+    <innerclass refid="classOpenMM_1_1LocalCoordinatesSite" prot="public">OpenMM::LocalCoordinatesSite</innerclass>
+    <innernamespace refid="namespaceOpenMM">OpenMM</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/ccs/home/hm0/Pkgs/openmm/openmmapi/include/openmm/VirtualSite.h"/>
+  </compounddef>
+</doxygen>

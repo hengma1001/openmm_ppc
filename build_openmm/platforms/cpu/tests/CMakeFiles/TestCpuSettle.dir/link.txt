@@ -1,0 +1,1 @@
+/usr/bin/g++  -O3 -DNDEBUG  -rdynamic  -Wl,--no-as-needed -lrt CMakeFiles/TestCpuSettle.dir/TestCpuSettle.cpp.o  -o ../../../TestCpuSettle -Wl,-rpath,/ccs/home/hm0/Pkgs/openmm/build_openmm ../../../libOpenMMCPU.so ../../../libOpenMM.so -ldl -lpthread 

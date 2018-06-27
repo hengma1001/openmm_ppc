@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="deprecated" kind="page">
+    <compoundname>deprecated</compoundname>
+    <title>Deprecated List</title>
+    <detaileddescription>
+<para><variablelist>
+<varlistentry><term><anchor id="deprecated_1_deprecated000001"/>Member <ref refid="classOpenMM_1_1AmoebaMultipoleForce_1abdd500580f809c3faa99cd53779ee428" kindref="member">OpenMM::AmoebaMultipoleForce::getAEwald</ref>  () const </term></varlistentry>
+<listitem><para>This method exists only for backward compatibility. Use getPMEParameters() instead.  </para></listitem>
+<varlistentry><term><anchor id="deprecated_1_deprecated000003"/>Member <ref refid="classOpenMM_1_1AmoebaMultipoleForce_1a75834006101f421a0bbc1c7e3455e4bd" kindref="member">OpenMM::AmoebaMultipoleForce::getPmeGridDimensions</ref>  (std::vector&lt; int &gt; &amp;gridDimension) const </term></varlistentry>
+<listitem><para>This method exists only for backward compatibility. Use getPMEParameters() instead.  </para></listitem>
+<varlistentry><term><anchor id="deprecated_1_deprecated000002"/>Member <ref refid="classOpenMM_1_1AmoebaMultipoleForce_1a56d4e3101dcbf58bf2921af7d791e3a1" kindref="member">OpenMM::AmoebaMultipoleForce::setAEwald</ref>  (double aewald)</term></varlistentry>
+<listitem><para>This method exists only for backward compatibility. Use setPMEParameters() instead.  </para></listitem>
+<varlistentry><term><anchor id="deprecated_1_deprecated000004"/>Member <ref refid="classOpenMM_1_1AmoebaMultipoleForce_1a0872fbc28e9a58d2d1742474c35068a0" kindref="member">OpenMM::AmoebaMultipoleForce::setPmeGridDimensions</ref>  (const std::vector&lt; int &gt; &amp;gridDimension)</term></varlistentry>
+<listitem><para>This method exists only for backward compatibility. Use setPMEParameters() instead.  </para></listitem>
+<varlistentry><term><anchor id="deprecated_1_deprecated000006"/>Member <ref refid="classOpenMM_1_1AmoebaVdwForce_1a71b8acfdd5c99474aac4b6f9387d7193" kindref="member">OpenMM::AmoebaVdwForce::getCutoff</ref>  () const </term></varlistentry>
+<listitem><para>This method exists only for backward compatibility. Use getCutoffDistance() instead.  </para></listitem>
+<varlistentry><term><anchor id="deprecated_1_deprecated000005"/>Member <ref refid="classOpenMM_1_1AmoebaVdwForce_1a876e5171181c90bf87e27d6a5cf0f4d7" kindref="member">OpenMM::AmoebaVdwForce::setCutoff</ref>  (double cutoff)</term></varlistentry>
+<listitem><para>This method exists only for backward compatibility. Use setCutoffDistance() instead. </para></listitem>
+</variablelist>
+</para>    </detaileddescription>
+  </compounddef>
+</doxygen>

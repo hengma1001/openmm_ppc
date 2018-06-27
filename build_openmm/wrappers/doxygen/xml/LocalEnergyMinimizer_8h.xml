@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="LocalEnergyMinimizer_8h" kind="file">
+    <compoundname>LocalEnergyMinimizer.h</compoundname>
+    <includes refid="Context_8h" local="yes">Context.h</includes>
+    <includedby refid="OpenMM_8h" local="yes">/ccs/home/hm0/Pkgs/openmm/openmmapi/include/OpenMM.h</includedby>
+    <incdepgraph>
+      <node id="378">
+        <label>internal/OSRngSeed.h</label>
+      </node>
+      <node id="377">
+        <label>System.h</label>
+        <link refid="System_8h"/>
+        <childnode refid="370" relation="include">
+        </childnode>
+        <childnode refid="375" relation="include">
+        </childnode>
+        <childnode refid="376" relation="include">
+        </childnode>
+      </node>
+      <node id="368">
+        <label>Integrator.h</label>
+        <link refid="Integrator_8h"/>
+        <childnode refid="369" relation="include">
+        </childnode>
+        <childnode refid="370" relation="include">
+        </childnode>
+        <childnode refid="373" relation="include">
+        </childnode>
+        <childnode refid="375" relation="include">
+        </childnode>
+        <childnode refid="376" relation="include">
+        </childnode>
+      </node>
+      <node id="366">
+        <label>/ccs/home/hm0/Pkgs/openmm/openmmapi/include/openmm/LocalEnergyMinimizer.h</label>
+        <link refid="LocalEnergyMinimizer.h"/>
+        <childnode refid="367" relation="include">
+        </childnode>
+      </node>
+      <node id="376">
+        <label>internal/windowsExport.h</label>
+      </node>
+      <node id="371">
+        <label>cassert</label>
+      </node>
+      <node id="374">
+        <label>string</label>
+      </node>
+      <node id="373">
+        <label>map</label>
+      </node>
+      <node id="375">
+        <label>vector</label>
+      </node>
+      <node id="369">
+        <label>State.h</label>
+        <link refid="State_8h"/>
+        <childnode refid="370" relation="include">
+        </childnode>
+        <childnode refid="373" relation="include">
+        </childnode>
+        <childnode refid="374" relation="include">
+        </childnode>
+        <childnode refid="375" relation="include">
+        </childnode>
+        <childnode refid="376" relation="include">
+        </childnode>
+      </node>
+      <node id="372">
+        <label>iosfwd</label>
+      </node>
+      <node id="367">
+        <label>Context.h</label>
+        <link refid="Context_8h"/>
+        <childnode refid="368" relation="include">
+        </childnode>
+        <childnode refid="369" relation="include">
+        </childnode>
+        <childnode refid="377" relation="include">
+        </childnode>
+        <childnode refid="372" relation="include">
+        </childnode>
+        <childnode refid="373" relation="include">
+        </childnode>
+        <childnode refid="374" relation="include">
+        </childnode>
+        <childnode refid="375" relation="include">
+        </childnode>
+        <childnode refid="376" relation="include">
+        </childnode>
+        <childnode refid="378" relation="include">
+        </childnode>
+      </node>
+      <node id="370">
+        <label>Vec3.h</label>
+        <link refid="Vec3_8h"/>
+        <childnode refid="371" relation="include">
+        </childnode>
+        <childnode refid="372" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="380">
+        <label>/ccs/home/hm0/Pkgs/openmm/openmmapi/include/OpenMM.h</label>
+        <link refid="OpenMM_8h"/>
+      </node>
+      <node id="379">
+        <label>/ccs/home/hm0/Pkgs/openmm/openmmapi/include/openmm/LocalEnergyMinimizer.h</label>
+        <link refid="LocalEnergyMinimizer.h"/>
+        <childnode refid="380" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classOpenMM_1_1LocalEnergyMinimizer" prot="public">OpenMM::LocalEnergyMinimizer</innerclass>
+    <innernamespace refid="namespaceOpenMM">OpenMM</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/ccs/home/hm0/Pkgs/openmm/openmmapi/include/openmm/LocalEnergyMinimizer.h"/>
+  </compounddef>
+</doxygen>

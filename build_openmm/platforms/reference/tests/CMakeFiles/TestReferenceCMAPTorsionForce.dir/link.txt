@@ -1,0 +1,1 @@
+/usr/bin/g++  -O3 -DNDEBUG  -rdynamic  -Wl,--no-as-needed -lrt CMakeFiles/TestReferenceCMAPTorsionForce.dir/TestReferenceCMAPTorsionForce.cpp.o  -o ../../../TestReferenceCMAPTorsionForce -Wl,-rpath,/ccs/home/hm0/Pkgs/openmm/build_openmm ../../../libOpenMM.so -ldl -lpthread 

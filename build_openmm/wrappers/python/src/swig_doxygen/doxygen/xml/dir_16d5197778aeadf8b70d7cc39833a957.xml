@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="dir_16d5197778aeadf8b70d7cc39833a957" kind="dir">
+    <compoundname>/ccs</compoundname>
+    <innerdir refid="dir_02a356b4712aa6dec58abdccad109d6f">/ccs/home</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/ccs/"/>
+  </compounddef>
+</doxygen>

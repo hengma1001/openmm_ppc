@@ -1,0 +1,1 @@
+/usr/bin/g++  -O3 -DNDEBUG  -rdynamic  -Wl,--no-as-needed -lrt CMakeFiles/TestReferenceDrudeForce.dir/TestReferenceDrudeForce.cpp.o  -o ../../../../../TestReferenceDrudeForce -Wl,-rpath,/ccs/home/hm0/Pkgs/openmm/build_openmm ../../../../../libOpenMMDrudeReference.so ../../../../../libOpenMMDrude.so ../../../../../libOpenMM.so -ldl -lpthread 

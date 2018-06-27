@@ -1,0 +1,1 @@
+/usr/bin/g++  -O3 -DNDEBUG  -rdynamic  -Wl,--no-as-needed -lrt CMakeFiles/TestCpuPme.dir/TestCpuPme.cpp.o  -o ../../../TestCpuPme -Wl,-rpath,/ccs/home/hm0/Pkgs/openmm/build_openmm ../../../libOpenMMPME.so ../../../libOpenMM.so -ldl -lpthread -lfftw3f -lfftw3f_threads 

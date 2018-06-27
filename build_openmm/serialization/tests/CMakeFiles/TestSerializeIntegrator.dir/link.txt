@@ -1,0 +1,1 @@
+/usr/bin/g++  -O3 -DNDEBUG  -rdynamic  -Wl,--no-as-needed -lrt CMakeFiles/TestSerializeIntegrator.dir/TestSerializeIntegrator.cpp.o  -o ../../TestSerializeIntegrator -Wl,-rpath,/ccs/home/hm0/Pkgs/openmm/build_openmm ../../libOpenMM.so -ldl -lpthread 

@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="CustomExternalForce_8h" kind="file">
+    <compoundname>CustomExternalForce.h</compoundname>
+    <includes refid="Force_8h" local="yes">Force.h</includes>
+    <includes refid="Vec3_8h" local="yes">Vec3.h</includes>
+    <includes local="no">vector</includes>
+    <includes local="yes">internal/windowsExport.h</includes>
+    <includedby refid="OpenMM_8h" local="yes">/ccs/home/hm0/Pkgs/openmm/openmmapi/include/OpenMM.h</includedby>
+    <incdepgraph>
+      <node id="184">
+        <label>/ccs/home/hm0/Pkgs/openmm/openmmapi/include/openmm/CustomExternalForce.h</label>
+        <link refid="CustomExternalForce.h"/>
+        <childnode refid="185" relation="include">
+        </childnode>
+        <childnode refid="187" relation="include">
+        </childnode>
+        <childnode refid="190" relation="include">
+        </childnode>
+        <childnode refid="186" relation="include">
+        </childnode>
+      </node>
+      <node id="186">
+        <label>internal/windowsExport.h</label>
+      </node>
+      <node id="188">
+        <label>cassert</label>
+      </node>
+      <node id="185">
+        <label>Force.h</label>
+        <link refid="Force_8h_source"/>
+        <childnode refid="186" relation="include">
+        </childnode>
+      </node>
+      <node id="190">
+        <label>vector</label>
+      </node>
+      <node id="189">
+        <label>iosfwd</label>
+      </node>
+      <node id="187">
+        <label>Vec3.h</label>
+        <link refid="Vec3_8h_source"/>
+        <childnode refid="188" relation="include">
+        </childnode>
+        <childnode refid="189" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="191">
+        <label>/ccs/home/hm0/Pkgs/openmm/openmmapi/include/openmm/CustomExternalForce.h</label>
+        <link refid="CustomExternalForce.h"/>
+        <childnode refid="192" relation="include">
+        </childnode>
+      </node>
+      <node id="192">
+        <label>/ccs/home/hm0/Pkgs/openmm/openmmapi/include/OpenMM.h</label>
+        <link refid="OpenMM_8h_source"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classOpenMM_1_1CustomExternalForce" prot="public">OpenMM::CustomExternalForce</innerclass>
+    <innerclass refid="classOpenMM_1_1CustomExternalForce_1_1ParticleInfo" prot="private">OpenMM::CustomExternalForce::ParticleInfo</innerclass>
+    <innerclass refid="classOpenMM_1_1CustomExternalForce_1_1ParticleParameterInfo" prot="private">OpenMM::CustomExternalForce::ParticleParameterInfo</innerclass>
+    <innerclass refid="classOpenMM_1_1CustomExternalForce_1_1GlobalParameterInfo" prot="private">OpenMM::CustomExternalForce::GlobalParameterInfo</innerclass>
+    <innernamespace refid="namespaceOpenMM">OpenMM</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/ccs/home/hm0/Pkgs/openmm/openmmapi/include/openmm/CustomExternalForce.h"/>
+  </compounddef>
+</doxygen>

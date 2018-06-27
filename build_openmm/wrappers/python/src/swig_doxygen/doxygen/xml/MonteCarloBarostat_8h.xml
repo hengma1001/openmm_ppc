@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="MonteCarloBarostat_8h" kind="file">
+    <compoundname>MonteCarloBarostat.h</compoundname>
+    <includes refid="Force_8h" local="yes">Force.h</includes>
+    <includes local="no">string</includes>
+    <includes local="yes">internal/windowsExport.h</includes>
+    <includedby refid="OpenMM_8h" local="yes">/ccs/home/hm0/Pkgs/openmm/openmmapi/include/OpenMM.h</includedby>
+    <incdepgraph>
+      <node id="417">
+        <label>internal/windowsExport.h</label>
+      </node>
+      <node id="418">
+        <label>string</label>
+      </node>
+      <node id="415">
+        <label>/ccs/home/hm0/Pkgs/openmm/openmmapi/include/openmm/MonteCarloBarostat.h</label>
+        <link refid="MonteCarloBarostat.h"/>
+        <childnode refid="416" relation="include">
+        </childnode>
+        <childnode refid="418" relation="include">
+        </childnode>
+        <childnode refid="417" relation="include">
+        </childnode>
+      </node>
+      <node id="416">
+        <label>Force.h</label>
+        <link refid="Force_8h_source"/>
+        <childnode refid="417" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="420">
+        <label>/ccs/home/hm0/Pkgs/openmm/openmmapi/include/OpenMM.h</label>
+        <link refid="OpenMM_8h_source"/>
+      </node>
+      <node id="419">
+        <label>/ccs/home/hm0/Pkgs/openmm/openmmapi/include/openmm/MonteCarloBarostat.h</label>
+        <link refid="MonteCarloBarostat.h"/>
+        <childnode refid="420" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classOpenMM_1_1MonteCarloBarostat" prot="public">OpenMM::MonteCarloBarostat</innerclass>
+    <innernamespace refid="namespaceOpenMM">OpenMM</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/ccs/home/hm0/Pkgs/openmm/openmmapi/include/openmm/MonteCarloBarostat.h"/>
+  </compounddef>
+</doxygen>

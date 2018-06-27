@@ -120,5 +120,4 @@ static int getNumProcessors() {
     }
     #endif
 #endif
-
 #endif // OPENMM_HARDWARE_H_

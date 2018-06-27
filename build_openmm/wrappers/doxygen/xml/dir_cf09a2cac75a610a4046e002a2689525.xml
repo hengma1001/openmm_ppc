@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="dir_cf09a2cac75a610a4046e002a2689525" kind="dir">
+    <compoundname>/ccs/home/hm0/Pkgs/openmm</compoundname>
+    <innerdir refid="dir_4564cc9452b1de1cb75018a3a25eccb7">/ccs/home/hm0/Pkgs/openmm/olla</innerdir>
+    <innerdir refid="dir_0c206e02dff714cd58e401f04840ec89">/ccs/home/hm0/Pkgs/openmm/openmmapi</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/ccs/home/hm0/Pkgs/openmm/"/>
+  </compounddef>
+</doxygen>

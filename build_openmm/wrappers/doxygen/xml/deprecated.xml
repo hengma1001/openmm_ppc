@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="deprecated" kind="page">
+    <compoundname>deprecated</compoundname>
+    <title>Deprecated List</title>
+    <detaileddescription>
+<para><variablelist>
+<varlistentry><term><anchor id="deprecated_1_deprecated000019"/>Member <ref refid="classOpenMM_1_1Continuous1DFunction_1a8e3b4e623e407b9b4a38d6b89fcd47bf" kindref="member">OpenMM::Continuous1DFunction::Copy</ref>  () const </term></varlistentry>
+<listitem><para>This will be removed in a future release.  </para></listitem>
+<varlistentry><term><anchor id="deprecated_1_deprecated000020"/>Member <ref refid="classOpenMM_1_1Continuous2DFunction_1a97931951a9fdabd914d53d200c9b1ce7" kindref="member">OpenMM::Continuous2DFunction::Copy</ref>  () const </term></varlistentry>
+<listitem><para>This will be removed in a future release.  </para></listitem>
+<varlistentry><term><anchor id="deprecated_1_deprecated000021"/>Member <ref refid="classOpenMM_1_1Continuous3DFunction_1a60902f95b90305c767fff021804288e0" kindref="member">OpenMM::Continuous3DFunction::Copy</ref>  () const </term></varlistentry>
+<listitem><para>This will be removed in a future release.  </para></listitem>
+<varlistentry><term><anchor id="deprecated_1_deprecated000001"/>Member <ref refid="classOpenMM_1_1CustomCentroidBondForce_1aab010a87c25ae88ff7d14091cafff277" kindref="member">OpenMM::CustomCentroidBondForce::getNumFunctions</ref>  () const </term></varlistentry>
+<listitem><para>This method exists only for backward compatibility. Use getNumTabulatedFunctions() instead.  </para></listitem>
+<varlistentry><term><anchor id="deprecated_1_deprecated000003"/>Member <ref refid="classOpenMM_1_1CustomCompoundBondForce_1adc8d57bd02cf8202bebb23d680abf496" kindref="member">OpenMM::CustomCompoundBondForce::addFunction</ref>  (const std::string &amp;name, const std::vector&lt; double &gt; &amp;values, double min, double max)</term></varlistentry>
+<listitem><para>This method exists only for backward compatibility. Use addTabulatedFunction() instead.  </para></listitem>
+<varlistentry><term><anchor id="deprecated_1_deprecated000004"/>Member <ref refid="classOpenMM_1_1CustomCompoundBondForce_1a7ff81c62cff5b4782c26cc8c412a371b" kindref="member">OpenMM::CustomCompoundBondForce::getFunctionParameters</ref>  (int index, std::string &amp;name, std::vector&lt; double &gt; &amp;values, double &amp;min, double &amp;max) const </term></varlistentry>
+<listitem><para>This method exists only for backward compatibility. Use getTabulatedFunctionParameters() instead. If the specified function is not a Continuous1DFunction, this throws an exception.  </para></listitem>
+<varlistentry><term><anchor id="deprecated_1_deprecated000002"/>Member <ref refid="classOpenMM_1_1CustomCompoundBondForce_1a8f1e23cab90155d6a8cb808d2d3f2da1" kindref="member">OpenMM::CustomCompoundBondForce::getNumFunctions</ref>  () const </term></varlistentry>
+<listitem><para>This method exists only for backward compatibility. Use getNumTabulatedFunctions() instead.  </para></listitem>
+<varlistentry><term><anchor id="deprecated_1_deprecated000005"/>Member <ref refid="classOpenMM_1_1CustomCompoundBondForce_1aaf5e1b9fa0cde754917f5512c3077f95" kindref="member">OpenMM::CustomCompoundBondForce::setFunctionParameters</ref>  (int index, const std::string &amp;name, const std::vector&lt; double &gt; &amp;values, double min, double max)</term></varlistentry>
+<listitem><para>This method exists only for backward compatibility. Use setTabulatedFunctionParameters() instead. If the specified function is not a Continuous1DFunction, this throws an exception.  </para></listitem>
+<varlistentry><term><anchor id="deprecated_1_deprecated000007"/>Member <ref refid="classOpenMM_1_1CustomGBForce_1a33ecd7ad4c5ba82009fc6e3d6db3d165" kindref="member">OpenMM::CustomGBForce::addFunction</ref>  (const std::string &amp;name, const std::vector&lt; double &gt; &amp;values, double min, double max)</term></varlistentry>
+<listitem><para>This method exists only for backward compatibility. Use addTabulatedFunction() instead.  </para></listitem>
+<varlistentry><term><anchor id="deprecated_1_deprecated000008"/>Member <ref refid="classOpenMM_1_1CustomGBForce_1ae862f987d7cde217ce31251380366005" kindref="member">OpenMM::CustomGBForce::getFunctionParameters</ref>  (int index, std::string &amp;name, std::vector&lt; double &gt; &amp;values, double &amp;min, double &amp;max) const </term></varlistentry>
+<listitem><para>This method exists only for backward compatibility. Use getTabulatedFunctionParameters() instead. If the specified function is not a Continuous1DFunction, this throws an exception.  </para></listitem>
+<varlistentry><term><anchor id="deprecated_1_deprecated000006"/>Member <ref refid="classOpenMM_1_1CustomGBForce_1a878ca6756b9dcec77f548def5563cd3b" kindref="member">OpenMM::CustomGBForce::getNumFunctions</ref>  () const </term></varlistentry>
+<listitem><para>This method exists only for backward compatibility. Use getNumTabulatedFunctions() instead.  </para></listitem>
+<varlistentry><term><anchor id="deprecated_1_deprecated000009"/>Member <ref refid="classOpenMM_1_1CustomGBForce_1ae71d242310f76735f1dd2731fd5ed027" kindref="member">OpenMM::CustomGBForce::setFunctionParameters</ref>  (int index, const std::string &amp;name, const std::vector&lt; double &gt; &amp;values, double min, double max)</term></varlistentry>
+<listitem><para>This method exists only for backward compatibility. Use setTabulatedFunctionParameters() instead. If the specified function is not a Continuous1DFunction, this throws an exception.  </para></listitem>
+<varlistentry><term><anchor id="deprecated_1_deprecated000011"/>Member <ref refid="classOpenMM_1_1CustomHbondForce_1a41ad540e83921920a54a5c30d3b3032b" kindref="member">OpenMM::CustomHbondForce::addFunction</ref>  (const std::string &amp;name, const std::vector&lt; double &gt; &amp;values, double min, double max)</term></varlistentry>
+<listitem><para>This method exists only for backward compatibility. Use addTabulatedFunction() instead.  </para></listitem>
+<varlistentry><term><anchor id="deprecated_1_deprecated000012"/>Member <ref refid="classOpenMM_1_1CustomHbondForce_1aaaf71a5832f957b67f24296ebd09b332" kindref="member">OpenMM::CustomHbondForce::getFunctionParameters</ref>  (int index, std::string &amp;name, std::vector&lt; double &gt; &amp;values, double &amp;min, double &amp;max) const </term></varlistentry>
+<listitem><para>This method exists only for backward compatibility. Use getTabulatedFunctionParameters() instead. If the specified function is not a Continuous1DFunction, this throws an exception.  </para></listitem>
+<varlistentry><term><anchor id="deprecated_1_deprecated000010"/>Member <ref refid="classOpenMM_1_1CustomHbondForce_1a3ad433f8c17c1cdc43b33ffb4dbf58f0" kindref="member">OpenMM::CustomHbondForce::getNumFunctions</ref>  () const </term></varlistentry>
+<listitem><para>This method exists only for backward compatibility. Use getNumTabulatedFunctions() instead.  </para></listitem>
+<varlistentry><term><anchor id="deprecated_1_deprecated000013"/>Member <ref refid="classOpenMM_1_1CustomHbondForce_1aa4c9e449649306862d6ba1ae537919e5" kindref="member">OpenMM::CustomHbondForce::setFunctionParameters</ref>  (int index, const std::string &amp;name, const std::vector&lt; double &gt; &amp;values, double min, double max)</term></varlistentry>
+<listitem><para>This method exists only for backward compatibility. Use setTabulatedFunctionParameters() instead. If the specified function is not a Continuous1DFunction, this throws an exception.  </para></listitem>
+<varlistentry><term><anchor id="deprecated_1_deprecated000015"/>Member <ref refid="classOpenMM_1_1CustomNonbondedForce_1a728b7c634e665b753249939007efd1a8" kindref="member">OpenMM::CustomNonbondedForce::addFunction</ref>  (const std::string &amp;name, const std::vector&lt; double &gt; &amp;values, double min, double max)</term></varlistentry>
+<listitem><para>This method exists only for backward compatibility. Use addTabulatedFunction() instead.  </para></listitem>
+<varlistentry><term><anchor id="deprecated_1_deprecated000016"/>Member <ref refid="classOpenMM_1_1CustomNonbondedForce_1a3339e287ed5b0cddb6ec5e1ab5fba660" kindref="member">OpenMM::CustomNonbondedForce::getFunctionParameters</ref>  (int index, std::string &amp;name, std::vector&lt; double &gt; &amp;values, double &amp;min, double &amp;max) const </term></varlistentry>
+<listitem><para>This method exists only for backward compatibility. Use getTabulatedFunctionParameters() instead. If the specified function is not a Continuous1DFunction, this throws an exception.  </para></listitem>
+<varlistentry><term><anchor id="deprecated_1_deprecated000014"/>Member <ref refid="classOpenMM_1_1CustomNonbondedForce_1a4cff5238a7a2bb55f84af0e4f0a1cd2e" kindref="member">OpenMM::CustomNonbondedForce::getNumFunctions</ref>  () const </term></varlistentry>
+<listitem><para>This method exists only for backward compatibility. Use getNumTabulatedFunctions() instead.  </para></listitem>
+<varlistentry><term><anchor id="deprecated_1_deprecated000017"/>Member <ref refid="classOpenMM_1_1CustomNonbondedForce_1a7aedd5adf90d6229e51e60a83b647044" kindref="member">OpenMM::CustomNonbondedForce::setFunctionParameters</ref>  (int index, const std::string &amp;name, const std::vector&lt; double &gt; &amp;values, double min, double max)</term></varlistentry>
+<listitem><para>This method exists only for backward compatibility. Use setTabulatedFunctionParameters() instead. If the specified function is not a Continuous1DFunction, this throws an exception.  </para></listitem>
+<varlistentry><term><anchor id="deprecated_1_deprecated000022"/>Member <ref refid="classOpenMM_1_1Discrete1DFunction_1ae5411216f2aed0ca22ae5b6b170c2918" kindref="member">OpenMM::Discrete1DFunction::Copy</ref>  () const </term></varlistentry>
+<listitem><para>This will be removed in a future release.  </para></listitem>
+<varlistentry><term><anchor id="deprecated_1_deprecated000023"/>Member <ref refid="classOpenMM_1_1Discrete2DFunction_1a42be447b7e57fe02e6fb3b6c7f0372d3" kindref="member">OpenMM::Discrete2DFunction::Copy</ref>  () const </term></varlistentry>
+<listitem><para>This will be removed in a future release.  </para></listitem>
+<varlistentry><term><anchor id="deprecated_1_deprecated000024"/>Member <ref refid="classOpenMM_1_1Discrete3DFunction_1ab435c826310ed246ca8af46fb168df1d" kindref="member">OpenMM::Discrete3DFunction::Copy</ref>  () const </term></varlistentry>
+<listitem><para>This will be removed in a future release.  </para></listitem>
+<varlistentry><term><anchor id="deprecated_1_deprecated000025"/>Member <ref refid="classOpenMM_1_1Platform_1a71c79bfcaf2210750ff3fd6968022adb" kindref="member">OpenMM::Platform::supportsDoublePrecision</ref>  () const =0</term></varlistentry>
+<listitem><para>This method is not well defined, and is too simplistic to describe the actual behavior of some Platforms, such as ones that offer multiple precision modes. It will be removed in a future release.  </para></listitem>
+<varlistentry><term><anchor id="deprecated_1_deprecated000018"/>Member <ref refid="classOpenMM_1_1TabulatedFunction_1abeff78bec7bba6f538e16b571404342c" kindref="member">OpenMM::TabulatedFunction::Copy</ref>  () const =0</term></varlistentry>
+<listitem><para>This will be removed in a future release. </para></listitem>
+</variablelist>
+</para>    </detaileddescription>
+  </compounddef>
+</doxygen>

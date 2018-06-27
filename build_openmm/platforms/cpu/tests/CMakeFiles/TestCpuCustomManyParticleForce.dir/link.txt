@@ -1,0 +1,1 @@
+/usr/bin/g++  -O3 -DNDEBUG  -rdynamic  -Wl,--no-as-needed -lrt CMakeFiles/TestCpuCustomManyParticleForce.dir/TestCpuCustomManyParticleForce.cpp.o  -o ../../../TestCpuCustomManyParticleForce -Wl,-rpath,/ccs/home/hm0/Pkgs/openmm/build_openmm ../../../libOpenMMCPU.so ../../../libOpenMM.so -ldl -lpthread 

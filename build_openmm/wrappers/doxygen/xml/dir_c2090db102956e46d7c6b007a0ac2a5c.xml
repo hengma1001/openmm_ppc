@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="dir_c2090db102956e46d7c6b007a0ac2a5c" kind="dir">
+    <compoundname>/ccs/home/hm0/Pkgs/openmm/olla/include/openmm</compoundname>
+    <innerfile refid="Platform_8h">Platform.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/ccs/home/hm0/Pkgs/openmm/olla/include/openmm/"/>
+  </compounddef>
+</doxygen>

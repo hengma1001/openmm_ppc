@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="TabulatedFunction_8h" kind="file">
+    <compoundname>TabulatedFunction.h</compoundname>
+    <includes local="yes">internal/windowsExport.h</includes>
+    <includes local="no">vector</includes>
+    <includedby refid="CustomCentroidBondForce_8h" local="yes">/ccs/home/hm0/Pkgs/openmm/openmmapi/include/openmm/CustomCentroidBondForce.h</includedby>
+    <includedby refid="CustomCompoundBondForce_8h" local="yes">/ccs/home/hm0/Pkgs/openmm/openmmapi/include/openmm/CustomCompoundBondForce.h</includedby>
+    <includedby refid="CustomCVForce_8h" local="yes">/ccs/home/hm0/Pkgs/openmm/openmmapi/include/openmm/CustomCVForce.h</includedby>
+    <includedby refid="CustomGBForce_8h" local="yes">/ccs/home/hm0/Pkgs/openmm/openmmapi/include/openmm/CustomGBForce.h</includedby>
+    <includedby refid="CustomHbondForce_8h" local="yes">/ccs/home/hm0/Pkgs/openmm/openmmapi/include/openmm/CustomHbondForce.h</includedby>
+    <includedby refid="CustomIntegrator_8h" local="yes">/ccs/home/hm0/Pkgs/openmm/openmmapi/include/openmm/CustomIntegrator.h</includedby>
+    <includedby refid="CustomManyParticleForce_8h" local="yes">/ccs/home/hm0/Pkgs/openmm/openmmapi/include/openmm/CustomManyParticleForce.h</includedby>
+    <includedby refid="CustomNonbondedForce_8h" local="yes">/ccs/home/hm0/Pkgs/openmm/openmmapi/include/openmm/CustomNonbondedForce.h</includedby>
+    <includedby refid="OpenMM_8h" local="yes">/ccs/home/hm0/Pkgs/openmm/openmmapi/include/OpenMM.h</includedby>
+    <incdepgraph>
+      <node id="525">
+        <label>internal/windowsExport.h</label>
+      </node>
+      <node id="524">
+        <label>/ccs/home/hm0/Pkgs/openmm/openmmapi/include/openmm/TabulatedFunction.h</label>
+        <link refid="TabulatedFunction.h"/>
+        <childnode refid="525" relation="include">
+        </childnode>
+        <childnode refid="526" relation="include">
+        </childnode>
+      </node>
+      <node id="526">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="529">
+        <label>/ccs/home/hm0/Pkgs/openmm/openmmapi/include/OpenMM.h</label>
+        <link refid="OpenMM_8h_source"/>
+      </node>
+      <node id="534">
+        <label>/ccs/home/hm0/Pkgs/openmm/openmmapi/include/openmm/CustomIntegrator.h</label>
+        <link refid="CustomIntegrator_8h_source"/>
+        <childnode refid="529" relation="include">
+        </childnode>
+      </node>
+      <node id="527">
+        <label>/ccs/home/hm0/Pkgs/openmm/openmmapi/include/openmm/TabulatedFunction.h</label>
+        <link refid="TabulatedFunction.h"/>
+        <childnode refid="528" relation="include">
+        </childnode>
+        <childnode refid="530" relation="include">
+        </childnode>
+        <childnode refid="531" relation="include">
+        </childnode>
+        <childnode refid="532" relation="include">
+        </childnode>
+        <childnode refid="533" relation="include">
+        </childnode>
+        <childnode refid="534" relation="include">
+        </childnode>
+        <childnode refid="535" relation="include">
+        </childnode>
+        <childnode refid="536" relation="include">
+        </childnode>
+        <childnode refid="529" relation="include">
+        </childnode>
+      </node>
+      <node id="530">
+        <label>/ccs/home/hm0/Pkgs/openmm/openmmapi/include/openmm/CustomCompoundBondForce.h</label>
+        <link refid="CustomCompoundBondForce_8h_source"/>
+        <childnode refid="529" relation="include">
+        </childnode>
+      </node>
+      <node id="536">
+        <label>/ccs/home/hm0/Pkgs/openmm/openmmapi/include/openmm/CustomNonbondedForce.h</label>
+        <link refid="CustomNonbondedForce_8h_source"/>
+        <childnode refid="529" relation="include">
+        </childnode>
+      </node>
+      <node id="532">
+        <label>/ccs/home/hm0/Pkgs/openmm/openmmapi/include/openmm/CustomGBForce.h</label>
+        <link refid="CustomGBForce_8h_source"/>
+        <childnode refid="529" relation="include">
+        </childnode>
+      </node>
+      <node id="535">
+        <label>/ccs/home/hm0/Pkgs/openmm/openmmapi/include/openmm/CustomManyParticleForce.h</label>
+        <link refid="CustomManyParticleForce_8h_source"/>
+        <childnode refid="529" relation="include">
+        </childnode>
+      </node>
+      <node id="528">
+        <label>/ccs/home/hm0/Pkgs/openmm/openmmapi/include/openmm/CustomCentroidBondForce.h</label>
+        <link refid="CustomCentroidBondForce_8h_source"/>
+        <childnode refid="529" relation="include">
+        </childnode>
+      </node>
+      <node id="531">
+        <label>/ccs/home/hm0/Pkgs/openmm/openmmapi/include/openmm/CustomCVForce.h</label>
+        <link refid="CustomCVForce_8h_source"/>
+        <childnode refid="529" relation="include">
+        </childnode>
+      </node>
+      <node id="533">
+        <label>/ccs/home/hm0/Pkgs/openmm/openmmapi/include/openmm/CustomHbondForce.h</label>
+        <link refid="CustomHbondForce_8h_source"/>
+        <childnode refid="529" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classOpenMM_1_1TabulatedFunction" prot="public">OpenMM::TabulatedFunction</innerclass>
+    <innerclass refid="classOpenMM_1_1Continuous1DFunction" prot="public">OpenMM::Continuous1DFunction</innerclass>
+    <innerclass refid="classOpenMM_1_1Continuous2DFunction" prot="public">OpenMM::Continuous2DFunction</innerclass>
+    <innerclass refid="classOpenMM_1_1Continuous3DFunction" prot="public">OpenMM::Continuous3DFunction</innerclass>
+    <innerclass refid="classOpenMM_1_1Discrete1DFunction" prot="public">OpenMM::Discrete1DFunction</innerclass>
+    <innerclass refid="classOpenMM_1_1Discrete2DFunction" prot="public">OpenMM::Discrete2DFunction</innerclass>
+    <innerclass refid="classOpenMM_1_1Discrete3DFunction" prot="public">OpenMM::Discrete3DFunction</innerclass>
+    <innernamespace refid="namespaceOpenMM">OpenMM</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/ccs/home/hm0/Pkgs/openmm/openmmapi/include/openmm/TabulatedFunction.h"/>
+  </compounddef>
+</doxygen>
