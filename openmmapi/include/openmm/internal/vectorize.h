@@ -37,6 +37,8 @@
 #else
     #if defined(__PNACL__)
         #include "vectorize_pnacl.h"
+    #elif defined( _ARCH_PPC)
+        #include "vectorize_ppc.h"
     #else
         #include "vectorize_sse.h"
     #endif

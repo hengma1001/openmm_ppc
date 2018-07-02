@@ -1,1 +1,0 @@
-/usr/bin/g++  -O3 -DNDEBUG  -rdynamic  -Wl,--no-as-needed -lrt CMakeFiles/TestCpuHarmonicAngleForce.dir/TestCpuHarmonicAngleForce.cpp.o  -o ../../../TestCpuHarmonicAngleForce -Wl,-rpath,/ccs/home/hm0/Pkgs/openmm/build_openmm ../../../libOpenMMCPU.so ../../../libOpenMM.so -ldl -lpthread 
