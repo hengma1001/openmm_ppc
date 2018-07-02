@@ -60,15 +60,15 @@ include serialization/tests/CMakeFiles/TestSerializeMonteCarloBarostat.dir/flags
 serialization/tests/CMakeFiles/TestSerializeMonteCarloBarostat.dir/TestSerializeMonteCarloBarostat.cpp.o: serialization/tests/CMakeFiles/TestSerializeMonteCarloBarostat.dir/flags.make
 serialization/tests/CMakeFiles/TestSerializeMonteCarloBarostat.dir/TestSerializeMonteCarloBarostat.cpp.o: ../serialization/tests/TestSerializeMonteCarloBarostat.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object serialization/tests/CMakeFiles/TestSerializeMonteCarloBarostat.dir/TestSerializeMonteCarloBarostat.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/serialization/tests && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TestSerializeMonteCarloBarostat.dir/TestSerializeMonteCarloBarostat.cpp.o -c /ccs/home/hm0/Pkgs/openmm/serialization/tests/TestSerializeMonteCarloBarostat.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/serialization/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TestSerializeMonteCarloBarostat.dir/TestSerializeMonteCarloBarostat.cpp.o -c /ccs/home/hm0/Pkgs/openmm/serialization/tests/TestSerializeMonteCarloBarostat.cpp
 
 serialization/tests/CMakeFiles/TestSerializeMonteCarloBarostat.dir/TestSerializeMonteCarloBarostat.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TestSerializeMonteCarloBarostat.dir/TestSerializeMonteCarloBarostat.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/serialization/tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/serialization/tests/TestSerializeMonteCarloBarostat.cpp > CMakeFiles/TestSerializeMonteCarloBarostat.dir/TestSerializeMonteCarloBarostat.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/serialization/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/serialization/tests/TestSerializeMonteCarloBarostat.cpp > CMakeFiles/TestSerializeMonteCarloBarostat.dir/TestSerializeMonteCarloBarostat.cpp.i
 
 serialization/tests/CMakeFiles/TestSerializeMonteCarloBarostat.dir/TestSerializeMonteCarloBarostat.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestSerializeMonteCarloBarostat.dir/TestSerializeMonteCarloBarostat.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/serialization/tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/serialization/tests/TestSerializeMonteCarloBarostat.cpp -o CMakeFiles/TestSerializeMonteCarloBarostat.dir/TestSerializeMonteCarloBarostat.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/serialization/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/serialization/tests/TestSerializeMonteCarloBarostat.cpp -o CMakeFiles/TestSerializeMonteCarloBarostat.dir/TestSerializeMonteCarloBarostat.cpp.s
 
 # Object files for target TestSerializeMonteCarloBarostat
 TestSerializeMonteCarloBarostat_OBJECTS = \

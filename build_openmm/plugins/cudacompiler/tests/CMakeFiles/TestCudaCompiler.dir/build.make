@@ -60,15 +60,15 @@ include plugins/cudacompiler/tests/CMakeFiles/TestCudaCompiler.dir/flags.make
 plugins/cudacompiler/tests/CMakeFiles/TestCudaCompiler.dir/TestCudaCompiler.cpp.o: plugins/cudacompiler/tests/CMakeFiles/TestCudaCompiler.dir/flags.make
 plugins/cudacompiler/tests/CMakeFiles/TestCudaCompiler.dir/TestCudaCompiler.cpp.o: ../plugins/cudacompiler/tests/TestCudaCompiler.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object plugins/cudacompiler/tests/CMakeFiles/TestCudaCompiler.dir/TestCudaCompiler.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/cudacompiler/tests && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TestCudaCompiler.dir/TestCudaCompiler.cpp.o -c /ccs/home/hm0/Pkgs/openmm/plugins/cudacompiler/tests/TestCudaCompiler.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/cudacompiler/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TestCudaCompiler.dir/TestCudaCompiler.cpp.o -c /ccs/home/hm0/Pkgs/openmm/plugins/cudacompiler/tests/TestCudaCompiler.cpp
 
 plugins/cudacompiler/tests/CMakeFiles/TestCudaCompiler.dir/TestCudaCompiler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TestCudaCompiler.dir/TestCudaCompiler.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/cudacompiler/tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/plugins/cudacompiler/tests/TestCudaCompiler.cpp > CMakeFiles/TestCudaCompiler.dir/TestCudaCompiler.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/cudacompiler/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/plugins/cudacompiler/tests/TestCudaCompiler.cpp > CMakeFiles/TestCudaCompiler.dir/TestCudaCompiler.cpp.i
 
 plugins/cudacompiler/tests/CMakeFiles/TestCudaCompiler.dir/TestCudaCompiler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestCudaCompiler.dir/TestCudaCompiler.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/cudacompiler/tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/plugins/cudacompiler/tests/TestCudaCompiler.cpp -o CMakeFiles/TestCudaCompiler.dir/TestCudaCompiler.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/cudacompiler/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/plugins/cudacompiler/tests/TestCudaCompiler.cpp -o CMakeFiles/TestCudaCompiler.dir/TestCudaCompiler.cpp.s
 
 # Object files for target TestCudaCompiler
 TestCudaCompiler_OBJECTS = \

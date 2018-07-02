@@ -60,15 +60,15 @@ include plugins/amoeba/platforms/reference/tests/CMakeFiles/TestReferenceAmoebaA
 plugins/amoeba/platforms/reference/tests/CMakeFiles/TestReferenceAmoebaAngleForce.dir/TestReferenceAmoebaAngleForce.cpp.o: plugins/amoeba/platforms/reference/tests/CMakeFiles/TestReferenceAmoebaAngleForce.dir/flags.make
 plugins/amoeba/platforms/reference/tests/CMakeFiles/TestReferenceAmoebaAngleForce.dir/TestReferenceAmoebaAngleForce.cpp.o: ../plugins/amoeba/platforms/reference/tests/TestReferenceAmoebaAngleForce.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object plugins/amoeba/platforms/reference/tests/CMakeFiles/TestReferenceAmoebaAngleForce.dir/TestReferenceAmoebaAngleForce.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/amoeba/platforms/reference/tests && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TestReferenceAmoebaAngleForce.dir/TestReferenceAmoebaAngleForce.cpp.o -c /ccs/home/hm0/Pkgs/openmm/plugins/amoeba/platforms/reference/tests/TestReferenceAmoebaAngleForce.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/amoeba/platforms/reference/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TestReferenceAmoebaAngleForce.dir/TestReferenceAmoebaAngleForce.cpp.o -c /ccs/home/hm0/Pkgs/openmm/plugins/amoeba/platforms/reference/tests/TestReferenceAmoebaAngleForce.cpp
 
 plugins/amoeba/platforms/reference/tests/CMakeFiles/TestReferenceAmoebaAngleForce.dir/TestReferenceAmoebaAngleForce.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TestReferenceAmoebaAngleForce.dir/TestReferenceAmoebaAngleForce.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/amoeba/platforms/reference/tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/plugins/amoeba/platforms/reference/tests/TestReferenceAmoebaAngleForce.cpp > CMakeFiles/TestReferenceAmoebaAngleForce.dir/TestReferenceAmoebaAngleForce.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/amoeba/platforms/reference/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/plugins/amoeba/platforms/reference/tests/TestReferenceAmoebaAngleForce.cpp > CMakeFiles/TestReferenceAmoebaAngleForce.dir/TestReferenceAmoebaAngleForce.cpp.i
 
 plugins/amoeba/platforms/reference/tests/CMakeFiles/TestReferenceAmoebaAngleForce.dir/TestReferenceAmoebaAngleForce.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestReferenceAmoebaAngleForce.dir/TestReferenceAmoebaAngleForce.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/amoeba/platforms/reference/tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/plugins/amoeba/platforms/reference/tests/TestReferenceAmoebaAngleForce.cpp -o CMakeFiles/TestReferenceAmoebaAngleForce.dir/TestReferenceAmoebaAngleForce.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/amoeba/platforms/reference/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/plugins/amoeba/platforms/reference/tests/TestReferenceAmoebaAngleForce.cpp -o CMakeFiles/TestReferenceAmoebaAngleForce.dir/TestReferenceAmoebaAngleForce.cpp.s
 
 # Object files for target TestReferenceAmoebaAngleForce
 TestReferenceAmoebaAngleForce_OBJECTS = \

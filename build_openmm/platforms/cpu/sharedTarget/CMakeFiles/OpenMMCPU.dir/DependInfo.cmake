@@ -36,7 +36,6 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../platforms/cpu/src"
   "../platforms/cpu/./include"
   "../src"
-  "../libraries/vecmath/include"
   "../libraries/irrxml/include"
   "../serialization/include"
   "../platforms/reference/include"

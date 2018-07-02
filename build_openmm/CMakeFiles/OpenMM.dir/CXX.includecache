@@ -276,20 +276,6 @@ inttypes.h
 inttypes.h
 -
 
-../libraries/vecmath/include/neon_mathfun.h
-arm_neon.h
--
-openmm/internal/windowsExport.h
-../libraries/vecmath/include/openmm/internal/windowsExport.h
-
-../libraries/vecmath/include/sse_mathfun.h
-xmmintrin.h
--
-openmm/internal/windowsExport.h
-../libraries/vecmath/include/openmm/internal/windowsExport.h
-emmintrin.h
--
-
 ../olla/include/openmm/Kernel.h
 KernelImpl.h
 ../olla/include/openmm/KernelImpl.h
@@ -2325,12 +2311,6 @@ sfmt/SFMT-alti.h
 /ccs/home/hm0/Pkgs/openmm/libraries/sfmt/src/sfmt/SFMT-alti.h
 sfmt/SFMT-sse2.h
 /ccs/home/hm0/Pkgs/openmm/libraries/sfmt/src/sfmt/SFMT-sse2.h
-
-/ccs/home/hm0/Pkgs/openmm/libraries/vecmath/src/vecmath.cpp
-neon_mathfun.h
-/ccs/home/hm0/Pkgs/openmm/libraries/vecmath/src/neon_mathfun.h
-sse_mathfun.h
-/ccs/home/hm0/Pkgs/openmm/libraries/vecmath/src/sse_mathfun.h
 
 /ccs/home/hm0/Pkgs/openmm/olla/src/Kernel.cpp
 openmm/Kernel.h

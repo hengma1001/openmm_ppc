@@ -60,15 +60,15 @@ include plugins/rpmd/platforms/reference/tests/CMakeFiles/TestReferenceRpmd.dir/
 plugins/rpmd/platforms/reference/tests/CMakeFiles/TestReferenceRpmd.dir/TestReferenceRpmd.cpp.o: plugins/rpmd/platforms/reference/tests/CMakeFiles/TestReferenceRpmd.dir/flags.make
 plugins/rpmd/platforms/reference/tests/CMakeFiles/TestReferenceRpmd.dir/TestReferenceRpmd.cpp.o: ../plugins/rpmd/platforms/reference/tests/TestReferenceRpmd.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object plugins/rpmd/platforms/reference/tests/CMakeFiles/TestReferenceRpmd.dir/TestReferenceRpmd.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/rpmd/platforms/reference/tests && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TestReferenceRpmd.dir/TestReferenceRpmd.cpp.o -c /ccs/home/hm0/Pkgs/openmm/plugins/rpmd/platforms/reference/tests/TestReferenceRpmd.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/rpmd/platforms/reference/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TestReferenceRpmd.dir/TestReferenceRpmd.cpp.o -c /ccs/home/hm0/Pkgs/openmm/plugins/rpmd/platforms/reference/tests/TestReferenceRpmd.cpp
 
 plugins/rpmd/platforms/reference/tests/CMakeFiles/TestReferenceRpmd.dir/TestReferenceRpmd.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TestReferenceRpmd.dir/TestReferenceRpmd.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/rpmd/platforms/reference/tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/plugins/rpmd/platforms/reference/tests/TestReferenceRpmd.cpp > CMakeFiles/TestReferenceRpmd.dir/TestReferenceRpmd.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/rpmd/platforms/reference/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/plugins/rpmd/platforms/reference/tests/TestReferenceRpmd.cpp > CMakeFiles/TestReferenceRpmd.dir/TestReferenceRpmd.cpp.i
 
 plugins/rpmd/platforms/reference/tests/CMakeFiles/TestReferenceRpmd.dir/TestReferenceRpmd.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestReferenceRpmd.dir/TestReferenceRpmd.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/rpmd/platforms/reference/tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/plugins/rpmd/platforms/reference/tests/TestReferenceRpmd.cpp -o CMakeFiles/TestReferenceRpmd.dir/TestReferenceRpmd.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/rpmd/platforms/reference/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/plugins/rpmd/platforms/reference/tests/TestReferenceRpmd.cpp -o CMakeFiles/TestReferenceRpmd.dir/TestReferenceRpmd.cpp.s
 
 # Object files for target TestReferenceRpmd
 TestReferenceRpmd_OBJECTS = \

@@ -60,15 +60,15 @@ include plugins/amoeba/platforms/reference/tests/CMakeFiles/TestReferenceAmoebaB
 plugins/amoeba/platforms/reference/tests/CMakeFiles/TestReferenceAmoebaBondForce.dir/TestReferenceAmoebaBondForce.cpp.o: plugins/amoeba/platforms/reference/tests/CMakeFiles/TestReferenceAmoebaBondForce.dir/flags.make
 plugins/amoeba/platforms/reference/tests/CMakeFiles/TestReferenceAmoebaBondForce.dir/TestReferenceAmoebaBondForce.cpp.o: ../plugins/amoeba/platforms/reference/tests/TestReferenceAmoebaBondForce.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object plugins/amoeba/platforms/reference/tests/CMakeFiles/TestReferenceAmoebaBondForce.dir/TestReferenceAmoebaBondForce.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/amoeba/platforms/reference/tests && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TestReferenceAmoebaBondForce.dir/TestReferenceAmoebaBondForce.cpp.o -c /ccs/home/hm0/Pkgs/openmm/plugins/amoeba/platforms/reference/tests/TestReferenceAmoebaBondForce.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/amoeba/platforms/reference/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TestReferenceAmoebaBondForce.dir/TestReferenceAmoebaBondForce.cpp.o -c /ccs/home/hm0/Pkgs/openmm/plugins/amoeba/platforms/reference/tests/TestReferenceAmoebaBondForce.cpp
 
 plugins/amoeba/platforms/reference/tests/CMakeFiles/TestReferenceAmoebaBondForce.dir/TestReferenceAmoebaBondForce.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TestReferenceAmoebaBondForce.dir/TestReferenceAmoebaBondForce.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/amoeba/platforms/reference/tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/plugins/amoeba/platforms/reference/tests/TestReferenceAmoebaBondForce.cpp > CMakeFiles/TestReferenceAmoebaBondForce.dir/TestReferenceAmoebaBondForce.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/amoeba/platforms/reference/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/plugins/amoeba/platforms/reference/tests/TestReferenceAmoebaBondForce.cpp > CMakeFiles/TestReferenceAmoebaBondForce.dir/TestReferenceAmoebaBondForce.cpp.i
 
 plugins/amoeba/platforms/reference/tests/CMakeFiles/TestReferenceAmoebaBondForce.dir/TestReferenceAmoebaBondForce.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestReferenceAmoebaBondForce.dir/TestReferenceAmoebaBondForce.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/amoeba/platforms/reference/tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/plugins/amoeba/platforms/reference/tests/TestReferenceAmoebaBondForce.cpp -o CMakeFiles/TestReferenceAmoebaBondForce.dir/TestReferenceAmoebaBondForce.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/amoeba/platforms/reference/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/plugins/amoeba/platforms/reference/tests/TestReferenceAmoebaBondForce.cpp -o CMakeFiles/TestReferenceAmoebaBondForce.dir/TestReferenceAmoebaBondForce.cpp.s
 
 # Object files for target TestReferenceAmoebaBondForce
 TestReferenceAmoebaBondForce_OBJECTS = \

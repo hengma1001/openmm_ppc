@@ -60,93 +60,93 @@ include plugins/drude/CMakeFiles/OpenMMDrude.dir/flags.make
 plugins/drude/CMakeFiles/OpenMMDrude.dir/openmmapi/src/DrudeForce.cpp.o: plugins/drude/CMakeFiles/OpenMMDrude.dir/flags.make
 plugins/drude/CMakeFiles/OpenMMDrude.dir/openmmapi/src/DrudeForce.cpp.o: ../plugins/drude/openmmapi/src/DrudeForce.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object plugins/drude/CMakeFiles/OpenMMDrude.dir/openmmapi/src/DrudeForce.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMMDrude.dir/openmmapi/src/DrudeForce.cpp.o -c /ccs/home/hm0/Pkgs/openmm/plugins/drude/openmmapi/src/DrudeForce.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude && /sw/summitdev/gcc/6.3.1-20170301/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMMDrude.dir/openmmapi/src/DrudeForce.cpp.o -c /ccs/home/hm0/Pkgs/openmm/plugins/drude/openmmapi/src/DrudeForce.cpp
 
 plugins/drude/CMakeFiles/OpenMMDrude.dir/openmmapi/src/DrudeForce.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenMMDrude.dir/openmmapi/src/DrudeForce.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/plugins/drude/openmmapi/src/DrudeForce.cpp > CMakeFiles/OpenMMDrude.dir/openmmapi/src/DrudeForce.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/plugins/drude/openmmapi/src/DrudeForce.cpp > CMakeFiles/OpenMMDrude.dir/openmmapi/src/DrudeForce.cpp.i
 
 plugins/drude/CMakeFiles/OpenMMDrude.dir/openmmapi/src/DrudeForce.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenMMDrude.dir/openmmapi/src/DrudeForce.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/plugins/drude/openmmapi/src/DrudeForce.cpp -o CMakeFiles/OpenMMDrude.dir/openmmapi/src/DrudeForce.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/plugins/drude/openmmapi/src/DrudeForce.cpp -o CMakeFiles/OpenMMDrude.dir/openmmapi/src/DrudeForce.cpp.s
 
 plugins/drude/CMakeFiles/OpenMMDrude.dir/openmmapi/src/DrudeForceImpl.cpp.o: plugins/drude/CMakeFiles/OpenMMDrude.dir/flags.make
 plugins/drude/CMakeFiles/OpenMMDrude.dir/openmmapi/src/DrudeForceImpl.cpp.o: ../plugins/drude/openmmapi/src/DrudeForceImpl.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object plugins/drude/CMakeFiles/OpenMMDrude.dir/openmmapi/src/DrudeForceImpl.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMMDrude.dir/openmmapi/src/DrudeForceImpl.cpp.o -c /ccs/home/hm0/Pkgs/openmm/plugins/drude/openmmapi/src/DrudeForceImpl.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude && /sw/summitdev/gcc/6.3.1-20170301/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMMDrude.dir/openmmapi/src/DrudeForceImpl.cpp.o -c /ccs/home/hm0/Pkgs/openmm/plugins/drude/openmmapi/src/DrudeForceImpl.cpp
 
 plugins/drude/CMakeFiles/OpenMMDrude.dir/openmmapi/src/DrudeForceImpl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenMMDrude.dir/openmmapi/src/DrudeForceImpl.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/plugins/drude/openmmapi/src/DrudeForceImpl.cpp > CMakeFiles/OpenMMDrude.dir/openmmapi/src/DrudeForceImpl.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/plugins/drude/openmmapi/src/DrudeForceImpl.cpp > CMakeFiles/OpenMMDrude.dir/openmmapi/src/DrudeForceImpl.cpp.i
 
 plugins/drude/CMakeFiles/OpenMMDrude.dir/openmmapi/src/DrudeForceImpl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenMMDrude.dir/openmmapi/src/DrudeForceImpl.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/plugins/drude/openmmapi/src/DrudeForceImpl.cpp -o CMakeFiles/OpenMMDrude.dir/openmmapi/src/DrudeForceImpl.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/plugins/drude/openmmapi/src/DrudeForceImpl.cpp -o CMakeFiles/OpenMMDrude.dir/openmmapi/src/DrudeForceImpl.cpp.s
 
 plugins/drude/CMakeFiles/OpenMMDrude.dir/openmmapi/src/DrudeLangevinIntegrator.cpp.o: plugins/drude/CMakeFiles/OpenMMDrude.dir/flags.make
 plugins/drude/CMakeFiles/OpenMMDrude.dir/openmmapi/src/DrudeLangevinIntegrator.cpp.o: ../plugins/drude/openmmapi/src/DrudeLangevinIntegrator.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object plugins/drude/CMakeFiles/OpenMMDrude.dir/openmmapi/src/DrudeLangevinIntegrator.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMMDrude.dir/openmmapi/src/DrudeLangevinIntegrator.cpp.o -c /ccs/home/hm0/Pkgs/openmm/plugins/drude/openmmapi/src/DrudeLangevinIntegrator.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude && /sw/summitdev/gcc/6.3.1-20170301/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMMDrude.dir/openmmapi/src/DrudeLangevinIntegrator.cpp.o -c /ccs/home/hm0/Pkgs/openmm/plugins/drude/openmmapi/src/DrudeLangevinIntegrator.cpp
 
 plugins/drude/CMakeFiles/OpenMMDrude.dir/openmmapi/src/DrudeLangevinIntegrator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenMMDrude.dir/openmmapi/src/DrudeLangevinIntegrator.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/plugins/drude/openmmapi/src/DrudeLangevinIntegrator.cpp > CMakeFiles/OpenMMDrude.dir/openmmapi/src/DrudeLangevinIntegrator.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/plugins/drude/openmmapi/src/DrudeLangevinIntegrator.cpp > CMakeFiles/OpenMMDrude.dir/openmmapi/src/DrudeLangevinIntegrator.cpp.i
 
 plugins/drude/CMakeFiles/OpenMMDrude.dir/openmmapi/src/DrudeLangevinIntegrator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenMMDrude.dir/openmmapi/src/DrudeLangevinIntegrator.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/plugins/drude/openmmapi/src/DrudeLangevinIntegrator.cpp -o CMakeFiles/OpenMMDrude.dir/openmmapi/src/DrudeLangevinIntegrator.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/plugins/drude/openmmapi/src/DrudeLangevinIntegrator.cpp -o CMakeFiles/OpenMMDrude.dir/openmmapi/src/DrudeLangevinIntegrator.cpp.s
 
 plugins/drude/CMakeFiles/OpenMMDrude.dir/openmmapi/src/DrudeSCFIntegrator.cpp.o: plugins/drude/CMakeFiles/OpenMMDrude.dir/flags.make
 plugins/drude/CMakeFiles/OpenMMDrude.dir/openmmapi/src/DrudeSCFIntegrator.cpp.o: ../plugins/drude/openmmapi/src/DrudeSCFIntegrator.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object plugins/drude/CMakeFiles/OpenMMDrude.dir/openmmapi/src/DrudeSCFIntegrator.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMMDrude.dir/openmmapi/src/DrudeSCFIntegrator.cpp.o -c /ccs/home/hm0/Pkgs/openmm/plugins/drude/openmmapi/src/DrudeSCFIntegrator.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude && /sw/summitdev/gcc/6.3.1-20170301/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMMDrude.dir/openmmapi/src/DrudeSCFIntegrator.cpp.o -c /ccs/home/hm0/Pkgs/openmm/plugins/drude/openmmapi/src/DrudeSCFIntegrator.cpp
 
 plugins/drude/CMakeFiles/OpenMMDrude.dir/openmmapi/src/DrudeSCFIntegrator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenMMDrude.dir/openmmapi/src/DrudeSCFIntegrator.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/plugins/drude/openmmapi/src/DrudeSCFIntegrator.cpp > CMakeFiles/OpenMMDrude.dir/openmmapi/src/DrudeSCFIntegrator.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/plugins/drude/openmmapi/src/DrudeSCFIntegrator.cpp > CMakeFiles/OpenMMDrude.dir/openmmapi/src/DrudeSCFIntegrator.cpp.i
 
 plugins/drude/CMakeFiles/OpenMMDrude.dir/openmmapi/src/DrudeSCFIntegrator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenMMDrude.dir/openmmapi/src/DrudeSCFIntegrator.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/plugins/drude/openmmapi/src/DrudeSCFIntegrator.cpp -o CMakeFiles/OpenMMDrude.dir/openmmapi/src/DrudeSCFIntegrator.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/plugins/drude/openmmapi/src/DrudeSCFIntegrator.cpp -o CMakeFiles/OpenMMDrude.dir/openmmapi/src/DrudeSCFIntegrator.cpp.s
 
 plugins/drude/CMakeFiles/OpenMMDrude.dir/serialization/src/DrudeForceProxy.cpp.o: plugins/drude/CMakeFiles/OpenMMDrude.dir/flags.make
 plugins/drude/CMakeFiles/OpenMMDrude.dir/serialization/src/DrudeForceProxy.cpp.o: ../plugins/drude/serialization/src/DrudeForceProxy.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object plugins/drude/CMakeFiles/OpenMMDrude.dir/serialization/src/DrudeForceProxy.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMMDrude.dir/serialization/src/DrudeForceProxy.cpp.o -c /ccs/home/hm0/Pkgs/openmm/plugins/drude/serialization/src/DrudeForceProxy.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude && /sw/summitdev/gcc/6.3.1-20170301/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMMDrude.dir/serialization/src/DrudeForceProxy.cpp.o -c /ccs/home/hm0/Pkgs/openmm/plugins/drude/serialization/src/DrudeForceProxy.cpp
 
 plugins/drude/CMakeFiles/OpenMMDrude.dir/serialization/src/DrudeForceProxy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenMMDrude.dir/serialization/src/DrudeForceProxy.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/plugins/drude/serialization/src/DrudeForceProxy.cpp > CMakeFiles/OpenMMDrude.dir/serialization/src/DrudeForceProxy.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/plugins/drude/serialization/src/DrudeForceProxy.cpp > CMakeFiles/OpenMMDrude.dir/serialization/src/DrudeForceProxy.cpp.i
 
 plugins/drude/CMakeFiles/OpenMMDrude.dir/serialization/src/DrudeForceProxy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenMMDrude.dir/serialization/src/DrudeForceProxy.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/plugins/drude/serialization/src/DrudeForceProxy.cpp -o CMakeFiles/OpenMMDrude.dir/serialization/src/DrudeForceProxy.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/plugins/drude/serialization/src/DrudeForceProxy.cpp -o CMakeFiles/OpenMMDrude.dir/serialization/src/DrudeForceProxy.cpp.s
 
 plugins/drude/CMakeFiles/OpenMMDrude.dir/serialization/src/DrudeLangevinIntegratorProxy.cpp.o: plugins/drude/CMakeFiles/OpenMMDrude.dir/flags.make
 plugins/drude/CMakeFiles/OpenMMDrude.dir/serialization/src/DrudeLangevinIntegratorProxy.cpp.o: ../plugins/drude/serialization/src/DrudeLangevinIntegratorProxy.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object plugins/drude/CMakeFiles/OpenMMDrude.dir/serialization/src/DrudeLangevinIntegratorProxy.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMMDrude.dir/serialization/src/DrudeLangevinIntegratorProxy.cpp.o -c /ccs/home/hm0/Pkgs/openmm/plugins/drude/serialization/src/DrudeLangevinIntegratorProxy.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude && /sw/summitdev/gcc/6.3.1-20170301/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMMDrude.dir/serialization/src/DrudeLangevinIntegratorProxy.cpp.o -c /ccs/home/hm0/Pkgs/openmm/plugins/drude/serialization/src/DrudeLangevinIntegratorProxy.cpp
 
 plugins/drude/CMakeFiles/OpenMMDrude.dir/serialization/src/DrudeLangevinIntegratorProxy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenMMDrude.dir/serialization/src/DrudeLangevinIntegratorProxy.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/plugins/drude/serialization/src/DrudeLangevinIntegratorProxy.cpp > CMakeFiles/OpenMMDrude.dir/serialization/src/DrudeLangevinIntegratorProxy.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/plugins/drude/serialization/src/DrudeLangevinIntegratorProxy.cpp > CMakeFiles/OpenMMDrude.dir/serialization/src/DrudeLangevinIntegratorProxy.cpp.i
 
 plugins/drude/CMakeFiles/OpenMMDrude.dir/serialization/src/DrudeLangevinIntegratorProxy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenMMDrude.dir/serialization/src/DrudeLangevinIntegratorProxy.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/plugins/drude/serialization/src/DrudeLangevinIntegratorProxy.cpp -o CMakeFiles/OpenMMDrude.dir/serialization/src/DrudeLangevinIntegratorProxy.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/plugins/drude/serialization/src/DrudeLangevinIntegratorProxy.cpp -o CMakeFiles/OpenMMDrude.dir/serialization/src/DrudeLangevinIntegratorProxy.cpp.s
 
 plugins/drude/CMakeFiles/OpenMMDrude.dir/serialization/src/DrudeSerializationProxyRegistration.cpp.o: plugins/drude/CMakeFiles/OpenMMDrude.dir/flags.make
 plugins/drude/CMakeFiles/OpenMMDrude.dir/serialization/src/DrudeSerializationProxyRegistration.cpp.o: ../plugins/drude/serialization/src/DrudeSerializationProxyRegistration.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object plugins/drude/CMakeFiles/OpenMMDrude.dir/serialization/src/DrudeSerializationProxyRegistration.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMMDrude.dir/serialization/src/DrudeSerializationProxyRegistration.cpp.o -c /ccs/home/hm0/Pkgs/openmm/plugins/drude/serialization/src/DrudeSerializationProxyRegistration.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude && /sw/summitdev/gcc/6.3.1-20170301/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMMDrude.dir/serialization/src/DrudeSerializationProxyRegistration.cpp.o -c /ccs/home/hm0/Pkgs/openmm/plugins/drude/serialization/src/DrudeSerializationProxyRegistration.cpp
 
 plugins/drude/CMakeFiles/OpenMMDrude.dir/serialization/src/DrudeSerializationProxyRegistration.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenMMDrude.dir/serialization/src/DrudeSerializationProxyRegistration.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/plugins/drude/serialization/src/DrudeSerializationProxyRegistration.cpp > CMakeFiles/OpenMMDrude.dir/serialization/src/DrudeSerializationProxyRegistration.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/plugins/drude/serialization/src/DrudeSerializationProxyRegistration.cpp > CMakeFiles/OpenMMDrude.dir/serialization/src/DrudeSerializationProxyRegistration.cpp.i
 
 plugins/drude/CMakeFiles/OpenMMDrude.dir/serialization/src/DrudeSerializationProxyRegistration.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenMMDrude.dir/serialization/src/DrudeSerializationProxyRegistration.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/plugins/drude/serialization/src/DrudeSerializationProxyRegistration.cpp -o CMakeFiles/OpenMMDrude.dir/serialization/src/DrudeSerializationProxyRegistration.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/plugins/drude/serialization/src/DrudeSerializationProxyRegistration.cpp -o CMakeFiles/OpenMMDrude.dir/serialization/src/DrudeSerializationProxyRegistration.cpp.s
 
 # Object files for target OpenMMDrude
 OpenMMDrude_OBJECTS = \

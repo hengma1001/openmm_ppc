@@ -7,4 +7,3 @@
 subdirs("wrappers")
 subdirs("platforms/reference")
 subdirs("platforms/cuda")
-subdirs("serialization/tests")

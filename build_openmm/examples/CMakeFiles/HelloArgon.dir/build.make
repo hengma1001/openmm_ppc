@@ -60,15 +60,15 @@ include examples/CMakeFiles/HelloArgon.dir/flags.make
 examples/CMakeFiles/HelloArgon.dir/HelloArgon.cpp.o: examples/CMakeFiles/HelloArgon.dir/flags.make
 examples/CMakeFiles/HelloArgon.dir/HelloArgon.cpp.o: ../examples/HelloArgon.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/CMakeFiles/HelloArgon.dir/HelloArgon.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/examples && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HelloArgon.dir/HelloArgon.cpp.o -c /ccs/home/hm0/Pkgs/openmm/examples/HelloArgon.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/examples && /sw/summitdev/gcc/6.3.1-20170301/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HelloArgon.dir/HelloArgon.cpp.o -c /ccs/home/hm0/Pkgs/openmm/examples/HelloArgon.cpp
 
 examples/CMakeFiles/HelloArgon.dir/HelloArgon.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HelloArgon.dir/HelloArgon.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/examples && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/examples/HelloArgon.cpp > CMakeFiles/HelloArgon.dir/HelloArgon.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/examples && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/examples/HelloArgon.cpp > CMakeFiles/HelloArgon.dir/HelloArgon.cpp.i
 
 examples/CMakeFiles/HelloArgon.dir/HelloArgon.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HelloArgon.dir/HelloArgon.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/examples && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/examples/HelloArgon.cpp -o CMakeFiles/HelloArgon.dir/HelloArgon.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/examples && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/examples/HelloArgon.cpp -o CMakeFiles/HelloArgon.dir/HelloArgon.cpp.s
 
 # Object files for target HelloArgon
 HelloArgon_OBJECTS = \

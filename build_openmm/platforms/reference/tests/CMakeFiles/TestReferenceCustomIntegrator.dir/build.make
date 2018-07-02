@@ -60,15 +60,15 @@ include platforms/reference/tests/CMakeFiles/TestReferenceCustomIntegrator.dir/f
 platforms/reference/tests/CMakeFiles/TestReferenceCustomIntegrator.dir/TestReferenceCustomIntegrator.cpp.o: platforms/reference/tests/CMakeFiles/TestReferenceCustomIntegrator.dir/flags.make
 platforms/reference/tests/CMakeFiles/TestReferenceCustomIntegrator.dir/TestReferenceCustomIntegrator.cpp.o: ../platforms/reference/tests/TestReferenceCustomIntegrator.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object platforms/reference/tests/CMakeFiles/TestReferenceCustomIntegrator.dir/TestReferenceCustomIntegrator.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/reference/tests && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TestReferenceCustomIntegrator.dir/TestReferenceCustomIntegrator.cpp.o -c /ccs/home/hm0/Pkgs/openmm/platforms/reference/tests/TestReferenceCustomIntegrator.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/reference/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TestReferenceCustomIntegrator.dir/TestReferenceCustomIntegrator.cpp.o -c /ccs/home/hm0/Pkgs/openmm/platforms/reference/tests/TestReferenceCustomIntegrator.cpp
 
 platforms/reference/tests/CMakeFiles/TestReferenceCustomIntegrator.dir/TestReferenceCustomIntegrator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TestReferenceCustomIntegrator.dir/TestReferenceCustomIntegrator.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/reference/tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/platforms/reference/tests/TestReferenceCustomIntegrator.cpp > CMakeFiles/TestReferenceCustomIntegrator.dir/TestReferenceCustomIntegrator.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/reference/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/platforms/reference/tests/TestReferenceCustomIntegrator.cpp > CMakeFiles/TestReferenceCustomIntegrator.dir/TestReferenceCustomIntegrator.cpp.i
 
 platforms/reference/tests/CMakeFiles/TestReferenceCustomIntegrator.dir/TestReferenceCustomIntegrator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestReferenceCustomIntegrator.dir/TestReferenceCustomIntegrator.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/reference/tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/platforms/reference/tests/TestReferenceCustomIntegrator.cpp -o CMakeFiles/TestReferenceCustomIntegrator.dir/TestReferenceCustomIntegrator.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/reference/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/platforms/reference/tests/TestReferenceCustomIntegrator.cpp -o CMakeFiles/TestReferenceCustomIntegrator.dir/TestReferenceCustomIntegrator.cpp.s
 
 # Object files for target TestReferenceCustomIntegrator
 TestReferenceCustomIntegrator_OBJECTS = \

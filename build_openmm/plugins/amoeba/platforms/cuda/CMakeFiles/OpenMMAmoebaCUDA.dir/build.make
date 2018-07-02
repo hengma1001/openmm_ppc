@@ -88,41 +88,41 @@ plugins/amoeba/platforms/cuda/src/CudaAmoebaKernelSources.h: plugins/amoeba/plat
 plugins/amoeba/platforms/cuda/CMakeFiles/OpenMMAmoebaCUDA.dir/src/AmoebaCudaKernelFactory.cpp.o: plugins/amoeba/platforms/cuda/CMakeFiles/OpenMMAmoebaCUDA.dir/flags.make
 plugins/amoeba/platforms/cuda/CMakeFiles/OpenMMAmoebaCUDA.dir/src/AmoebaCudaKernelFactory.cpp.o: ../plugins/amoeba/platforms/cuda/src/AmoebaCudaKernelFactory.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object plugins/amoeba/platforms/cuda/CMakeFiles/OpenMMAmoebaCUDA.dir/src/AmoebaCudaKernelFactory.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/amoeba/platforms/cuda && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMMAmoebaCUDA.dir/src/AmoebaCudaKernelFactory.cpp.o -c /ccs/home/hm0/Pkgs/openmm/plugins/amoeba/platforms/cuda/src/AmoebaCudaKernelFactory.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/amoeba/platforms/cuda && /sw/summitdev/gcc/6.3.1-20170301/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMMAmoebaCUDA.dir/src/AmoebaCudaKernelFactory.cpp.o -c /ccs/home/hm0/Pkgs/openmm/plugins/amoeba/platforms/cuda/src/AmoebaCudaKernelFactory.cpp
 
 plugins/amoeba/platforms/cuda/CMakeFiles/OpenMMAmoebaCUDA.dir/src/AmoebaCudaKernelFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenMMAmoebaCUDA.dir/src/AmoebaCudaKernelFactory.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/amoeba/platforms/cuda && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/plugins/amoeba/platforms/cuda/src/AmoebaCudaKernelFactory.cpp > CMakeFiles/OpenMMAmoebaCUDA.dir/src/AmoebaCudaKernelFactory.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/amoeba/platforms/cuda && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/plugins/amoeba/platforms/cuda/src/AmoebaCudaKernelFactory.cpp > CMakeFiles/OpenMMAmoebaCUDA.dir/src/AmoebaCudaKernelFactory.cpp.i
 
 plugins/amoeba/platforms/cuda/CMakeFiles/OpenMMAmoebaCUDA.dir/src/AmoebaCudaKernelFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenMMAmoebaCUDA.dir/src/AmoebaCudaKernelFactory.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/amoeba/platforms/cuda && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/plugins/amoeba/platforms/cuda/src/AmoebaCudaKernelFactory.cpp -o CMakeFiles/OpenMMAmoebaCUDA.dir/src/AmoebaCudaKernelFactory.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/amoeba/platforms/cuda && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/plugins/amoeba/platforms/cuda/src/AmoebaCudaKernelFactory.cpp -o CMakeFiles/OpenMMAmoebaCUDA.dir/src/AmoebaCudaKernelFactory.cpp.s
 
 plugins/amoeba/platforms/cuda/CMakeFiles/OpenMMAmoebaCUDA.dir/src/AmoebaCudaKernels.cpp.o: plugins/amoeba/platforms/cuda/CMakeFiles/OpenMMAmoebaCUDA.dir/flags.make
 plugins/amoeba/platforms/cuda/CMakeFiles/OpenMMAmoebaCUDA.dir/src/AmoebaCudaKernels.cpp.o: ../plugins/amoeba/platforms/cuda/src/AmoebaCudaKernels.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object plugins/amoeba/platforms/cuda/CMakeFiles/OpenMMAmoebaCUDA.dir/src/AmoebaCudaKernels.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/amoeba/platforms/cuda && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMMAmoebaCUDA.dir/src/AmoebaCudaKernels.cpp.o -c /ccs/home/hm0/Pkgs/openmm/plugins/amoeba/platforms/cuda/src/AmoebaCudaKernels.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/amoeba/platforms/cuda && /sw/summitdev/gcc/6.3.1-20170301/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMMAmoebaCUDA.dir/src/AmoebaCudaKernels.cpp.o -c /ccs/home/hm0/Pkgs/openmm/plugins/amoeba/platforms/cuda/src/AmoebaCudaKernels.cpp
 
 plugins/amoeba/platforms/cuda/CMakeFiles/OpenMMAmoebaCUDA.dir/src/AmoebaCudaKernels.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenMMAmoebaCUDA.dir/src/AmoebaCudaKernels.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/amoeba/platforms/cuda && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/plugins/amoeba/platforms/cuda/src/AmoebaCudaKernels.cpp > CMakeFiles/OpenMMAmoebaCUDA.dir/src/AmoebaCudaKernels.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/amoeba/platforms/cuda && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/plugins/amoeba/platforms/cuda/src/AmoebaCudaKernels.cpp > CMakeFiles/OpenMMAmoebaCUDA.dir/src/AmoebaCudaKernels.cpp.i
 
 plugins/amoeba/platforms/cuda/CMakeFiles/OpenMMAmoebaCUDA.dir/src/AmoebaCudaKernels.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenMMAmoebaCUDA.dir/src/AmoebaCudaKernels.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/amoeba/platforms/cuda && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/plugins/amoeba/platforms/cuda/src/AmoebaCudaKernels.cpp -o CMakeFiles/OpenMMAmoebaCUDA.dir/src/AmoebaCudaKernels.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/amoeba/platforms/cuda && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/plugins/amoeba/platforms/cuda/src/AmoebaCudaKernels.cpp -o CMakeFiles/OpenMMAmoebaCUDA.dir/src/AmoebaCudaKernels.cpp.s
 
 plugins/amoeba/platforms/cuda/CMakeFiles/OpenMMAmoebaCUDA.dir/src/CudaAmoebaKernelSources.cpp.o: plugins/amoeba/platforms/cuda/CMakeFiles/OpenMMAmoebaCUDA.dir/flags.make
 plugins/amoeba/platforms/cuda/CMakeFiles/OpenMMAmoebaCUDA.dir/src/CudaAmoebaKernelSources.cpp.o: plugins/amoeba/platforms/cuda/src/CudaAmoebaKernelSources.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object plugins/amoeba/platforms/cuda/CMakeFiles/OpenMMAmoebaCUDA.dir/src/CudaAmoebaKernelSources.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/amoeba/platforms/cuda && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMMAmoebaCUDA.dir/src/CudaAmoebaKernelSources.cpp.o -c /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/amoeba/platforms/cuda/src/CudaAmoebaKernelSources.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/amoeba/platforms/cuda && /sw/summitdev/gcc/6.3.1-20170301/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMMAmoebaCUDA.dir/src/CudaAmoebaKernelSources.cpp.o -c /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/amoeba/platforms/cuda/src/CudaAmoebaKernelSources.cpp
 
 plugins/amoeba/platforms/cuda/CMakeFiles/OpenMMAmoebaCUDA.dir/src/CudaAmoebaKernelSources.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenMMAmoebaCUDA.dir/src/CudaAmoebaKernelSources.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/amoeba/platforms/cuda && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/amoeba/platforms/cuda/src/CudaAmoebaKernelSources.cpp > CMakeFiles/OpenMMAmoebaCUDA.dir/src/CudaAmoebaKernelSources.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/amoeba/platforms/cuda && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/amoeba/platforms/cuda/src/CudaAmoebaKernelSources.cpp > CMakeFiles/OpenMMAmoebaCUDA.dir/src/CudaAmoebaKernelSources.cpp.i
 
 plugins/amoeba/platforms/cuda/CMakeFiles/OpenMMAmoebaCUDA.dir/src/CudaAmoebaKernelSources.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenMMAmoebaCUDA.dir/src/CudaAmoebaKernelSources.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/amoeba/platforms/cuda && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/amoeba/platforms/cuda/src/CudaAmoebaKernelSources.cpp -o CMakeFiles/OpenMMAmoebaCUDA.dir/src/CudaAmoebaKernelSources.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/amoeba/platforms/cuda && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/amoeba/platforms/cuda/src/CudaAmoebaKernelSources.cpp -o CMakeFiles/OpenMMAmoebaCUDA.dir/src/CudaAmoebaKernelSources.cpp.s
 
 # Object files for target OpenMMAmoebaCUDA
 OpenMMAmoebaCUDA_OBJECTS = \

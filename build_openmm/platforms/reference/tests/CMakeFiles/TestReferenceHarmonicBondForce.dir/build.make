@@ -60,15 +60,15 @@ include platforms/reference/tests/CMakeFiles/TestReferenceHarmonicBondForce.dir/
 platforms/reference/tests/CMakeFiles/TestReferenceHarmonicBondForce.dir/TestReferenceHarmonicBondForce.cpp.o: platforms/reference/tests/CMakeFiles/TestReferenceHarmonicBondForce.dir/flags.make
 platforms/reference/tests/CMakeFiles/TestReferenceHarmonicBondForce.dir/TestReferenceHarmonicBondForce.cpp.o: ../platforms/reference/tests/TestReferenceHarmonicBondForce.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object platforms/reference/tests/CMakeFiles/TestReferenceHarmonicBondForce.dir/TestReferenceHarmonicBondForce.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/reference/tests && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TestReferenceHarmonicBondForce.dir/TestReferenceHarmonicBondForce.cpp.o -c /ccs/home/hm0/Pkgs/openmm/platforms/reference/tests/TestReferenceHarmonicBondForce.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/reference/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TestReferenceHarmonicBondForce.dir/TestReferenceHarmonicBondForce.cpp.o -c /ccs/home/hm0/Pkgs/openmm/platforms/reference/tests/TestReferenceHarmonicBondForce.cpp
 
 platforms/reference/tests/CMakeFiles/TestReferenceHarmonicBondForce.dir/TestReferenceHarmonicBondForce.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TestReferenceHarmonicBondForce.dir/TestReferenceHarmonicBondForce.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/reference/tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/platforms/reference/tests/TestReferenceHarmonicBondForce.cpp > CMakeFiles/TestReferenceHarmonicBondForce.dir/TestReferenceHarmonicBondForce.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/reference/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/platforms/reference/tests/TestReferenceHarmonicBondForce.cpp > CMakeFiles/TestReferenceHarmonicBondForce.dir/TestReferenceHarmonicBondForce.cpp.i
 
 platforms/reference/tests/CMakeFiles/TestReferenceHarmonicBondForce.dir/TestReferenceHarmonicBondForce.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestReferenceHarmonicBondForce.dir/TestReferenceHarmonicBondForce.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/reference/tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/platforms/reference/tests/TestReferenceHarmonicBondForce.cpp -o CMakeFiles/TestReferenceHarmonicBondForce.dir/TestReferenceHarmonicBondForce.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/reference/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/platforms/reference/tests/TestReferenceHarmonicBondForce.cpp -o CMakeFiles/TestReferenceHarmonicBondForce.dir/TestReferenceHarmonicBondForce.cpp.s
 
 # Object files for target TestReferenceHarmonicBondForce
 TestReferenceHarmonicBondForce_OBJECTS = \

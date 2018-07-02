@@ -81,7 +81,6 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude/platforms/reference/cmake_install.cmake")
   include("/ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude/platforms/cuda/cmake_install.cmake")
-  include("/ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude/serialization/tests/cmake_install.cmake")
 
 endif()
 

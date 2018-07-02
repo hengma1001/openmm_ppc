@@ -60,15 +60,15 @@ include plugins/drude/platforms/reference/tests/CMakeFiles/TestReferenceDrudeSCF
 plugins/drude/platforms/reference/tests/CMakeFiles/TestReferenceDrudeSCFIntegrator.dir/TestReferenceDrudeSCFIntegrator.cpp.o: plugins/drude/platforms/reference/tests/CMakeFiles/TestReferenceDrudeSCFIntegrator.dir/flags.make
 plugins/drude/platforms/reference/tests/CMakeFiles/TestReferenceDrudeSCFIntegrator.dir/TestReferenceDrudeSCFIntegrator.cpp.o: ../plugins/drude/platforms/reference/tests/TestReferenceDrudeSCFIntegrator.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object plugins/drude/platforms/reference/tests/CMakeFiles/TestReferenceDrudeSCFIntegrator.dir/TestReferenceDrudeSCFIntegrator.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude/platforms/reference/tests && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TestReferenceDrudeSCFIntegrator.dir/TestReferenceDrudeSCFIntegrator.cpp.o -c /ccs/home/hm0/Pkgs/openmm/plugins/drude/platforms/reference/tests/TestReferenceDrudeSCFIntegrator.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude/platforms/reference/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TestReferenceDrudeSCFIntegrator.dir/TestReferenceDrudeSCFIntegrator.cpp.o -c /ccs/home/hm0/Pkgs/openmm/plugins/drude/platforms/reference/tests/TestReferenceDrudeSCFIntegrator.cpp
 
 plugins/drude/platforms/reference/tests/CMakeFiles/TestReferenceDrudeSCFIntegrator.dir/TestReferenceDrudeSCFIntegrator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TestReferenceDrudeSCFIntegrator.dir/TestReferenceDrudeSCFIntegrator.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude/platforms/reference/tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/plugins/drude/platforms/reference/tests/TestReferenceDrudeSCFIntegrator.cpp > CMakeFiles/TestReferenceDrudeSCFIntegrator.dir/TestReferenceDrudeSCFIntegrator.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude/platforms/reference/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/plugins/drude/platforms/reference/tests/TestReferenceDrudeSCFIntegrator.cpp > CMakeFiles/TestReferenceDrudeSCFIntegrator.dir/TestReferenceDrudeSCFIntegrator.cpp.i
 
 plugins/drude/platforms/reference/tests/CMakeFiles/TestReferenceDrudeSCFIntegrator.dir/TestReferenceDrudeSCFIntegrator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestReferenceDrudeSCFIntegrator.dir/TestReferenceDrudeSCFIntegrator.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude/platforms/reference/tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/plugins/drude/platforms/reference/tests/TestReferenceDrudeSCFIntegrator.cpp -o CMakeFiles/TestReferenceDrudeSCFIntegrator.dir/TestReferenceDrudeSCFIntegrator.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude/platforms/reference/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/plugins/drude/platforms/reference/tests/TestReferenceDrudeSCFIntegrator.cpp -o CMakeFiles/TestReferenceDrudeSCFIntegrator.dir/TestReferenceDrudeSCFIntegrator.cpp.s
 
 # Object files for target TestReferenceDrudeSCFIntegrator
 TestReferenceDrudeSCFIntegrator_OBJECTS = \

@@ -60,28 +60,28 @@ include plugins/cpupme/CMakeFiles/OpenMMPME.dir/flags.make
 plugins/cpupme/CMakeFiles/OpenMMPME.dir/src/CpuPmeKernelFactory.cpp.o: plugins/cpupme/CMakeFiles/OpenMMPME.dir/flags.make
 plugins/cpupme/CMakeFiles/OpenMMPME.dir/src/CpuPmeKernelFactory.cpp.o: ../plugins/cpupme/src/CpuPmeKernelFactory.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object plugins/cpupme/CMakeFiles/OpenMMPME.dir/src/CpuPmeKernelFactory.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/cpupme && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -msse4.1 -o CMakeFiles/OpenMMPME.dir/src/CpuPmeKernelFactory.cpp.o -c /ccs/home/hm0/Pkgs/openmm/plugins/cpupme/src/CpuPmeKernelFactory.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/cpupme && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMMPME.dir/src/CpuPmeKernelFactory.cpp.o -c /ccs/home/hm0/Pkgs/openmm/plugins/cpupme/src/CpuPmeKernelFactory.cpp
 
 plugins/cpupme/CMakeFiles/OpenMMPME.dir/src/CpuPmeKernelFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenMMPME.dir/src/CpuPmeKernelFactory.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/cpupme && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -msse4.1 -E /ccs/home/hm0/Pkgs/openmm/plugins/cpupme/src/CpuPmeKernelFactory.cpp > CMakeFiles/OpenMMPME.dir/src/CpuPmeKernelFactory.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/cpupme && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/plugins/cpupme/src/CpuPmeKernelFactory.cpp > CMakeFiles/OpenMMPME.dir/src/CpuPmeKernelFactory.cpp.i
 
 plugins/cpupme/CMakeFiles/OpenMMPME.dir/src/CpuPmeKernelFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenMMPME.dir/src/CpuPmeKernelFactory.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/cpupme && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -msse4.1 -S /ccs/home/hm0/Pkgs/openmm/plugins/cpupme/src/CpuPmeKernelFactory.cpp -o CMakeFiles/OpenMMPME.dir/src/CpuPmeKernelFactory.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/cpupme && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/plugins/cpupme/src/CpuPmeKernelFactory.cpp -o CMakeFiles/OpenMMPME.dir/src/CpuPmeKernelFactory.cpp.s
 
 plugins/cpupme/CMakeFiles/OpenMMPME.dir/src/CpuPmeKernels.cpp.o: plugins/cpupme/CMakeFiles/OpenMMPME.dir/flags.make
 plugins/cpupme/CMakeFiles/OpenMMPME.dir/src/CpuPmeKernels.cpp.o: ../plugins/cpupme/src/CpuPmeKernels.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object plugins/cpupme/CMakeFiles/OpenMMPME.dir/src/CpuPmeKernels.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/cpupme && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -msse4.1 -o CMakeFiles/OpenMMPME.dir/src/CpuPmeKernels.cpp.o -c /ccs/home/hm0/Pkgs/openmm/plugins/cpupme/src/CpuPmeKernels.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/cpupme && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMMPME.dir/src/CpuPmeKernels.cpp.o -c /ccs/home/hm0/Pkgs/openmm/plugins/cpupme/src/CpuPmeKernels.cpp
 
 plugins/cpupme/CMakeFiles/OpenMMPME.dir/src/CpuPmeKernels.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenMMPME.dir/src/CpuPmeKernels.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/cpupme && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -msse4.1 -E /ccs/home/hm0/Pkgs/openmm/plugins/cpupme/src/CpuPmeKernels.cpp > CMakeFiles/OpenMMPME.dir/src/CpuPmeKernels.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/cpupme && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/plugins/cpupme/src/CpuPmeKernels.cpp > CMakeFiles/OpenMMPME.dir/src/CpuPmeKernels.cpp.i
 
 plugins/cpupme/CMakeFiles/OpenMMPME.dir/src/CpuPmeKernels.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenMMPME.dir/src/CpuPmeKernels.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/cpupme && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -msse4.1 -S /ccs/home/hm0/Pkgs/openmm/plugins/cpupme/src/CpuPmeKernels.cpp -o CMakeFiles/OpenMMPME.dir/src/CpuPmeKernels.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/cpupme && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/plugins/cpupme/src/CpuPmeKernels.cpp -o CMakeFiles/OpenMMPME.dir/src/CpuPmeKernels.cpp.s
 
 # Object files for target OpenMMPME
 OpenMMPME_OBJECTS = \

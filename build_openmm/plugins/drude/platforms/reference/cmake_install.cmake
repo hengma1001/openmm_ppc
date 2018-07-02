@@ -65,9 +65,3 @@ file(INSTALL DESTINATION "/ccs/home/hm0/anaconda2_ppc/lib/plugins" TYPE SHARED_L
   endif()
 endif()
 
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for each subdirectory.
-  include("/ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude/platforms/reference/tests/cmake_install.cmake")
-
-endif()
-

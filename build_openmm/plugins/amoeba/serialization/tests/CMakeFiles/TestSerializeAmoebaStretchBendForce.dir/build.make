@@ -60,15 +60,15 @@ include plugins/amoeba/serialization/tests/CMakeFiles/TestSerializeAmoebaStretch
 plugins/amoeba/serialization/tests/CMakeFiles/TestSerializeAmoebaStretchBendForce.dir/TestSerializeAmoebaStretchBendForce.cpp.o: plugins/amoeba/serialization/tests/CMakeFiles/TestSerializeAmoebaStretchBendForce.dir/flags.make
 plugins/amoeba/serialization/tests/CMakeFiles/TestSerializeAmoebaStretchBendForce.dir/TestSerializeAmoebaStretchBendForce.cpp.o: ../plugins/amoeba/serialization/tests/TestSerializeAmoebaStretchBendForce.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object plugins/amoeba/serialization/tests/CMakeFiles/TestSerializeAmoebaStretchBendForce.dir/TestSerializeAmoebaStretchBendForce.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/amoeba/serialization/tests && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TestSerializeAmoebaStretchBendForce.dir/TestSerializeAmoebaStretchBendForce.cpp.o -c /ccs/home/hm0/Pkgs/openmm/plugins/amoeba/serialization/tests/TestSerializeAmoebaStretchBendForce.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/amoeba/serialization/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TestSerializeAmoebaStretchBendForce.dir/TestSerializeAmoebaStretchBendForce.cpp.o -c /ccs/home/hm0/Pkgs/openmm/plugins/amoeba/serialization/tests/TestSerializeAmoebaStretchBendForce.cpp
 
 plugins/amoeba/serialization/tests/CMakeFiles/TestSerializeAmoebaStretchBendForce.dir/TestSerializeAmoebaStretchBendForce.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TestSerializeAmoebaStretchBendForce.dir/TestSerializeAmoebaStretchBendForce.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/amoeba/serialization/tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/plugins/amoeba/serialization/tests/TestSerializeAmoebaStretchBendForce.cpp > CMakeFiles/TestSerializeAmoebaStretchBendForce.dir/TestSerializeAmoebaStretchBendForce.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/amoeba/serialization/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/plugins/amoeba/serialization/tests/TestSerializeAmoebaStretchBendForce.cpp > CMakeFiles/TestSerializeAmoebaStretchBendForce.dir/TestSerializeAmoebaStretchBendForce.cpp.i
 
 plugins/amoeba/serialization/tests/CMakeFiles/TestSerializeAmoebaStretchBendForce.dir/TestSerializeAmoebaStretchBendForce.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestSerializeAmoebaStretchBendForce.dir/TestSerializeAmoebaStretchBendForce.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/amoeba/serialization/tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/plugins/amoeba/serialization/tests/TestSerializeAmoebaStretchBendForce.cpp -o CMakeFiles/TestSerializeAmoebaStretchBendForce.dir/TestSerializeAmoebaStretchBendForce.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/amoeba/serialization/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/plugins/amoeba/serialization/tests/TestSerializeAmoebaStretchBendForce.cpp -o CMakeFiles/TestSerializeAmoebaStretchBendForce.dir/TestSerializeAmoebaStretchBendForce.cpp.s
 
 # Object files for target TestSerializeAmoebaStretchBendForce
 TestSerializeAmoebaStretchBendForce_OBJECTS = \

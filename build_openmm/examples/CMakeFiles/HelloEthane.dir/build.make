@@ -60,15 +60,15 @@ include examples/CMakeFiles/HelloEthane.dir/flags.make
 examples/CMakeFiles/HelloEthane.dir/HelloEthane.cpp.o: examples/CMakeFiles/HelloEthane.dir/flags.make
 examples/CMakeFiles/HelloEthane.dir/HelloEthane.cpp.o: ../examples/HelloEthane.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/CMakeFiles/HelloEthane.dir/HelloEthane.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/examples && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HelloEthane.dir/HelloEthane.cpp.o -c /ccs/home/hm0/Pkgs/openmm/examples/HelloEthane.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/examples && /sw/summitdev/gcc/6.3.1-20170301/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HelloEthane.dir/HelloEthane.cpp.o -c /ccs/home/hm0/Pkgs/openmm/examples/HelloEthane.cpp
 
 examples/CMakeFiles/HelloEthane.dir/HelloEthane.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HelloEthane.dir/HelloEthane.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/examples && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/examples/HelloEthane.cpp > CMakeFiles/HelloEthane.dir/HelloEthane.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/examples && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/examples/HelloEthane.cpp > CMakeFiles/HelloEthane.dir/HelloEthane.cpp.i
 
 examples/CMakeFiles/HelloEthane.dir/HelloEthane.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HelloEthane.dir/HelloEthane.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/examples && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/examples/HelloEthane.cpp -o CMakeFiles/HelloEthane.dir/HelloEthane.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/examples && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/examples/HelloEthane.cpp -o CMakeFiles/HelloEthane.dir/HelloEthane.cpp.s
 
 # Object files for target HelloEthane
 HelloEthane_OBJECTS = \

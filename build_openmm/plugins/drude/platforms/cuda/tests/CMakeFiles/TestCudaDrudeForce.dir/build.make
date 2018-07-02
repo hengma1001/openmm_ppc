@@ -60,15 +60,15 @@ include plugins/drude/platforms/cuda/tests/CMakeFiles/TestCudaDrudeForce.dir/fla
 plugins/drude/platforms/cuda/tests/CMakeFiles/TestCudaDrudeForce.dir/TestCudaDrudeForce.cpp.o: plugins/drude/platforms/cuda/tests/CMakeFiles/TestCudaDrudeForce.dir/flags.make
 plugins/drude/platforms/cuda/tests/CMakeFiles/TestCudaDrudeForce.dir/TestCudaDrudeForce.cpp.o: ../plugins/drude/platforms/cuda/tests/TestCudaDrudeForce.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object plugins/drude/platforms/cuda/tests/CMakeFiles/TestCudaDrudeForce.dir/TestCudaDrudeForce.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude/platforms/cuda/tests && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TestCudaDrudeForce.dir/TestCudaDrudeForce.cpp.o -c /ccs/home/hm0/Pkgs/openmm/plugins/drude/platforms/cuda/tests/TestCudaDrudeForce.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude/platforms/cuda/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TestCudaDrudeForce.dir/TestCudaDrudeForce.cpp.o -c /ccs/home/hm0/Pkgs/openmm/plugins/drude/platforms/cuda/tests/TestCudaDrudeForce.cpp
 
 plugins/drude/platforms/cuda/tests/CMakeFiles/TestCudaDrudeForce.dir/TestCudaDrudeForce.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TestCudaDrudeForce.dir/TestCudaDrudeForce.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude/platforms/cuda/tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/plugins/drude/platforms/cuda/tests/TestCudaDrudeForce.cpp > CMakeFiles/TestCudaDrudeForce.dir/TestCudaDrudeForce.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude/platforms/cuda/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/plugins/drude/platforms/cuda/tests/TestCudaDrudeForce.cpp > CMakeFiles/TestCudaDrudeForce.dir/TestCudaDrudeForce.cpp.i
 
 plugins/drude/platforms/cuda/tests/CMakeFiles/TestCudaDrudeForce.dir/TestCudaDrudeForce.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestCudaDrudeForce.dir/TestCudaDrudeForce.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude/platforms/cuda/tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/plugins/drude/platforms/cuda/tests/TestCudaDrudeForce.cpp -o CMakeFiles/TestCudaDrudeForce.dir/TestCudaDrudeForce.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude/platforms/cuda/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/plugins/drude/platforms/cuda/tests/TestCudaDrudeForce.cpp -o CMakeFiles/TestCudaDrudeForce.dir/TestCudaDrudeForce.cpp.s
 
 # Object files for target TestCudaDrudeForce
 TestCudaDrudeForce_OBJECTS = \

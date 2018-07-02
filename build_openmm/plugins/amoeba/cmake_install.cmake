@@ -100,7 +100,6 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/amoeba/wrappers/cmake_install.cmake")
   include("/ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/amoeba/platforms/reference/cmake_install.cmake")
   include("/ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/amoeba/platforms/cuda/cmake_install.cmake")
-  include("/ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/amoeba/serialization/tests/cmake_install.cmake")
 
 endif()
 

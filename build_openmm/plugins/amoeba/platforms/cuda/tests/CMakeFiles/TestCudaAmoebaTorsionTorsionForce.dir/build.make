@@ -60,15 +60,15 @@ include plugins/amoeba/platforms/cuda/tests/CMakeFiles/TestCudaAmoebaTorsionTors
 plugins/amoeba/platforms/cuda/tests/CMakeFiles/TestCudaAmoebaTorsionTorsionForce.dir/TestCudaAmoebaTorsionTorsionForce.cpp.o: plugins/amoeba/platforms/cuda/tests/CMakeFiles/TestCudaAmoebaTorsionTorsionForce.dir/flags.make
 plugins/amoeba/platforms/cuda/tests/CMakeFiles/TestCudaAmoebaTorsionTorsionForce.dir/TestCudaAmoebaTorsionTorsionForce.cpp.o: ../plugins/amoeba/platforms/cuda/tests/TestCudaAmoebaTorsionTorsionForce.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object plugins/amoeba/platforms/cuda/tests/CMakeFiles/TestCudaAmoebaTorsionTorsionForce.dir/TestCudaAmoebaTorsionTorsionForce.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/amoeba/platforms/cuda/tests && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TestCudaAmoebaTorsionTorsionForce.dir/TestCudaAmoebaTorsionTorsionForce.cpp.o -c /ccs/home/hm0/Pkgs/openmm/plugins/amoeba/platforms/cuda/tests/TestCudaAmoebaTorsionTorsionForce.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/amoeba/platforms/cuda/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TestCudaAmoebaTorsionTorsionForce.dir/TestCudaAmoebaTorsionTorsionForce.cpp.o -c /ccs/home/hm0/Pkgs/openmm/plugins/amoeba/platforms/cuda/tests/TestCudaAmoebaTorsionTorsionForce.cpp
 
 plugins/amoeba/platforms/cuda/tests/CMakeFiles/TestCudaAmoebaTorsionTorsionForce.dir/TestCudaAmoebaTorsionTorsionForce.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TestCudaAmoebaTorsionTorsionForce.dir/TestCudaAmoebaTorsionTorsionForce.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/amoeba/platforms/cuda/tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/plugins/amoeba/platforms/cuda/tests/TestCudaAmoebaTorsionTorsionForce.cpp > CMakeFiles/TestCudaAmoebaTorsionTorsionForce.dir/TestCudaAmoebaTorsionTorsionForce.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/amoeba/platforms/cuda/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/plugins/amoeba/platforms/cuda/tests/TestCudaAmoebaTorsionTorsionForce.cpp > CMakeFiles/TestCudaAmoebaTorsionTorsionForce.dir/TestCudaAmoebaTorsionTorsionForce.cpp.i
 
 plugins/amoeba/platforms/cuda/tests/CMakeFiles/TestCudaAmoebaTorsionTorsionForce.dir/TestCudaAmoebaTorsionTorsionForce.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestCudaAmoebaTorsionTorsionForce.dir/TestCudaAmoebaTorsionTorsionForce.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/amoeba/platforms/cuda/tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/plugins/amoeba/platforms/cuda/tests/TestCudaAmoebaTorsionTorsionForce.cpp -o CMakeFiles/TestCudaAmoebaTorsionTorsionForce.dir/TestCudaAmoebaTorsionTorsionForce.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/amoeba/platforms/cuda/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/plugins/amoeba/platforms/cuda/tests/TestCudaAmoebaTorsionTorsionForce.cpp -o CMakeFiles/TestCudaAmoebaTorsionTorsionForce.dir/TestCudaAmoebaTorsionTorsionForce.cpp.s
 
 # Object files for target TestCudaAmoebaTorsionTorsionForce
 TestCudaAmoebaTorsionTorsionForce_OBJECTS = \

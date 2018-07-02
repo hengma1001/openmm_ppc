@@ -114,197 +114,197 @@ platforms/cuda/src/CudaKernelSources.h: platforms/cuda/src/CudaKernelSources.cpp
 platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/__/src/CudaArray.cpp.o: platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/flags.make
 platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/__/src/CudaArray.cpp.o: ../platforms/cuda/src/CudaArray.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/__/src/CudaArray.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMMCUDA.dir/__/src/CudaArray.cpp.o -c /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaArray.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /sw/summitdev/gcc/6.3.1-20170301/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMMCUDA.dir/__/src/CudaArray.cpp.o -c /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaArray.cpp
 
 platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/__/src/CudaArray.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenMMCUDA.dir/__/src/CudaArray.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaArray.cpp > CMakeFiles/OpenMMCUDA.dir/__/src/CudaArray.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaArray.cpp > CMakeFiles/OpenMMCUDA.dir/__/src/CudaArray.cpp.i
 
 platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/__/src/CudaArray.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenMMCUDA.dir/__/src/CudaArray.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaArray.cpp -o CMakeFiles/OpenMMCUDA.dir/__/src/CudaArray.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaArray.cpp -o CMakeFiles/OpenMMCUDA.dir/__/src/CudaArray.cpp.s
 
 platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/__/src/CudaBondedUtilities.cpp.o: platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/flags.make
 platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/__/src/CudaBondedUtilities.cpp.o: ../platforms/cuda/src/CudaBondedUtilities.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/__/src/CudaBondedUtilities.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMMCUDA.dir/__/src/CudaBondedUtilities.cpp.o -c /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaBondedUtilities.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /sw/summitdev/gcc/6.3.1-20170301/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMMCUDA.dir/__/src/CudaBondedUtilities.cpp.o -c /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaBondedUtilities.cpp
 
 platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/__/src/CudaBondedUtilities.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenMMCUDA.dir/__/src/CudaBondedUtilities.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaBondedUtilities.cpp > CMakeFiles/OpenMMCUDA.dir/__/src/CudaBondedUtilities.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaBondedUtilities.cpp > CMakeFiles/OpenMMCUDA.dir/__/src/CudaBondedUtilities.cpp.i
 
 platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/__/src/CudaBondedUtilities.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenMMCUDA.dir/__/src/CudaBondedUtilities.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaBondedUtilities.cpp -o CMakeFiles/OpenMMCUDA.dir/__/src/CudaBondedUtilities.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaBondedUtilities.cpp -o CMakeFiles/OpenMMCUDA.dir/__/src/CudaBondedUtilities.cpp.s
 
 platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/__/src/CudaContext.cpp.o: platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/flags.make
 platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/__/src/CudaContext.cpp.o: ../platforms/cuda/src/CudaContext.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/__/src/CudaContext.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMMCUDA.dir/__/src/CudaContext.cpp.o -c /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaContext.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /sw/summitdev/gcc/6.3.1-20170301/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMMCUDA.dir/__/src/CudaContext.cpp.o -c /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaContext.cpp
 
 platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/__/src/CudaContext.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenMMCUDA.dir/__/src/CudaContext.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaContext.cpp > CMakeFiles/OpenMMCUDA.dir/__/src/CudaContext.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaContext.cpp > CMakeFiles/OpenMMCUDA.dir/__/src/CudaContext.cpp.i
 
 platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/__/src/CudaContext.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenMMCUDA.dir/__/src/CudaContext.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaContext.cpp -o CMakeFiles/OpenMMCUDA.dir/__/src/CudaContext.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaContext.cpp -o CMakeFiles/OpenMMCUDA.dir/__/src/CudaContext.cpp.s
 
 platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/__/src/CudaExpressionUtilities.cpp.o: platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/flags.make
 platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/__/src/CudaExpressionUtilities.cpp.o: ../platforms/cuda/src/CudaExpressionUtilities.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/__/src/CudaExpressionUtilities.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMMCUDA.dir/__/src/CudaExpressionUtilities.cpp.o -c /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaExpressionUtilities.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /sw/summitdev/gcc/6.3.1-20170301/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMMCUDA.dir/__/src/CudaExpressionUtilities.cpp.o -c /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaExpressionUtilities.cpp
 
 platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/__/src/CudaExpressionUtilities.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenMMCUDA.dir/__/src/CudaExpressionUtilities.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaExpressionUtilities.cpp > CMakeFiles/OpenMMCUDA.dir/__/src/CudaExpressionUtilities.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaExpressionUtilities.cpp > CMakeFiles/OpenMMCUDA.dir/__/src/CudaExpressionUtilities.cpp.i
 
 platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/__/src/CudaExpressionUtilities.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenMMCUDA.dir/__/src/CudaExpressionUtilities.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaExpressionUtilities.cpp -o CMakeFiles/OpenMMCUDA.dir/__/src/CudaExpressionUtilities.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaExpressionUtilities.cpp -o CMakeFiles/OpenMMCUDA.dir/__/src/CudaExpressionUtilities.cpp.s
 
 platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/__/src/CudaFFT3D.cpp.o: platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/flags.make
 platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/__/src/CudaFFT3D.cpp.o: ../platforms/cuda/src/CudaFFT3D.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/__/src/CudaFFT3D.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMMCUDA.dir/__/src/CudaFFT3D.cpp.o -c /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaFFT3D.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /sw/summitdev/gcc/6.3.1-20170301/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMMCUDA.dir/__/src/CudaFFT3D.cpp.o -c /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaFFT3D.cpp
 
 platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/__/src/CudaFFT3D.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenMMCUDA.dir/__/src/CudaFFT3D.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaFFT3D.cpp > CMakeFiles/OpenMMCUDA.dir/__/src/CudaFFT3D.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaFFT3D.cpp > CMakeFiles/OpenMMCUDA.dir/__/src/CudaFFT3D.cpp.i
 
 platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/__/src/CudaFFT3D.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenMMCUDA.dir/__/src/CudaFFT3D.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaFFT3D.cpp -o CMakeFiles/OpenMMCUDA.dir/__/src/CudaFFT3D.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaFFT3D.cpp -o CMakeFiles/OpenMMCUDA.dir/__/src/CudaFFT3D.cpp.s
 
 platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/__/src/CudaForceInfo.cpp.o: platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/flags.make
 platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/__/src/CudaForceInfo.cpp.o: ../platforms/cuda/src/CudaForceInfo.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/__/src/CudaForceInfo.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMMCUDA.dir/__/src/CudaForceInfo.cpp.o -c /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaForceInfo.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /sw/summitdev/gcc/6.3.1-20170301/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMMCUDA.dir/__/src/CudaForceInfo.cpp.o -c /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaForceInfo.cpp
 
 platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/__/src/CudaForceInfo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenMMCUDA.dir/__/src/CudaForceInfo.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaForceInfo.cpp > CMakeFiles/OpenMMCUDA.dir/__/src/CudaForceInfo.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaForceInfo.cpp > CMakeFiles/OpenMMCUDA.dir/__/src/CudaForceInfo.cpp.i
 
 platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/__/src/CudaForceInfo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenMMCUDA.dir/__/src/CudaForceInfo.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaForceInfo.cpp -o CMakeFiles/OpenMMCUDA.dir/__/src/CudaForceInfo.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaForceInfo.cpp -o CMakeFiles/OpenMMCUDA.dir/__/src/CudaForceInfo.cpp.s
 
 platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/__/src/CudaIntegrationUtilities.cpp.o: platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/flags.make
 platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/__/src/CudaIntegrationUtilities.cpp.o: ../platforms/cuda/src/CudaIntegrationUtilities.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/__/src/CudaIntegrationUtilities.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMMCUDA.dir/__/src/CudaIntegrationUtilities.cpp.o -c /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaIntegrationUtilities.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /sw/summitdev/gcc/6.3.1-20170301/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMMCUDA.dir/__/src/CudaIntegrationUtilities.cpp.o -c /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaIntegrationUtilities.cpp
 
 platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/__/src/CudaIntegrationUtilities.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenMMCUDA.dir/__/src/CudaIntegrationUtilities.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaIntegrationUtilities.cpp > CMakeFiles/OpenMMCUDA.dir/__/src/CudaIntegrationUtilities.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaIntegrationUtilities.cpp > CMakeFiles/OpenMMCUDA.dir/__/src/CudaIntegrationUtilities.cpp.i
 
 platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/__/src/CudaIntegrationUtilities.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenMMCUDA.dir/__/src/CudaIntegrationUtilities.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaIntegrationUtilities.cpp -o CMakeFiles/OpenMMCUDA.dir/__/src/CudaIntegrationUtilities.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaIntegrationUtilities.cpp -o CMakeFiles/OpenMMCUDA.dir/__/src/CudaIntegrationUtilities.cpp.s
 
 platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/__/src/CudaKernelFactory.cpp.o: platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/flags.make
 platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/__/src/CudaKernelFactory.cpp.o: ../platforms/cuda/src/CudaKernelFactory.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/__/src/CudaKernelFactory.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMMCUDA.dir/__/src/CudaKernelFactory.cpp.o -c /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaKernelFactory.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /sw/summitdev/gcc/6.3.1-20170301/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMMCUDA.dir/__/src/CudaKernelFactory.cpp.o -c /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaKernelFactory.cpp
 
 platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/__/src/CudaKernelFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenMMCUDA.dir/__/src/CudaKernelFactory.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaKernelFactory.cpp > CMakeFiles/OpenMMCUDA.dir/__/src/CudaKernelFactory.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaKernelFactory.cpp > CMakeFiles/OpenMMCUDA.dir/__/src/CudaKernelFactory.cpp.i
 
 platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/__/src/CudaKernelFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenMMCUDA.dir/__/src/CudaKernelFactory.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaKernelFactory.cpp -o CMakeFiles/OpenMMCUDA.dir/__/src/CudaKernelFactory.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaKernelFactory.cpp -o CMakeFiles/OpenMMCUDA.dir/__/src/CudaKernelFactory.cpp.s
 
 platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/__/src/CudaKernels.cpp.o: platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/flags.make
 platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/__/src/CudaKernels.cpp.o: ../platforms/cuda/src/CudaKernels.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/__/src/CudaKernels.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMMCUDA.dir/__/src/CudaKernels.cpp.o -c /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaKernels.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /sw/summitdev/gcc/6.3.1-20170301/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMMCUDA.dir/__/src/CudaKernels.cpp.o -c /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaKernels.cpp
 
 platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/__/src/CudaKernels.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenMMCUDA.dir/__/src/CudaKernels.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaKernels.cpp > CMakeFiles/OpenMMCUDA.dir/__/src/CudaKernels.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaKernels.cpp > CMakeFiles/OpenMMCUDA.dir/__/src/CudaKernels.cpp.i
 
 platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/__/src/CudaKernels.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenMMCUDA.dir/__/src/CudaKernels.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaKernels.cpp -o CMakeFiles/OpenMMCUDA.dir/__/src/CudaKernels.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaKernels.cpp -o CMakeFiles/OpenMMCUDA.dir/__/src/CudaKernels.cpp.s
 
 platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/__/src/CudaNonbondedUtilities.cpp.o: platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/flags.make
 platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/__/src/CudaNonbondedUtilities.cpp.o: ../platforms/cuda/src/CudaNonbondedUtilities.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/__/src/CudaNonbondedUtilities.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMMCUDA.dir/__/src/CudaNonbondedUtilities.cpp.o -c /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaNonbondedUtilities.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /sw/summitdev/gcc/6.3.1-20170301/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMMCUDA.dir/__/src/CudaNonbondedUtilities.cpp.o -c /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaNonbondedUtilities.cpp
 
 platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/__/src/CudaNonbondedUtilities.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenMMCUDA.dir/__/src/CudaNonbondedUtilities.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaNonbondedUtilities.cpp > CMakeFiles/OpenMMCUDA.dir/__/src/CudaNonbondedUtilities.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaNonbondedUtilities.cpp > CMakeFiles/OpenMMCUDA.dir/__/src/CudaNonbondedUtilities.cpp.i
 
 platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/__/src/CudaNonbondedUtilities.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenMMCUDA.dir/__/src/CudaNonbondedUtilities.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaNonbondedUtilities.cpp -o CMakeFiles/OpenMMCUDA.dir/__/src/CudaNonbondedUtilities.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaNonbondedUtilities.cpp -o CMakeFiles/OpenMMCUDA.dir/__/src/CudaNonbondedUtilities.cpp.s
 
 platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/__/src/CudaParallelKernels.cpp.o: platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/flags.make
 platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/__/src/CudaParallelKernels.cpp.o: ../platforms/cuda/src/CudaParallelKernels.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/__/src/CudaParallelKernels.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMMCUDA.dir/__/src/CudaParallelKernels.cpp.o -c /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaParallelKernels.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /sw/summitdev/gcc/6.3.1-20170301/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMMCUDA.dir/__/src/CudaParallelKernels.cpp.o -c /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaParallelKernels.cpp
 
 platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/__/src/CudaParallelKernels.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenMMCUDA.dir/__/src/CudaParallelKernels.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaParallelKernels.cpp > CMakeFiles/OpenMMCUDA.dir/__/src/CudaParallelKernels.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaParallelKernels.cpp > CMakeFiles/OpenMMCUDA.dir/__/src/CudaParallelKernels.cpp.i
 
 platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/__/src/CudaParallelKernels.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenMMCUDA.dir/__/src/CudaParallelKernels.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaParallelKernels.cpp -o CMakeFiles/OpenMMCUDA.dir/__/src/CudaParallelKernels.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaParallelKernels.cpp -o CMakeFiles/OpenMMCUDA.dir/__/src/CudaParallelKernels.cpp.s
 
 platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/__/src/CudaParameterSet.cpp.o: platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/flags.make
 platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/__/src/CudaParameterSet.cpp.o: ../platforms/cuda/src/CudaParameterSet.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/__/src/CudaParameterSet.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMMCUDA.dir/__/src/CudaParameterSet.cpp.o -c /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaParameterSet.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /sw/summitdev/gcc/6.3.1-20170301/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMMCUDA.dir/__/src/CudaParameterSet.cpp.o -c /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaParameterSet.cpp
 
 platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/__/src/CudaParameterSet.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenMMCUDA.dir/__/src/CudaParameterSet.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaParameterSet.cpp > CMakeFiles/OpenMMCUDA.dir/__/src/CudaParameterSet.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaParameterSet.cpp > CMakeFiles/OpenMMCUDA.dir/__/src/CudaParameterSet.cpp.i
 
 platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/__/src/CudaParameterSet.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenMMCUDA.dir/__/src/CudaParameterSet.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaParameterSet.cpp -o CMakeFiles/OpenMMCUDA.dir/__/src/CudaParameterSet.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaParameterSet.cpp -o CMakeFiles/OpenMMCUDA.dir/__/src/CudaParameterSet.cpp.s
 
 platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/__/src/CudaPlatform.cpp.o: platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/flags.make
 platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/__/src/CudaPlatform.cpp.o: ../platforms/cuda/src/CudaPlatform.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/__/src/CudaPlatform.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMMCUDA.dir/__/src/CudaPlatform.cpp.o -c /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaPlatform.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /sw/summitdev/gcc/6.3.1-20170301/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMMCUDA.dir/__/src/CudaPlatform.cpp.o -c /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaPlatform.cpp
 
 platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/__/src/CudaPlatform.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenMMCUDA.dir/__/src/CudaPlatform.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaPlatform.cpp > CMakeFiles/OpenMMCUDA.dir/__/src/CudaPlatform.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaPlatform.cpp > CMakeFiles/OpenMMCUDA.dir/__/src/CudaPlatform.cpp.i
 
 platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/__/src/CudaPlatform.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenMMCUDA.dir/__/src/CudaPlatform.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaPlatform.cpp -o CMakeFiles/OpenMMCUDA.dir/__/src/CudaPlatform.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaPlatform.cpp -o CMakeFiles/OpenMMCUDA.dir/__/src/CudaPlatform.cpp.s
 
 platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/__/src/CudaSort.cpp.o: platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/flags.make
 platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/__/src/CudaSort.cpp.o: ../platforms/cuda/src/CudaSort.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/__/src/CudaSort.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMMCUDA.dir/__/src/CudaSort.cpp.o -c /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaSort.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /sw/summitdev/gcc/6.3.1-20170301/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMMCUDA.dir/__/src/CudaSort.cpp.o -c /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaSort.cpp
 
 platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/__/src/CudaSort.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenMMCUDA.dir/__/src/CudaSort.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaSort.cpp > CMakeFiles/OpenMMCUDA.dir/__/src/CudaSort.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaSort.cpp > CMakeFiles/OpenMMCUDA.dir/__/src/CudaSort.cpp.i
 
 platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/__/src/CudaSort.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenMMCUDA.dir/__/src/CudaSort.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaSort.cpp -o CMakeFiles/OpenMMCUDA.dir/__/src/CudaSort.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/platforms/cuda/src/CudaSort.cpp -o CMakeFiles/OpenMMCUDA.dir/__/src/CudaSort.cpp.s
 
 platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/__/src/CudaKernelSources.cpp.o: platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/flags.make
 platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/__/src/CudaKernelSources.cpp.o: platforms/cuda/src/CudaKernelSources.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/__/src/CudaKernelSources.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMMCUDA.dir/__/src/CudaKernelSources.cpp.o -c /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/src/CudaKernelSources.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /sw/summitdev/gcc/6.3.1-20170301/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMMCUDA.dir/__/src/CudaKernelSources.cpp.o -c /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/src/CudaKernelSources.cpp
 
 platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/__/src/CudaKernelSources.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenMMCUDA.dir/__/src/CudaKernelSources.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/src/CudaKernelSources.cpp > CMakeFiles/OpenMMCUDA.dir/__/src/CudaKernelSources.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/src/CudaKernelSources.cpp > CMakeFiles/OpenMMCUDA.dir/__/src/CudaKernelSources.cpp.i
 
 platforms/cuda/sharedTarget/CMakeFiles/OpenMMCUDA.dir/__/src/CudaKernelSources.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenMMCUDA.dir/__/src/CudaKernelSources.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/src/CudaKernelSources.cpp -o CMakeFiles/OpenMMCUDA.dir/__/src/CudaKernelSources.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/src/CudaKernelSources.cpp -o CMakeFiles/OpenMMCUDA.dir/__/src/CudaKernelSources.cpp.s
 
 # Object files for target OpenMMCUDA
 OpenMMCUDA_OBJECTS = \

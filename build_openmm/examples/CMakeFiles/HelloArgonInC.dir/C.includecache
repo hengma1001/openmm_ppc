@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/ccs/home/hm0/Pkgs/openmm/examples/HelloArgonInC.c
+OpenMMCWrapper.h
+/ccs/home/hm0/Pkgs/openmm/examples/OpenMMCWrapper.h
+stdio.h
+-
+
+wrappers/OpenMMCWrapper.h
+

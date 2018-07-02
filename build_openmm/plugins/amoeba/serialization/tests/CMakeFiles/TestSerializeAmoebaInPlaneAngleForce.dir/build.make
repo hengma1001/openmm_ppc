@@ -60,15 +60,15 @@ include plugins/amoeba/serialization/tests/CMakeFiles/TestSerializeAmoebaInPlane
 plugins/amoeba/serialization/tests/CMakeFiles/TestSerializeAmoebaInPlaneAngleForce.dir/TestSerializeAmoebaInPlaneAngleForce.cpp.o: plugins/amoeba/serialization/tests/CMakeFiles/TestSerializeAmoebaInPlaneAngleForce.dir/flags.make
 plugins/amoeba/serialization/tests/CMakeFiles/TestSerializeAmoebaInPlaneAngleForce.dir/TestSerializeAmoebaInPlaneAngleForce.cpp.o: ../plugins/amoeba/serialization/tests/TestSerializeAmoebaInPlaneAngleForce.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object plugins/amoeba/serialization/tests/CMakeFiles/TestSerializeAmoebaInPlaneAngleForce.dir/TestSerializeAmoebaInPlaneAngleForce.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/amoeba/serialization/tests && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TestSerializeAmoebaInPlaneAngleForce.dir/TestSerializeAmoebaInPlaneAngleForce.cpp.o -c /ccs/home/hm0/Pkgs/openmm/plugins/amoeba/serialization/tests/TestSerializeAmoebaInPlaneAngleForce.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/amoeba/serialization/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TestSerializeAmoebaInPlaneAngleForce.dir/TestSerializeAmoebaInPlaneAngleForce.cpp.o -c /ccs/home/hm0/Pkgs/openmm/plugins/amoeba/serialization/tests/TestSerializeAmoebaInPlaneAngleForce.cpp
 
 plugins/amoeba/serialization/tests/CMakeFiles/TestSerializeAmoebaInPlaneAngleForce.dir/TestSerializeAmoebaInPlaneAngleForce.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TestSerializeAmoebaInPlaneAngleForce.dir/TestSerializeAmoebaInPlaneAngleForce.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/amoeba/serialization/tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/plugins/amoeba/serialization/tests/TestSerializeAmoebaInPlaneAngleForce.cpp > CMakeFiles/TestSerializeAmoebaInPlaneAngleForce.dir/TestSerializeAmoebaInPlaneAngleForce.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/amoeba/serialization/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/plugins/amoeba/serialization/tests/TestSerializeAmoebaInPlaneAngleForce.cpp > CMakeFiles/TestSerializeAmoebaInPlaneAngleForce.dir/TestSerializeAmoebaInPlaneAngleForce.cpp.i
 
 plugins/amoeba/serialization/tests/CMakeFiles/TestSerializeAmoebaInPlaneAngleForce.dir/TestSerializeAmoebaInPlaneAngleForce.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestSerializeAmoebaInPlaneAngleForce.dir/TestSerializeAmoebaInPlaneAngleForce.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/amoeba/serialization/tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/plugins/amoeba/serialization/tests/TestSerializeAmoebaInPlaneAngleForce.cpp -o CMakeFiles/TestSerializeAmoebaInPlaneAngleForce.dir/TestSerializeAmoebaInPlaneAngleForce.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/amoeba/serialization/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/plugins/amoeba/serialization/tests/TestSerializeAmoebaInPlaneAngleForce.cpp -o CMakeFiles/TestSerializeAmoebaInPlaneAngleForce.dir/TestSerializeAmoebaInPlaneAngleForce.cpp.s
 
 # Object files for target TestSerializeAmoebaInPlaneAngleForce
 TestSerializeAmoebaInPlaneAngleForce_OBJECTS = \

@@ -60,15 +60,15 @@ include tests/CMakeFiles/TestFindMolecules.dir/flags.make
 tests/CMakeFiles/TestFindMolecules.dir/TestFindMolecules.cpp.o: tests/CMakeFiles/TestFindMolecules.dir/flags.make
 tests/CMakeFiles/TestFindMolecules.dir/TestFindMolecules.cpp.o: ../tests/TestFindMolecules.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/CMakeFiles/TestFindMolecules.dir/TestFindMolecules.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/tests && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TestFindMolecules.dir/TestFindMolecules.cpp.o -c /ccs/home/hm0/Pkgs/openmm/tests/TestFindMolecules.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TestFindMolecules.dir/TestFindMolecules.cpp.o -c /ccs/home/hm0/Pkgs/openmm/tests/TestFindMolecules.cpp
 
 tests/CMakeFiles/TestFindMolecules.dir/TestFindMolecules.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TestFindMolecules.dir/TestFindMolecules.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/tests/TestFindMolecules.cpp > CMakeFiles/TestFindMolecules.dir/TestFindMolecules.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/tests/TestFindMolecules.cpp > CMakeFiles/TestFindMolecules.dir/TestFindMolecules.cpp.i
 
 tests/CMakeFiles/TestFindMolecules.dir/TestFindMolecules.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestFindMolecules.dir/TestFindMolecules.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/tests/TestFindMolecules.cpp -o CMakeFiles/TestFindMolecules.dir/TestFindMolecules.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/tests/TestFindMolecules.cpp -o CMakeFiles/TestFindMolecules.dir/TestFindMolecules.cpp.s
 
 # Object files for target TestFindMolecules
 TestFindMolecules_OBJECTS = \

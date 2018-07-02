@@ -60,15 +60,15 @@ include tests/CMakeFiles/TestEnforcePeriodicBox.dir/flags.make
 tests/CMakeFiles/TestEnforcePeriodicBox.dir/TestEnforcePeriodicBox.cpp.o: tests/CMakeFiles/TestEnforcePeriodicBox.dir/flags.make
 tests/CMakeFiles/TestEnforcePeriodicBox.dir/TestEnforcePeriodicBox.cpp.o: ../tests/TestEnforcePeriodicBox.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/CMakeFiles/TestEnforcePeriodicBox.dir/TestEnforcePeriodicBox.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/tests && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TestEnforcePeriodicBox.dir/TestEnforcePeriodicBox.cpp.o -c /ccs/home/hm0/Pkgs/openmm/tests/TestEnforcePeriodicBox.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TestEnforcePeriodicBox.dir/TestEnforcePeriodicBox.cpp.o -c /ccs/home/hm0/Pkgs/openmm/tests/TestEnforcePeriodicBox.cpp
 
 tests/CMakeFiles/TestEnforcePeriodicBox.dir/TestEnforcePeriodicBox.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TestEnforcePeriodicBox.dir/TestEnforcePeriodicBox.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/tests/TestEnforcePeriodicBox.cpp > CMakeFiles/TestEnforcePeriodicBox.dir/TestEnforcePeriodicBox.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/tests/TestEnforcePeriodicBox.cpp > CMakeFiles/TestEnforcePeriodicBox.dir/TestEnforcePeriodicBox.cpp.i
 
 tests/CMakeFiles/TestEnforcePeriodicBox.dir/TestEnforcePeriodicBox.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestEnforcePeriodicBox.dir/TestEnforcePeriodicBox.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/tests/TestEnforcePeriodicBox.cpp -o CMakeFiles/TestEnforcePeriodicBox.dir/TestEnforcePeriodicBox.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/tests/TestEnforcePeriodicBox.cpp -o CMakeFiles/TestEnforcePeriodicBox.dir/TestEnforcePeriodicBox.cpp.s
 
 # Object files for target TestEnforcePeriodicBox
 TestEnforcePeriodicBox_OBJECTS = \

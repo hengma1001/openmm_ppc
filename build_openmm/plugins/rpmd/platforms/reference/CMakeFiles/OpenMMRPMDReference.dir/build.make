@@ -60,28 +60,28 @@ include plugins/rpmd/platforms/reference/CMakeFiles/OpenMMRPMDReference.dir/flag
 plugins/rpmd/platforms/reference/CMakeFiles/OpenMMRPMDReference.dir/src/ReferenceRpmdKernelFactory.cpp.o: plugins/rpmd/platforms/reference/CMakeFiles/OpenMMRPMDReference.dir/flags.make
 plugins/rpmd/platforms/reference/CMakeFiles/OpenMMRPMDReference.dir/src/ReferenceRpmdKernelFactory.cpp.o: ../plugins/rpmd/platforms/reference/src/ReferenceRpmdKernelFactory.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object plugins/rpmd/platforms/reference/CMakeFiles/OpenMMRPMDReference.dir/src/ReferenceRpmdKernelFactory.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/rpmd/platforms/reference && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMMRPMDReference.dir/src/ReferenceRpmdKernelFactory.cpp.o -c /ccs/home/hm0/Pkgs/openmm/plugins/rpmd/platforms/reference/src/ReferenceRpmdKernelFactory.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/rpmd/platforms/reference && /sw/summitdev/gcc/6.3.1-20170301/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMMRPMDReference.dir/src/ReferenceRpmdKernelFactory.cpp.o -c /ccs/home/hm0/Pkgs/openmm/plugins/rpmd/platforms/reference/src/ReferenceRpmdKernelFactory.cpp
 
 plugins/rpmd/platforms/reference/CMakeFiles/OpenMMRPMDReference.dir/src/ReferenceRpmdKernelFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenMMRPMDReference.dir/src/ReferenceRpmdKernelFactory.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/rpmd/platforms/reference && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/plugins/rpmd/platforms/reference/src/ReferenceRpmdKernelFactory.cpp > CMakeFiles/OpenMMRPMDReference.dir/src/ReferenceRpmdKernelFactory.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/rpmd/platforms/reference && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/plugins/rpmd/platforms/reference/src/ReferenceRpmdKernelFactory.cpp > CMakeFiles/OpenMMRPMDReference.dir/src/ReferenceRpmdKernelFactory.cpp.i
 
 plugins/rpmd/platforms/reference/CMakeFiles/OpenMMRPMDReference.dir/src/ReferenceRpmdKernelFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenMMRPMDReference.dir/src/ReferenceRpmdKernelFactory.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/rpmd/platforms/reference && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/plugins/rpmd/platforms/reference/src/ReferenceRpmdKernelFactory.cpp -o CMakeFiles/OpenMMRPMDReference.dir/src/ReferenceRpmdKernelFactory.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/rpmd/platforms/reference && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/plugins/rpmd/platforms/reference/src/ReferenceRpmdKernelFactory.cpp -o CMakeFiles/OpenMMRPMDReference.dir/src/ReferenceRpmdKernelFactory.cpp.s
 
 plugins/rpmd/platforms/reference/CMakeFiles/OpenMMRPMDReference.dir/src/ReferenceRpmdKernels.cpp.o: plugins/rpmd/platforms/reference/CMakeFiles/OpenMMRPMDReference.dir/flags.make
 plugins/rpmd/platforms/reference/CMakeFiles/OpenMMRPMDReference.dir/src/ReferenceRpmdKernels.cpp.o: ../plugins/rpmd/platforms/reference/src/ReferenceRpmdKernels.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object plugins/rpmd/platforms/reference/CMakeFiles/OpenMMRPMDReference.dir/src/ReferenceRpmdKernels.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/rpmd/platforms/reference && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMMRPMDReference.dir/src/ReferenceRpmdKernels.cpp.o -c /ccs/home/hm0/Pkgs/openmm/plugins/rpmd/platforms/reference/src/ReferenceRpmdKernels.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/rpmd/platforms/reference && /sw/summitdev/gcc/6.3.1-20170301/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMMRPMDReference.dir/src/ReferenceRpmdKernels.cpp.o -c /ccs/home/hm0/Pkgs/openmm/plugins/rpmd/platforms/reference/src/ReferenceRpmdKernels.cpp
 
 plugins/rpmd/platforms/reference/CMakeFiles/OpenMMRPMDReference.dir/src/ReferenceRpmdKernels.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenMMRPMDReference.dir/src/ReferenceRpmdKernels.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/rpmd/platforms/reference && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/plugins/rpmd/platforms/reference/src/ReferenceRpmdKernels.cpp > CMakeFiles/OpenMMRPMDReference.dir/src/ReferenceRpmdKernels.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/rpmd/platforms/reference && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/plugins/rpmd/platforms/reference/src/ReferenceRpmdKernels.cpp > CMakeFiles/OpenMMRPMDReference.dir/src/ReferenceRpmdKernels.cpp.i
 
 plugins/rpmd/platforms/reference/CMakeFiles/OpenMMRPMDReference.dir/src/ReferenceRpmdKernels.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenMMRPMDReference.dir/src/ReferenceRpmdKernels.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/rpmd/platforms/reference && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/plugins/rpmd/platforms/reference/src/ReferenceRpmdKernels.cpp -o CMakeFiles/OpenMMRPMDReference.dir/src/ReferenceRpmdKernels.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/rpmd/platforms/reference && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/plugins/rpmd/platforms/reference/src/ReferenceRpmdKernels.cpp -o CMakeFiles/OpenMMRPMDReference.dir/src/ReferenceRpmdKernels.cpp.s
 
 # Object files for target OpenMMRPMDReference
 OpenMMRPMDReference_OBJECTS = \

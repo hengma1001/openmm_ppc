@@ -60,15 +60,15 @@ include plugins/drude/serialization/tests/CMakeFiles/TestSerializeDrudeLangevinI
 plugins/drude/serialization/tests/CMakeFiles/TestSerializeDrudeLangevinIntegrator.dir/TestSerializeDrudeLangevinIntegrator.cpp.o: plugins/drude/serialization/tests/CMakeFiles/TestSerializeDrudeLangevinIntegrator.dir/flags.make
 plugins/drude/serialization/tests/CMakeFiles/TestSerializeDrudeLangevinIntegrator.dir/TestSerializeDrudeLangevinIntegrator.cpp.o: ../plugins/drude/serialization/tests/TestSerializeDrudeLangevinIntegrator.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object plugins/drude/serialization/tests/CMakeFiles/TestSerializeDrudeLangevinIntegrator.dir/TestSerializeDrudeLangevinIntegrator.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude/serialization/tests && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TestSerializeDrudeLangevinIntegrator.dir/TestSerializeDrudeLangevinIntegrator.cpp.o -c /ccs/home/hm0/Pkgs/openmm/plugins/drude/serialization/tests/TestSerializeDrudeLangevinIntegrator.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude/serialization/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TestSerializeDrudeLangevinIntegrator.dir/TestSerializeDrudeLangevinIntegrator.cpp.o -c /ccs/home/hm0/Pkgs/openmm/plugins/drude/serialization/tests/TestSerializeDrudeLangevinIntegrator.cpp
 
 plugins/drude/serialization/tests/CMakeFiles/TestSerializeDrudeLangevinIntegrator.dir/TestSerializeDrudeLangevinIntegrator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TestSerializeDrudeLangevinIntegrator.dir/TestSerializeDrudeLangevinIntegrator.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude/serialization/tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/plugins/drude/serialization/tests/TestSerializeDrudeLangevinIntegrator.cpp > CMakeFiles/TestSerializeDrudeLangevinIntegrator.dir/TestSerializeDrudeLangevinIntegrator.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude/serialization/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/plugins/drude/serialization/tests/TestSerializeDrudeLangevinIntegrator.cpp > CMakeFiles/TestSerializeDrudeLangevinIntegrator.dir/TestSerializeDrudeLangevinIntegrator.cpp.i
 
 plugins/drude/serialization/tests/CMakeFiles/TestSerializeDrudeLangevinIntegrator.dir/TestSerializeDrudeLangevinIntegrator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestSerializeDrudeLangevinIntegrator.dir/TestSerializeDrudeLangevinIntegrator.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude/serialization/tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/plugins/drude/serialization/tests/TestSerializeDrudeLangevinIntegrator.cpp -o CMakeFiles/TestSerializeDrudeLangevinIntegrator.dir/TestSerializeDrudeLangevinIntegrator.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude/serialization/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/plugins/drude/serialization/tests/TestSerializeDrudeLangevinIntegrator.cpp -o CMakeFiles/TestSerializeDrudeLangevinIntegrator.dir/TestSerializeDrudeLangevinIntegrator.cpp.s
 
 # Object files for target TestSerializeDrudeLangevinIntegrator
 TestSerializeDrudeLangevinIntegrator_OBJECTS = \

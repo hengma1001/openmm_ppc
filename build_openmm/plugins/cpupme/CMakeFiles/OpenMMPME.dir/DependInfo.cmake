@@ -22,7 +22,6 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../plugins/cpupme/src"
   "../plugins/cpupme/./include"
   "../src"
-  "../libraries/vecmath/include"
   "../libraries/irrxml/include"
   "../serialization/include"
   "../platforms/reference/include"

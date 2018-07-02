@@ -60,28 +60,28 @@ include plugins/drude/platforms/reference/CMakeFiles/OpenMMDrudeReference.dir/fl
 plugins/drude/platforms/reference/CMakeFiles/OpenMMDrudeReference.dir/src/ReferenceDrudeKernelFactory.cpp.o: plugins/drude/platforms/reference/CMakeFiles/OpenMMDrudeReference.dir/flags.make
 plugins/drude/platforms/reference/CMakeFiles/OpenMMDrudeReference.dir/src/ReferenceDrudeKernelFactory.cpp.o: ../plugins/drude/platforms/reference/src/ReferenceDrudeKernelFactory.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object plugins/drude/platforms/reference/CMakeFiles/OpenMMDrudeReference.dir/src/ReferenceDrudeKernelFactory.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude/platforms/reference && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMMDrudeReference.dir/src/ReferenceDrudeKernelFactory.cpp.o -c /ccs/home/hm0/Pkgs/openmm/plugins/drude/platforms/reference/src/ReferenceDrudeKernelFactory.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude/platforms/reference && /sw/summitdev/gcc/6.3.1-20170301/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMMDrudeReference.dir/src/ReferenceDrudeKernelFactory.cpp.o -c /ccs/home/hm0/Pkgs/openmm/plugins/drude/platforms/reference/src/ReferenceDrudeKernelFactory.cpp
 
 plugins/drude/platforms/reference/CMakeFiles/OpenMMDrudeReference.dir/src/ReferenceDrudeKernelFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenMMDrudeReference.dir/src/ReferenceDrudeKernelFactory.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude/platforms/reference && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/plugins/drude/platforms/reference/src/ReferenceDrudeKernelFactory.cpp > CMakeFiles/OpenMMDrudeReference.dir/src/ReferenceDrudeKernelFactory.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude/platforms/reference && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/plugins/drude/platforms/reference/src/ReferenceDrudeKernelFactory.cpp > CMakeFiles/OpenMMDrudeReference.dir/src/ReferenceDrudeKernelFactory.cpp.i
 
 plugins/drude/platforms/reference/CMakeFiles/OpenMMDrudeReference.dir/src/ReferenceDrudeKernelFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenMMDrudeReference.dir/src/ReferenceDrudeKernelFactory.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude/platforms/reference && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/plugins/drude/platforms/reference/src/ReferenceDrudeKernelFactory.cpp -o CMakeFiles/OpenMMDrudeReference.dir/src/ReferenceDrudeKernelFactory.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude/platforms/reference && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/plugins/drude/platforms/reference/src/ReferenceDrudeKernelFactory.cpp -o CMakeFiles/OpenMMDrudeReference.dir/src/ReferenceDrudeKernelFactory.cpp.s
 
 plugins/drude/platforms/reference/CMakeFiles/OpenMMDrudeReference.dir/src/ReferenceDrudeKernels.cpp.o: plugins/drude/platforms/reference/CMakeFiles/OpenMMDrudeReference.dir/flags.make
 plugins/drude/platforms/reference/CMakeFiles/OpenMMDrudeReference.dir/src/ReferenceDrudeKernels.cpp.o: ../plugins/drude/platforms/reference/src/ReferenceDrudeKernels.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object plugins/drude/platforms/reference/CMakeFiles/OpenMMDrudeReference.dir/src/ReferenceDrudeKernels.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude/platforms/reference && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMMDrudeReference.dir/src/ReferenceDrudeKernels.cpp.o -c /ccs/home/hm0/Pkgs/openmm/plugins/drude/platforms/reference/src/ReferenceDrudeKernels.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude/platforms/reference && /sw/summitdev/gcc/6.3.1-20170301/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMMDrudeReference.dir/src/ReferenceDrudeKernels.cpp.o -c /ccs/home/hm0/Pkgs/openmm/plugins/drude/platforms/reference/src/ReferenceDrudeKernels.cpp
 
 plugins/drude/platforms/reference/CMakeFiles/OpenMMDrudeReference.dir/src/ReferenceDrudeKernels.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenMMDrudeReference.dir/src/ReferenceDrudeKernels.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude/platforms/reference && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/plugins/drude/platforms/reference/src/ReferenceDrudeKernels.cpp > CMakeFiles/OpenMMDrudeReference.dir/src/ReferenceDrudeKernels.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude/platforms/reference && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/plugins/drude/platforms/reference/src/ReferenceDrudeKernels.cpp > CMakeFiles/OpenMMDrudeReference.dir/src/ReferenceDrudeKernels.cpp.i
 
 plugins/drude/platforms/reference/CMakeFiles/OpenMMDrudeReference.dir/src/ReferenceDrudeKernels.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenMMDrudeReference.dir/src/ReferenceDrudeKernels.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude/platforms/reference && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/plugins/drude/platforms/reference/src/ReferenceDrudeKernels.cpp -o CMakeFiles/OpenMMDrudeReference.dir/src/ReferenceDrudeKernels.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude/platforms/reference && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/plugins/drude/platforms/reference/src/ReferenceDrudeKernels.cpp -o CMakeFiles/OpenMMDrudeReference.dir/src/ReferenceDrudeKernels.cpp.s
 
 # Object files for target OpenMMDrudeReference
 OpenMMDrudeReference_OBJECTS = \

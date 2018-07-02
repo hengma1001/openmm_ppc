@@ -60,15 +60,15 @@ include serialization/tests/CMakeFiles/TestSerializeHarmonicAngleForce.dir/flags
 serialization/tests/CMakeFiles/TestSerializeHarmonicAngleForce.dir/TestSerializeHarmonicAngleForce.cpp.o: serialization/tests/CMakeFiles/TestSerializeHarmonicAngleForce.dir/flags.make
 serialization/tests/CMakeFiles/TestSerializeHarmonicAngleForce.dir/TestSerializeHarmonicAngleForce.cpp.o: ../serialization/tests/TestSerializeHarmonicAngleForce.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object serialization/tests/CMakeFiles/TestSerializeHarmonicAngleForce.dir/TestSerializeHarmonicAngleForce.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/serialization/tests && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TestSerializeHarmonicAngleForce.dir/TestSerializeHarmonicAngleForce.cpp.o -c /ccs/home/hm0/Pkgs/openmm/serialization/tests/TestSerializeHarmonicAngleForce.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/serialization/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TestSerializeHarmonicAngleForce.dir/TestSerializeHarmonicAngleForce.cpp.o -c /ccs/home/hm0/Pkgs/openmm/serialization/tests/TestSerializeHarmonicAngleForce.cpp
 
 serialization/tests/CMakeFiles/TestSerializeHarmonicAngleForce.dir/TestSerializeHarmonicAngleForce.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TestSerializeHarmonicAngleForce.dir/TestSerializeHarmonicAngleForce.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/serialization/tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/serialization/tests/TestSerializeHarmonicAngleForce.cpp > CMakeFiles/TestSerializeHarmonicAngleForce.dir/TestSerializeHarmonicAngleForce.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/serialization/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/serialization/tests/TestSerializeHarmonicAngleForce.cpp > CMakeFiles/TestSerializeHarmonicAngleForce.dir/TestSerializeHarmonicAngleForce.cpp.i
 
 serialization/tests/CMakeFiles/TestSerializeHarmonicAngleForce.dir/TestSerializeHarmonicAngleForce.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestSerializeHarmonicAngleForce.dir/TestSerializeHarmonicAngleForce.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/serialization/tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/serialization/tests/TestSerializeHarmonicAngleForce.cpp -o CMakeFiles/TestSerializeHarmonicAngleForce.dir/TestSerializeHarmonicAngleForce.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/serialization/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/serialization/tests/TestSerializeHarmonicAngleForce.cpp -o CMakeFiles/TestSerializeHarmonicAngleForce.dir/TestSerializeHarmonicAngleForce.cpp.s
 
 # Object files for target TestSerializeHarmonicAngleForce
 TestSerializeHarmonicAngleForce_OBJECTS = \

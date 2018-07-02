@@ -68,41 +68,41 @@ plugins/rpmd/platforms/cuda/src/CudaRpmdKernelSources.h: plugins/rpmd/platforms/
 plugins/rpmd/platforms/cuda/CMakeFiles/OpenMMRPMDCUDA.dir/src/CudaRpmdKernelFactory.cpp.o: plugins/rpmd/platforms/cuda/CMakeFiles/OpenMMRPMDCUDA.dir/flags.make
 plugins/rpmd/platforms/cuda/CMakeFiles/OpenMMRPMDCUDA.dir/src/CudaRpmdKernelFactory.cpp.o: ../plugins/rpmd/platforms/cuda/src/CudaRpmdKernelFactory.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object plugins/rpmd/platforms/cuda/CMakeFiles/OpenMMRPMDCUDA.dir/src/CudaRpmdKernelFactory.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/rpmd/platforms/cuda && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMMRPMDCUDA.dir/src/CudaRpmdKernelFactory.cpp.o -c /ccs/home/hm0/Pkgs/openmm/plugins/rpmd/platforms/cuda/src/CudaRpmdKernelFactory.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/rpmd/platforms/cuda && /sw/summitdev/gcc/6.3.1-20170301/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMMRPMDCUDA.dir/src/CudaRpmdKernelFactory.cpp.o -c /ccs/home/hm0/Pkgs/openmm/plugins/rpmd/platforms/cuda/src/CudaRpmdKernelFactory.cpp
 
 plugins/rpmd/platforms/cuda/CMakeFiles/OpenMMRPMDCUDA.dir/src/CudaRpmdKernelFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenMMRPMDCUDA.dir/src/CudaRpmdKernelFactory.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/rpmd/platforms/cuda && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/plugins/rpmd/platforms/cuda/src/CudaRpmdKernelFactory.cpp > CMakeFiles/OpenMMRPMDCUDA.dir/src/CudaRpmdKernelFactory.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/rpmd/platforms/cuda && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/plugins/rpmd/platforms/cuda/src/CudaRpmdKernelFactory.cpp > CMakeFiles/OpenMMRPMDCUDA.dir/src/CudaRpmdKernelFactory.cpp.i
 
 plugins/rpmd/platforms/cuda/CMakeFiles/OpenMMRPMDCUDA.dir/src/CudaRpmdKernelFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenMMRPMDCUDA.dir/src/CudaRpmdKernelFactory.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/rpmd/platforms/cuda && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/plugins/rpmd/platforms/cuda/src/CudaRpmdKernelFactory.cpp -o CMakeFiles/OpenMMRPMDCUDA.dir/src/CudaRpmdKernelFactory.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/rpmd/platforms/cuda && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/plugins/rpmd/platforms/cuda/src/CudaRpmdKernelFactory.cpp -o CMakeFiles/OpenMMRPMDCUDA.dir/src/CudaRpmdKernelFactory.cpp.s
 
 plugins/rpmd/platforms/cuda/CMakeFiles/OpenMMRPMDCUDA.dir/src/CudaRpmdKernels.cpp.o: plugins/rpmd/platforms/cuda/CMakeFiles/OpenMMRPMDCUDA.dir/flags.make
 plugins/rpmd/platforms/cuda/CMakeFiles/OpenMMRPMDCUDA.dir/src/CudaRpmdKernels.cpp.o: ../plugins/rpmd/platforms/cuda/src/CudaRpmdKernels.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object plugins/rpmd/platforms/cuda/CMakeFiles/OpenMMRPMDCUDA.dir/src/CudaRpmdKernels.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/rpmd/platforms/cuda && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMMRPMDCUDA.dir/src/CudaRpmdKernels.cpp.o -c /ccs/home/hm0/Pkgs/openmm/plugins/rpmd/platforms/cuda/src/CudaRpmdKernels.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/rpmd/platforms/cuda && /sw/summitdev/gcc/6.3.1-20170301/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMMRPMDCUDA.dir/src/CudaRpmdKernels.cpp.o -c /ccs/home/hm0/Pkgs/openmm/plugins/rpmd/platforms/cuda/src/CudaRpmdKernels.cpp
 
 plugins/rpmd/platforms/cuda/CMakeFiles/OpenMMRPMDCUDA.dir/src/CudaRpmdKernels.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenMMRPMDCUDA.dir/src/CudaRpmdKernels.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/rpmd/platforms/cuda && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/plugins/rpmd/platforms/cuda/src/CudaRpmdKernels.cpp > CMakeFiles/OpenMMRPMDCUDA.dir/src/CudaRpmdKernels.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/rpmd/platforms/cuda && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/plugins/rpmd/platforms/cuda/src/CudaRpmdKernels.cpp > CMakeFiles/OpenMMRPMDCUDA.dir/src/CudaRpmdKernels.cpp.i
 
 plugins/rpmd/platforms/cuda/CMakeFiles/OpenMMRPMDCUDA.dir/src/CudaRpmdKernels.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenMMRPMDCUDA.dir/src/CudaRpmdKernels.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/rpmd/platforms/cuda && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/plugins/rpmd/platforms/cuda/src/CudaRpmdKernels.cpp -o CMakeFiles/OpenMMRPMDCUDA.dir/src/CudaRpmdKernels.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/rpmd/platforms/cuda && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/plugins/rpmd/platforms/cuda/src/CudaRpmdKernels.cpp -o CMakeFiles/OpenMMRPMDCUDA.dir/src/CudaRpmdKernels.cpp.s
 
 plugins/rpmd/platforms/cuda/CMakeFiles/OpenMMRPMDCUDA.dir/src/CudaRpmdKernelSources.cpp.o: plugins/rpmd/platforms/cuda/CMakeFiles/OpenMMRPMDCUDA.dir/flags.make
 plugins/rpmd/platforms/cuda/CMakeFiles/OpenMMRPMDCUDA.dir/src/CudaRpmdKernelSources.cpp.o: plugins/rpmd/platforms/cuda/src/CudaRpmdKernelSources.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object plugins/rpmd/platforms/cuda/CMakeFiles/OpenMMRPMDCUDA.dir/src/CudaRpmdKernelSources.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/rpmd/platforms/cuda && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMMRPMDCUDA.dir/src/CudaRpmdKernelSources.cpp.o -c /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/rpmd/platforms/cuda/src/CudaRpmdKernelSources.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/rpmd/platforms/cuda && /sw/summitdev/gcc/6.3.1-20170301/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMMRPMDCUDA.dir/src/CudaRpmdKernelSources.cpp.o -c /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/rpmd/platforms/cuda/src/CudaRpmdKernelSources.cpp
 
 plugins/rpmd/platforms/cuda/CMakeFiles/OpenMMRPMDCUDA.dir/src/CudaRpmdKernelSources.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenMMRPMDCUDA.dir/src/CudaRpmdKernelSources.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/rpmd/platforms/cuda && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/rpmd/platforms/cuda/src/CudaRpmdKernelSources.cpp > CMakeFiles/OpenMMRPMDCUDA.dir/src/CudaRpmdKernelSources.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/rpmd/platforms/cuda && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/rpmd/platforms/cuda/src/CudaRpmdKernelSources.cpp > CMakeFiles/OpenMMRPMDCUDA.dir/src/CudaRpmdKernelSources.cpp.i
 
 plugins/rpmd/platforms/cuda/CMakeFiles/OpenMMRPMDCUDA.dir/src/CudaRpmdKernelSources.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenMMRPMDCUDA.dir/src/CudaRpmdKernelSources.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/rpmd/platforms/cuda && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/rpmd/platforms/cuda/src/CudaRpmdKernelSources.cpp -o CMakeFiles/OpenMMRPMDCUDA.dir/src/CudaRpmdKernelSources.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/rpmd/platforms/cuda && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/rpmd/platforms/cuda/src/CudaRpmdKernelSources.cpp -o CMakeFiles/OpenMMRPMDCUDA.dir/src/CudaRpmdKernelSources.cpp.s
 
 # Object files for target OpenMMRPMDCUDA
 OpenMMRPMDCUDA_OBJECTS = \

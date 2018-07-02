@@ -60,15 +60,15 @@ include serialization/tests/CMakeFiles/TestSerializeSystem.dir/flags.make
 serialization/tests/CMakeFiles/TestSerializeSystem.dir/TestSerializeSystem.cpp.o: serialization/tests/CMakeFiles/TestSerializeSystem.dir/flags.make
 serialization/tests/CMakeFiles/TestSerializeSystem.dir/TestSerializeSystem.cpp.o: ../serialization/tests/TestSerializeSystem.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object serialization/tests/CMakeFiles/TestSerializeSystem.dir/TestSerializeSystem.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/serialization/tests && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TestSerializeSystem.dir/TestSerializeSystem.cpp.o -c /ccs/home/hm0/Pkgs/openmm/serialization/tests/TestSerializeSystem.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/serialization/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TestSerializeSystem.dir/TestSerializeSystem.cpp.o -c /ccs/home/hm0/Pkgs/openmm/serialization/tests/TestSerializeSystem.cpp
 
 serialization/tests/CMakeFiles/TestSerializeSystem.dir/TestSerializeSystem.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TestSerializeSystem.dir/TestSerializeSystem.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/serialization/tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/serialization/tests/TestSerializeSystem.cpp > CMakeFiles/TestSerializeSystem.dir/TestSerializeSystem.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/serialization/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/serialization/tests/TestSerializeSystem.cpp > CMakeFiles/TestSerializeSystem.dir/TestSerializeSystem.cpp.i
 
 serialization/tests/CMakeFiles/TestSerializeSystem.dir/TestSerializeSystem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestSerializeSystem.dir/TestSerializeSystem.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/serialization/tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/serialization/tests/TestSerializeSystem.cpp -o CMakeFiles/TestSerializeSystem.dir/TestSerializeSystem.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/serialization/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/serialization/tests/TestSerializeSystem.cpp -o CMakeFiles/TestSerializeSystem.dir/TestSerializeSystem.cpp.s
 
 # Object files for target TestSerializeSystem
 TestSerializeSystem_OBJECTS = \

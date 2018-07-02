@@ -60,15 +60,15 @@ include serialization/tests/CMakeFiles/TestSerializeRMSDForce.dir/flags.make
 serialization/tests/CMakeFiles/TestSerializeRMSDForce.dir/TestSerializeRMSDForce.cpp.o: serialization/tests/CMakeFiles/TestSerializeRMSDForce.dir/flags.make
 serialization/tests/CMakeFiles/TestSerializeRMSDForce.dir/TestSerializeRMSDForce.cpp.o: ../serialization/tests/TestSerializeRMSDForce.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object serialization/tests/CMakeFiles/TestSerializeRMSDForce.dir/TestSerializeRMSDForce.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/serialization/tests && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TestSerializeRMSDForce.dir/TestSerializeRMSDForce.cpp.o -c /ccs/home/hm0/Pkgs/openmm/serialization/tests/TestSerializeRMSDForce.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/serialization/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TestSerializeRMSDForce.dir/TestSerializeRMSDForce.cpp.o -c /ccs/home/hm0/Pkgs/openmm/serialization/tests/TestSerializeRMSDForce.cpp
 
 serialization/tests/CMakeFiles/TestSerializeRMSDForce.dir/TestSerializeRMSDForce.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TestSerializeRMSDForce.dir/TestSerializeRMSDForce.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/serialization/tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/serialization/tests/TestSerializeRMSDForce.cpp > CMakeFiles/TestSerializeRMSDForce.dir/TestSerializeRMSDForce.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/serialization/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/serialization/tests/TestSerializeRMSDForce.cpp > CMakeFiles/TestSerializeRMSDForce.dir/TestSerializeRMSDForce.cpp.i
 
 serialization/tests/CMakeFiles/TestSerializeRMSDForce.dir/TestSerializeRMSDForce.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestSerializeRMSDForce.dir/TestSerializeRMSDForce.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/serialization/tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/serialization/tests/TestSerializeRMSDForce.cpp -o CMakeFiles/TestSerializeRMSDForce.dir/TestSerializeRMSDForce.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/serialization/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/serialization/tests/TestSerializeRMSDForce.cpp -o CMakeFiles/TestSerializeRMSDForce.dir/TestSerializeRMSDForce.cpp.s
 
 # Object files for target TestSerializeRMSDForce
 TestSerializeRMSDForce_OBJECTS = \

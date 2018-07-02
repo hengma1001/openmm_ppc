@@ -26,7 +26,6 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../plugins/rpmd/openmmapi/include"
   "../plugins/rpmd/./include"
   "../src"
-  "../libraries/vecmath/include"
   "../libraries/irrxml/include"
   "../serialization/include"
   "../libraries/csha1/include"

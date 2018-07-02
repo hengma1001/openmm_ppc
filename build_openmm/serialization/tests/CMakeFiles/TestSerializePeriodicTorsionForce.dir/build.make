@@ -60,15 +60,15 @@ include serialization/tests/CMakeFiles/TestSerializePeriodicTorsionForce.dir/fla
 serialization/tests/CMakeFiles/TestSerializePeriodicTorsionForce.dir/TestSerializePeriodicTorsionForce.cpp.o: serialization/tests/CMakeFiles/TestSerializePeriodicTorsionForce.dir/flags.make
 serialization/tests/CMakeFiles/TestSerializePeriodicTorsionForce.dir/TestSerializePeriodicTorsionForce.cpp.o: ../serialization/tests/TestSerializePeriodicTorsionForce.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object serialization/tests/CMakeFiles/TestSerializePeriodicTorsionForce.dir/TestSerializePeriodicTorsionForce.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/serialization/tests && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TestSerializePeriodicTorsionForce.dir/TestSerializePeriodicTorsionForce.cpp.o -c /ccs/home/hm0/Pkgs/openmm/serialization/tests/TestSerializePeriodicTorsionForce.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/serialization/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TestSerializePeriodicTorsionForce.dir/TestSerializePeriodicTorsionForce.cpp.o -c /ccs/home/hm0/Pkgs/openmm/serialization/tests/TestSerializePeriodicTorsionForce.cpp
 
 serialization/tests/CMakeFiles/TestSerializePeriodicTorsionForce.dir/TestSerializePeriodicTorsionForce.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TestSerializePeriodicTorsionForce.dir/TestSerializePeriodicTorsionForce.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/serialization/tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/serialization/tests/TestSerializePeriodicTorsionForce.cpp > CMakeFiles/TestSerializePeriodicTorsionForce.dir/TestSerializePeriodicTorsionForce.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/serialization/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/serialization/tests/TestSerializePeriodicTorsionForce.cpp > CMakeFiles/TestSerializePeriodicTorsionForce.dir/TestSerializePeriodicTorsionForce.cpp.i
 
 serialization/tests/CMakeFiles/TestSerializePeriodicTorsionForce.dir/TestSerializePeriodicTorsionForce.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestSerializePeriodicTorsionForce.dir/TestSerializePeriodicTorsionForce.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/serialization/tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/serialization/tests/TestSerializePeriodicTorsionForce.cpp -o CMakeFiles/TestSerializePeriodicTorsionForce.dir/TestSerializePeriodicTorsionForce.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/serialization/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/serialization/tests/TestSerializePeriodicTorsionForce.cpp -o CMakeFiles/TestSerializePeriodicTorsionForce.dir/TestSerializePeriodicTorsionForce.cpp.s
 
 # Object files for target TestSerializePeriodicTorsionForce
 TestSerializePeriodicTorsionForce_OBJECTS = \

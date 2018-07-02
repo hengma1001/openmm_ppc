@@ -60,15 +60,15 @@ include serialization/tests/CMakeFiles/TestSerializeHarmonicBondForce.dir/flags.
 serialization/tests/CMakeFiles/TestSerializeHarmonicBondForce.dir/TestSerializeHarmonicBondForce.cpp.o: serialization/tests/CMakeFiles/TestSerializeHarmonicBondForce.dir/flags.make
 serialization/tests/CMakeFiles/TestSerializeHarmonicBondForce.dir/TestSerializeHarmonicBondForce.cpp.o: ../serialization/tests/TestSerializeHarmonicBondForce.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object serialization/tests/CMakeFiles/TestSerializeHarmonicBondForce.dir/TestSerializeHarmonicBondForce.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/serialization/tests && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TestSerializeHarmonicBondForce.dir/TestSerializeHarmonicBondForce.cpp.o -c /ccs/home/hm0/Pkgs/openmm/serialization/tests/TestSerializeHarmonicBondForce.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/serialization/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TestSerializeHarmonicBondForce.dir/TestSerializeHarmonicBondForce.cpp.o -c /ccs/home/hm0/Pkgs/openmm/serialization/tests/TestSerializeHarmonicBondForce.cpp
 
 serialization/tests/CMakeFiles/TestSerializeHarmonicBondForce.dir/TestSerializeHarmonicBondForce.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TestSerializeHarmonicBondForce.dir/TestSerializeHarmonicBondForce.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/serialization/tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/serialization/tests/TestSerializeHarmonicBondForce.cpp > CMakeFiles/TestSerializeHarmonicBondForce.dir/TestSerializeHarmonicBondForce.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/serialization/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/serialization/tests/TestSerializeHarmonicBondForce.cpp > CMakeFiles/TestSerializeHarmonicBondForce.dir/TestSerializeHarmonicBondForce.cpp.i
 
 serialization/tests/CMakeFiles/TestSerializeHarmonicBondForce.dir/TestSerializeHarmonicBondForce.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestSerializeHarmonicBondForce.dir/TestSerializeHarmonicBondForce.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/serialization/tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/serialization/tests/TestSerializeHarmonicBondForce.cpp -o CMakeFiles/TestSerializeHarmonicBondForce.dir/TestSerializeHarmonicBondForce.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/serialization/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/serialization/tests/TestSerializeHarmonicBondForce.cpp -o CMakeFiles/TestSerializeHarmonicBondForce.dir/TestSerializeHarmonicBondForce.cpp.s
 
 # Object files for target TestSerializeHarmonicBondForce
 TestSerializeHarmonicBondForce_OBJECTS = \

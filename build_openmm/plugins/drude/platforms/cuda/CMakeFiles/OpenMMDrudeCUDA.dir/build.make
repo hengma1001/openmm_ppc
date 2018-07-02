@@ -69,41 +69,41 @@ plugins/drude/platforms/cuda/src/CudaDrudeKernelSources.h: plugins/drude/platfor
 plugins/drude/platforms/cuda/CMakeFiles/OpenMMDrudeCUDA.dir/src/CudaDrudeKernelFactory.cpp.o: plugins/drude/platforms/cuda/CMakeFiles/OpenMMDrudeCUDA.dir/flags.make
 plugins/drude/platforms/cuda/CMakeFiles/OpenMMDrudeCUDA.dir/src/CudaDrudeKernelFactory.cpp.o: ../plugins/drude/platforms/cuda/src/CudaDrudeKernelFactory.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object plugins/drude/platforms/cuda/CMakeFiles/OpenMMDrudeCUDA.dir/src/CudaDrudeKernelFactory.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude/platforms/cuda && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMMDrudeCUDA.dir/src/CudaDrudeKernelFactory.cpp.o -c /ccs/home/hm0/Pkgs/openmm/plugins/drude/platforms/cuda/src/CudaDrudeKernelFactory.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude/platforms/cuda && /sw/summitdev/gcc/6.3.1-20170301/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMMDrudeCUDA.dir/src/CudaDrudeKernelFactory.cpp.o -c /ccs/home/hm0/Pkgs/openmm/plugins/drude/platforms/cuda/src/CudaDrudeKernelFactory.cpp
 
 plugins/drude/platforms/cuda/CMakeFiles/OpenMMDrudeCUDA.dir/src/CudaDrudeKernelFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenMMDrudeCUDA.dir/src/CudaDrudeKernelFactory.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude/platforms/cuda && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/plugins/drude/platforms/cuda/src/CudaDrudeKernelFactory.cpp > CMakeFiles/OpenMMDrudeCUDA.dir/src/CudaDrudeKernelFactory.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude/platforms/cuda && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/plugins/drude/platforms/cuda/src/CudaDrudeKernelFactory.cpp > CMakeFiles/OpenMMDrudeCUDA.dir/src/CudaDrudeKernelFactory.cpp.i
 
 plugins/drude/platforms/cuda/CMakeFiles/OpenMMDrudeCUDA.dir/src/CudaDrudeKernelFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenMMDrudeCUDA.dir/src/CudaDrudeKernelFactory.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude/platforms/cuda && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/plugins/drude/platforms/cuda/src/CudaDrudeKernelFactory.cpp -o CMakeFiles/OpenMMDrudeCUDA.dir/src/CudaDrudeKernelFactory.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude/platforms/cuda && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/plugins/drude/platforms/cuda/src/CudaDrudeKernelFactory.cpp -o CMakeFiles/OpenMMDrudeCUDA.dir/src/CudaDrudeKernelFactory.cpp.s
 
 plugins/drude/platforms/cuda/CMakeFiles/OpenMMDrudeCUDA.dir/src/CudaDrudeKernels.cpp.o: plugins/drude/platforms/cuda/CMakeFiles/OpenMMDrudeCUDA.dir/flags.make
 plugins/drude/platforms/cuda/CMakeFiles/OpenMMDrudeCUDA.dir/src/CudaDrudeKernels.cpp.o: ../plugins/drude/platforms/cuda/src/CudaDrudeKernels.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object plugins/drude/platforms/cuda/CMakeFiles/OpenMMDrudeCUDA.dir/src/CudaDrudeKernels.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude/platforms/cuda && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMMDrudeCUDA.dir/src/CudaDrudeKernels.cpp.o -c /ccs/home/hm0/Pkgs/openmm/plugins/drude/platforms/cuda/src/CudaDrudeKernels.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude/platforms/cuda && /sw/summitdev/gcc/6.3.1-20170301/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMMDrudeCUDA.dir/src/CudaDrudeKernels.cpp.o -c /ccs/home/hm0/Pkgs/openmm/plugins/drude/platforms/cuda/src/CudaDrudeKernels.cpp
 
 plugins/drude/platforms/cuda/CMakeFiles/OpenMMDrudeCUDA.dir/src/CudaDrudeKernels.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenMMDrudeCUDA.dir/src/CudaDrudeKernels.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude/platforms/cuda && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/plugins/drude/platforms/cuda/src/CudaDrudeKernels.cpp > CMakeFiles/OpenMMDrudeCUDA.dir/src/CudaDrudeKernels.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude/platforms/cuda && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/plugins/drude/platforms/cuda/src/CudaDrudeKernels.cpp > CMakeFiles/OpenMMDrudeCUDA.dir/src/CudaDrudeKernels.cpp.i
 
 plugins/drude/platforms/cuda/CMakeFiles/OpenMMDrudeCUDA.dir/src/CudaDrudeKernels.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenMMDrudeCUDA.dir/src/CudaDrudeKernels.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude/platforms/cuda && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/plugins/drude/platforms/cuda/src/CudaDrudeKernels.cpp -o CMakeFiles/OpenMMDrudeCUDA.dir/src/CudaDrudeKernels.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude/platforms/cuda && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/plugins/drude/platforms/cuda/src/CudaDrudeKernels.cpp -o CMakeFiles/OpenMMDrudeCUDA.dir/src/CudaDrudeKernels.cpp.s
 
 plugins/drude/platforms/cuda/CMakeFiles/OpenMMDrudeCUDA.dir/src/CudaDrudeKernelSources.cpp.o: plugins/drude/platforms/cuda/CMakeFiles/OpenMMDrudeCUDA.dir/flags.make
 plugins/drude/platforms/cuda/CMakeFiles/OpenMMDrudeCUDA.dir/src/CudaDrudeKernelSources.cpp.o: plugins/drude/platforms/cuda/src/CudaDrudeKernelSources.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object plugins/drude/platforms/cuda/CMakeFiles/OpenMMDrudeCUDA.dir/src/CudaDrudeKernelSources.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude/platforms/cuda && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMMDrudeCUDA.dir/src/CudaDrudeKernelSources.cpp.o -c /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude/platforms/cuda/src/CudaDrudeKernelSources.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude/platforms/cuda && /sw/summitdev/gcc/6.3.1-20170301/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMMDrudeCUDA.dir/src/CudaDrudeKernelSources.cpp.o -c /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude/platforms/cuda/src/CudaDrudeKernelSources.cpp
 
 plugins/drude/platforms/cuda/CMakeFiles/OpenMMDrudeCUDA.dir/src/CudaDrudeKernelSources.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenMMDrudeCUDA.dir/src/CudaDrudeKernelSources.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude/platforms/cuda && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude/platforms/cuda/src/CudaDrudeKernelSources.cpp > CMakeFiles/OpenMMDrudeCUDA.dir/src/CudaDrudeKernelSources.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude/platforms/cuda && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude/platforms/cuda/src/CudaDrudeKernelSources.cpp > CMakeFiles/OpenMMDrudeCUDA.dir/src/CudaDrudeKernelSources.cpp.i
 
 plugins/drude/platforms/cuda/CMakeFiles/OpenMMDrudeCUDA.dir/src/CudaDrudeKernelSources.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenMMDrudeCUDA.dir/src/CudaDrudeKernelSources.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude/platforms/cuda && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude/platforms/cuda/src/CudaDrudeKernelSources.cpp -o CMakeFiles/OpenMMDrudeCUDA.dir/src/CudaDrudeKernelSources.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude/platforms/cuda && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude/platforms/cuda/src/CudaDrudeKernelSources.cpp -o CMakeFiles/OpenMMDrudeCUDA.dir/src/CudaDrudeKernelSources.cpp.s
 
 # Object files for target OpenMMDrudeCUDA
 OpenMMDrudeCUDA_OBJECTS = \

@@ -139,6 +139,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/ccs/home/hm0/Pkgs/openmm/openmmapi/include/openmm/internal/vectorize8.h"
     "/ccs/home/hm0/Pkgs/openmm/openmmapi/include/openmm/internal/vectorize_neon.h"
     "/ccs/home/hm0/Pkgs/openmm/openmmapi/include/openmm/internal/vectorize_pnacl.h"
+    "/ccs/home/hm0/Pkgs/openmm/openmmapi/include/openmm/internal/vectorize_ppc.h"
+    "/ccs/home/hm0/Pkgs/openmm/openmmapi/include/openmm/internal/vectorize_ppc_sse.h"
     "/ccs/home/hm0/Pkgs/openmm/openmmapi/include/openmm/internal/vectorize_sse.h"
     "/ccs/home/hm0/Pkgs/openmm/openmmapi/include/openmm/internal/windowsExport.h"
     )
@@ -237,18 +239,14 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/ccs/home/hm0/Pkgs/openmm/build_openmm/wrappers/cmake_install.cmake")
-  include("/ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/reference/tests/cmake_install.cmake")
   include("/ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/cmake_install.cmake")
-  include("/ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/cmake_install.cmake")
   include("/ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/amoeba/cmake_install.cmake")
   include("/ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/rpmd/cmake_install.cmake")
   include("/ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude/cmake_install.cmake")
-  include("/ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/cpupme/cmake_install.cmake")
   include("/ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/cudacompiler/cmake_install.cmake")
   include("/ccs/home/hm0/Pkgs/openmm/build_openmm/serialization/cmake_install.cmake")
   include("/ccs/home/hm0/Pkgs/openmm/build_openmm/wrappers/python/cmake_install.cmake")
   include("/ccs/home/hm0/Pkgs/openmm/build_openmm/docs-source/cmake_install.cmake")
-  include("/ccs/home/hm0/Pkgs/openmm/build_openmm/tests/cmake_install.cmake")
   include("/ccs/home/hm0/Pkgs/openmm/build_openmm/examples/cmake_install.cmake")
 
 endif()

@@ -59,7 +59,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/tests/cmake_install.cmake")
   include("/ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/sharedTarget/cmake_install.cmake")
 
 endif()

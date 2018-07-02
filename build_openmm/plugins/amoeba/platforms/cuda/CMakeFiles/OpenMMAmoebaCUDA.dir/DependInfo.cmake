@@ -35,7 +35,6 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../plugins/amoeba/openmmapi/include"
   "../plugins/amoeba/./include"
   "../src"
-  "../libraries/vecmath/include"
   "../libraries/irrxml/include"
   "../serialization/include"
   "../platforms/reference/include"
@@ -49,7 +48,6 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../olla/include"
   "../openmmapi/include"
   ".././include"
-  "../tests"
   "/sw/summitdev/cuda/9.0.69/include"
   )
 

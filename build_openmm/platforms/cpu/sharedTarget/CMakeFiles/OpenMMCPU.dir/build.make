@@ -60,210 +60,210 @@ include platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/flags.make
 platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuBondForce.cpp.o: platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/flags.make
 platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuBondForce.cpp.o: ../platforms/cpu/src/CpuBondForce.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuBondForce.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -msse4.1 -o CMakeFiles/OpenMMCPU.dir/__/src/CpuBondForce.cpp.o -c /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuBondForce.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)    -o CMakeFiles/OpenMMCPU.dir/__/src/CpuBondForce.cpp.o -c /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuBondForce.cpp
 
 platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuBondForce.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenMMCPU.dir/__/src/CpuBondForce.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -msse4.1 -E /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuBondForce.cpp > CMakeFiles/OpenMMCPU.dir/__/src/CpuBondForce.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)    -E /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuBondForce.cpp > CMakeFiles/OpenMMCPU.dir/__/src/CpuBondForce.cpp.i
 
 platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuBondForce.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenMMCPU.dir/__/src/CpuBondForce.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -msse4.1 -S /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuBondForce.cpp -o CMakeFiles/OpenMMCPU.dir/__/src/CpuBondForce.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)    -S /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuBondForce.cpp -o CMakeFiles/OpenMMCPU.dir/__/src/CpuBondForce.cpp.s
 
 platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuCustomGBForce.cpp.o: platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/flags.make
 platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuCustomGBForce.cpp.o: ../platforms/cpu/src/CpuCustomGBForce.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuCustomGBForce.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -msse4.1 -o CMakeFiles/OpenMMCPU.dir/__/src/CpuCustomGBForce.cpp.o -c /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuCustomGBForce.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)    -o CMakeFiles/OpenMMCPU.dir/__/src/CpuCustomGBForce.cpp.o -c /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuCustomGBForce.cpp
 
 platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuCustomGBForce.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenMMCPU.dir/__/src/CpuCustomGBForce.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -msse4.1 -E /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuCustomGBForce.cpp > CMakeFiles/OpenMMCPU.dir/__/src/CpuCustomGBForce.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)    -E /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuCustomGBForce.cpp > CMakeFiles/OpenMMCPU.dir/__/src/CpuCustomGBForce.cpp.i
 
 platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuCustomGBForce.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenMMCPU.dir/__/src/CpuCustomGBForce.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -msse4.1 -S /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuCustomGBForce.cpp -o CMakeFiles/OpenMMCPU.dir/__/src/CpuCustomGBForce.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)    -S /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuCustomGBForce.cpp -o CMakeFiles/OpenMMCPU.dir/__/src/CpuCustomGBForce.cpp.s
 
 platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuCustomManyParticleForce.cpp.o: platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/flags.make
 platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuCustomManyParticleForce.cpp.o: ../platforms/cpu/src/CpuCustomManyParticleForce.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuCustomManyParticleForce.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -msse4.1 -o CMakeFiles/OpenMMCPU.dir/__/src/CpuCustomManyParticleForce.cpp.o -c /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuCustomManyParticleForce.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)    -o CMakeFiles/OpenMMCPU.dir/__/src/CpuCustomManyParticleForce.cpp.o -c /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuCustomManyParticleForce.cpp
 
 platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuCustomManyParticleForce.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenMMCPU.dir/__/src/CpuCustomManyParticleForce.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -msse4.1 -E /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuCustomManyParticleForce.cpp > CMakeFiles/OpenMMCPU.dir/__/src/CpuCustomManyParticleForce.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)    -E /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuCustomManyParticleForce.cpp > CMakeFiles/OpenMMCPU.dir/__/src/CpuCustomManyParticleForce.cpp.i
 
 platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuCustomManyParticleForce.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenMMCPU.dir/__/src/CpuCustomManyParticleForce.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -msse4.1 -S /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuCustomManyParticleForce.cpp -o CMakeFiles/OpenMMCPU.dir/__/src/CpuCustomManyParticleForce.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)    -S /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuCustomManyParticleForce.cpp -o CMakeFiles/OpenMMCPU.dir/__/src/CpuCustomManyParticleForce.cpp.s
 
 platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuCustomNonbondedForce.cpp.o: platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/flags.make
 platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuCustomNonbondedForce.cpp.o: ../platforms/cpu/src/CpuCustomNonbondedForce.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuCustomNonbondedForce.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -msse4.1 -o CMakeFiles/OpenMMCPU.dir/__/src/CpuCustomNonbondedForce.cpp.o -c /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuCustomNonbondedForce.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)    -o CMakeFiles/OpenMMCPU.dir/__/src/CpuCustomNonbondedForce.cpp.o -c /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuCustomNonbondedForce.cpp
 
 platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuCustomNonbondedForce.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenMMCPU.dir/__/src/CpuCustomNonbondedForce.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -msse4.1 -E /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuCustomNonbondedForce.cpp > CMakeFiles/OpenMMCPU.dir/__/src/CpuCustomNonbondedForce.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)    -E /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuCustomNonbondedForce.cpp > CMakeFiles/OpenMMCPU.dir/__/src/CpuCustomNonbondedForce.cpp.i
 
 platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuCustomNonbondedForce.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenMMCPU.dir/__/src/CpuCustomNonbondedForce.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -msse4.1 -S /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuCustomNonbondedForce.cpp -o CMakeFiles/OpenMMCPU.dir/__/src/CpuCustomNonbondedForce.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)    -S /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuCustomNonbondedForce.cpp -o CMakeFiles/OpenMMCPU.dir/__/src/CpuCustomNonbondedForce.cpp.s
 
 platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuGBSAOBCForce.cpp.o: platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/flags.make
 platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuGBSAOBCForce.cpp.o: ../platforms/cpu/src/CpuGBSAOBCForce.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuGBSAOBCForce.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -msse4.1 -o CMakeFiles/OpenMMCPU.dir/__/src/CpuGBSAOBCForce.cpp.o -c /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuGBSAOBCForce.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)    -o CMakeFiles/OpenMMCPU.dir/__/src/CpuGBSAOBCForce.cpp.o -c /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuGBSAOBCForce.cpp
 
 platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuGBSAOBCForce.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenMMCPU.dir/__/src/CpuGBSAOBCForce.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -msse4.1 -E /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuGBSAOBCForce.cpp > CMakeFiles/OpenMMCPU.dir/__/src/CpuGBSAOBCForce.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)    -E /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuGBSAOBCForce.cpp > CMakeFiles/OpenMMCPU.dir/__/src/CpuGBSAOBCForce.cpp.i
 
 platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuGBSAOBCForce.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenMMCPU.dir/__/src/CpuGBSAOBCForce.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -msse4.1 -S /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuGBSAOBCForce.cpp -o CMakeFiles/OpenMMCPU.dir/__/src/CpuGBSAOBCForce.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)    -S /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuGBSAOBCForce.cpp -o CMakeFiles/OpenMMCPU.dir/__/src/CpuGBSAOBCForce.cpp.s
 
 platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuGayBerneForce.cpp.o: platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/flags.make
 platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuGayBerneForce.cpp.o: ../platforms/cpu/src/CpuGayBerneForce.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuGayBerneForce.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -msse4.1 -o CMakeFiles/OpenMMCPU.dir/__/src/CpuGayBerneForce.cpp.o -c /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuGayBerneForce.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)    -o CMakeFiles/OpenMMCPU.dir/__/src/CpuGayBerneForce.cpp.o -c /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuGayBerneForce.cpp
 
 platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuGayBerneForce.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenMMCPU.dir/__/src/CpuGayBerneForce.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -msse4.1 -E /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuGayBerneForce.cpp > CMakeFiles/OpenMMCPU.dir/__/src/CpuGayBerneForce.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)    -E /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuGayBerneForce.cpp > CMakeFiles/OpenMMCPU.dir/__/src/CpuGayBerneForce.cpp.i
 
 platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuGayBerneForce.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenMMCPU.dir/__/src/CpuGayBerneForce.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -msse4.1 -S /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuGayBerneForce.cpp -o CMakeFiles/OpenMMCPU.dir/__/src/CpuGayBerneForce.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)    -S /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuGayBerneForce.cpp -o CMakeFiles/OpenMMCPU.dir/__/src/CpuGayBerneForce.cpp.s
 
 platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuKernelFactory.cpp.o: platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/flags.make
 platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuKernelFactory.cpp.o: ../platforms/cpu/src/CpuKernelFactory.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuKernelFactory.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -msse4.1 -o CMakeFiles/OpenMMCPU.dir/__/src/CpuKernelFactory.cpp.o -c /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuKernelFactory.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)    -o CMakeFiles/OpenMMCPU.dir/__/src/CpuKernelFactory.cpp.o -c /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuKernelFactory.cpp
 
 platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuKernelFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenMMCPU.dir/__/src/CpuKernelFactory.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -msse4.1 -E /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuKernelFactory.cpp > CMakeFiles/OpenMMCPU.dir/__/src/CpuKernelFactory.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)    -E /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuKernelFactory.cpp > CMakeFiles/OpenMMCPU.dir/__/src/CpuKernelFactory.cpp.i
 
 platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuKernelFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenMMCPU.dir/__/src/CpuKernelFactory.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -msse4.1 -S /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuKernelFactory.cpp -o CMakeFiles/OpenMMCPU.dir/__/src/CpuKernelFactory.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)    -S /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuKernelFactory.cpp -o CMakeFiles/OpenMMCPU.dir/__/src/CpuKernelFactory.cpp.s
 
 platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuKernels.cpp.o: platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/flags.make
 platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuKernels.cpp.o: ../platforms/cpu/src/CpuKernels.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuKernels.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -msse4.1 -o CMakeFiles/OpenMMCPU.dir/__/src/CpuKernels.cpp.o -c /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuKernels.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)    -o CMakeFiles/OpenMMCPU.dir/__/src/CpuKernels.cpp.o -c /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuKernels.cpp
 
 platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuKernels.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenMMCPU.dir/__/src/CpuKernels.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -msse4.1 -E /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuKernels.cpp > CMakeFiles/OpenMMCPU.dir/__/src/CpuKernels.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)    -E /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuKernels.cpp > CMakeFiles/OpenMMCPU.dir/__/src/CpuKernels.cpp.i
 
 platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuKernels.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenMMCPU.dir/__/src/CpuKernels.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -msse4.1 -S /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuKernels.cpp -o CMakeFiles/OpenMMCPU.dir/__/src/CpuKernels.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)    -S /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuKernels.cpp -o CMakeFiles/OpenMMCPU.dir/__/src/CpuKernels.cpp.s
 
 platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuLangevinDynamics.cpp.o: platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/flags.make
 platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuLangevinDynamics.cpp.o: ../platforms/cpu/src/CpuLangevinDynamics.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuLangevinDynamics.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -msse4.1 -o CMakeFiles/OpenMMCPU.dir/__/src/CpuLangevinDynamics.cpp.o -c /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuLangevinDynamics.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)    -o CMakeFiles/OpenMMCPU.dir/__/src/CpuLangevinDynamics.cpp.o -c /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuLangevinDynamics.cpp
 
 platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuLangevinDynamics.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenMMCPU.dir/__/src/CpuLangevinDynamics.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -msse4.1 -E /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuLangevinDynamics.cpp > CMakeFiles/OpenMMCPU.dir/__/src/CpuLangevinDynamics.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)    -E /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuLangevinDynamics.cpp > CMakeFiles/OpenMMCPU.dir/__/src/CpuLangevinDynamics.cpp.i
 
 platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuLangevinDynamics.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenMMCPU.dir/__/src/CpuLangevinDynamics.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -msse4.1 -S /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuLangevinDynamics.cpp -o CMakeFiles/OpenMMCPU.dir/__/src/CpuLangevinDynamics.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)    -S /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuLangevinDynamics.cpp -o CMakeFiles/OpenMMCPU.dir/__/src/CpuLangevinDynamics.cpp.s
 
 platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuNeighborList.cpp.o: platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/flags.make
 platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuNeighborList.cpp.o: ../platforms/cpu/src/CpuNeighborList.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuNeighborList.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -msse4.1 -o CMakeFiles/OpenMMCPU.dir/__/src/CpuNeighborList.cpp.o -c /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuNeighborList.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)    -o CMakeFiles/OpenMMCPU.dir/__/src/CpuNeighborList.cpp.o -c /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuNeighborList.cpp
 
 platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuNeighborList.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenMMCPU.dir/__/src/CpuNeighborList.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -msse4.1 -E /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuNeighborList.cpp > CMakeFiles/OpenMMCPU.dir/__/src/CpuNeighborList.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)    -E /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuNeighborList.cpp > CMakeFiles/OpenMMCPU.dir/__/src/CpuNeighborList.cpp.i
 
 platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuNeighborList.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenMMCPU.dir/__/src/CpuNeighborList.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -msse4.1 -S /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuNeighborList.cpp -o CMakeFiles/OpenMMCPU.dir/__/src/CpuNeighborList.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)    -S /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuNeighborList.cpp -o CMakeFiles/OpenMMCPU.dir/__/src/CpuNeighborList.cpp.s
 
 platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuNonbondedForce.cpp.o: platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/flags.make
 platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuNonbondedForce.cpp.o: ../platforms/cpu/src/CpuNonbondedForce.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuNonbondedForce.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -msse4.1 -o CMakeFiles/OpenMMCPU.dir/__/src/CpuNonbondedForce.cpp.o -c /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuNonbondedForce.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)    -o CMakeFiles/OpenMMCPU.dir/__/src/CpuNonbondedForce.cpp.o -c /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuNonbondedForce.cpp
 
 platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuNonbondedForce.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenMMCPU.dir/__/src/CpuNonbondedForce.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -msse4.1 -E /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuNonbondedForce.cpp > CMakeFiles/OpenMMCPU.dir/__/src/CpuNonbondedForce.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)    -E /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuNonbondedForce.cpp > CMakeFiles/OpenMMCPU.dir/__/src/CpuNonbondedForce.cpp.i
 
 platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuNonbondedForce.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenMMCPU.dir/__/src/CpuNonbondedForce.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -msse4.1 -S /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuNonbondedForce.cpp -o CMakeFiles/OpenMMCPU.dir/__/src/CpuNonbondedForce.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)    -S /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuNonbondedForce.cpp -o CMakeFiles/OpenMMCPU.dir/__/src/CpuNonbondedForce.cpp.s
 
 platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuNonbondedForceVec4.cpp.o: platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/flags.make
 platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuNonbondedForceVec4.cpp.o: ../platforms/cpu/src/CpuNonbondedForceVec4.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuNonbondedForceVec4.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -msse4.1 -o CMakeFiles/OpenMMCPU.dir/__/src/CpuNonbondedForceVec4.cpp.o -c /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuNonbondedForceVec4.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)    -o CMakeFiles/OpenMMCPU.dir/__/src/CpuNonbondedForceVec4.cpp.o -c /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuNonbondedForceVec4.cpp
 
 platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuNonbondedForceVec4.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenMMCPU.dir/__/src/CpuNonbondedForceVec4.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -msse4.1 -E /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuNonbondedForceVec4.cpp > CMakeFiles/OpenMMCPU.dir/__/src/CpuNonbondedForceVec4.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)    -E /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuNonbondedForceVec4.cpp > CMakeFiles/OpenMMCPU.dir/__/src/CpuNonbondedForceVec4.cpp.i
 
 platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuNonbondedForceVec4.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenMMCPU.dir/__/src/CpuNonbondedForceVec4.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -msse4.1 -S /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuNonbondedForceVec4.cpp -o CMakeFiles/OpenMMCPU.dir/__/src/CpuNonbondedForceVec4.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)    -S /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuNonbondedForceVec4.cpp -o CMakeFiles/OpenMMCPU.dir/__/src/CpuNonbondedForceVec4.cpp.s
 
 platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuNonbondedForceVec8.cpp.o: platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/flags.make
 platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuNonbondedForceVec8.cpp.o: ../platforms/cpu/src/CpuNonbondedForceVec8.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuNonbondedForceVec8.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -msse4.1 -mavx -o CMakeFiles/OpenMMCPU.dir/__/src/CpuNonbondedForceVec8.cpp.o -c /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuNonbondedForceVec8.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)    -mavx -o CMakeFiles/OpenMMCPU.dir/__/src/CpuNonbondedForceVec8.cpp.o -c /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuNonbondedForceVec8.cpp
 
 platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuNonbondedForceVec8.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenMMCPU.dir/__/src/CpuNonbondedForceVec8.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -msse4.1 -mavx -E /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuNonbondedForceVec8.cpp > CMakeFiles/OpenMMCPU.dir/__/src/CpuNonbondedForceVec8.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)    -mavx -E /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuNonbondedForceVec8.cpp > CMakeFiles/OpenMMCPU.dir/__/src/CpuNonbondedForceVec8.cpp.i
 
 platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuNonbondedForceVec8.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenMMCPU.dir/__/src/CpuNonbondedForceVec8.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -msse4.1 -mavx -S /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuNonbondedForceVec8.cpp -o CMakeFiles/OpenMMCPU.dir/__/src/CpuNonbondedForceVec8.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)    -mavx -S /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuNonbondedForceVec8.cpp -o CMakeFiles/OpenMMCPU.dir/__/src/CpuNonbondedForceVec8.cpp.s
 
 platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuPlatform.cpp.o: platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/flags.make
 platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuPlatform.cpp.o: ../platforms/cpu/src/CpuPlatform.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuPlatform.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -msse4.1 -o CMakeFiles/OpenMMCPU.dir/__/src/CpuPlatform.cpp.o -c /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuPlatform.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)    -o CMakeFiles/OpenMMCPU.dir/__/src/CpuPlatform.cpp.o -c /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuPlatform.cpp
 
 platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuPlatform.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenMMCPU.dir/__/src/CpuPlatform.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -msse4.1 -E /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuPlatform.cpp > CMakeFiles/OpenMMCPU.dir/__/src/CpuPlatform.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)    -E /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuPlatform.cpp > CMakeFiles/OpenMMCPU.dir/__/src/CpuPlatform.cpp.i
 
 platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuPlatform.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenMMCPU.dir/__/src/CpuPlatform.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -msse4.1 -S /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuPlatform.cpp -o CMakeFiles/OpenMMCPU.dir/__/src/CpuPlatform.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)    -S /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuPlatform.cpp -o CMakeFiles/OpenMMCPU.dir/__/src/CpuPlatform.cpp.s
 
 platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuRandom.cpp.o: platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/flags.make
 platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuRandom.cpp.o: ../platforms/cpu/src/CpuRandom.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuRandom.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -msse4.1 -o CMakeFiles/OpenMMCPU.dir/__/src/CpuRandom.cpp.o -c /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuRandom.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)    -o CMakeFiles/OpenMMCPU.dir/__/src/CpuRandom.cpp.o -c /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuRandom.cpp
 
 platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuRandom.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenMMCPU.dir/__/src/CpuRandom.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -msse4.1 -E /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuRandom.cpp > CMakeFiles/OpenMMCPU.dir/__/src/CpuRandom.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)    -E /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuRandom.cpp > CMakeFiles/OpenMMCPU.dir/__/src/CpuRandom.cpp.i
 
 platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuRandom.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenMMCPU.dir/__/src/CpuRandom.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -msse4.1 -S /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuRandom.cpp -o CMakeFiles/OpenMMCPU.dir/__/src/CpuRandom.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)    -S /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuRandom.cpp -o CMakeFiles/OpenMMCPU.dir/__/src/CpuRandom.cpp.s
 
 platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuSETTLE.cpp.o: platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/flags.make
 platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuSETTLE.cpp.o: ../platforms/cpu/src/CpuSETTLE.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuSETTLE.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -msse4.1 -o CMakeFiles/OpenMMCPU.dir/__/src/CpuSETTLE.cpp.o -c /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuSETTLE.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)    -o CMakeFiles/OpenMMCPU.dir/__/src/CpuSETTLE.cpp.o -c /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuSETTLE.cpp
 
 platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuSETTLE.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenMMCPU.dir/__/src/CpuSETTLE.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -msse4.1 -E /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuSETTLE.cpp > CMakeFiles/OpenMMCPU.dir/__/src/CpuSETTLE.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)    -E /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuSETTLE.cpp > CMakeFiles/OpenMMCPU.dir/__/src/CpuSETTLE.cpp.i
 
 platforms/cpu/sharedTarget/CMakeFiles/OpenMMCPU.dir/__/src/CpuSETTLE.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenMMCPU.dir/__/src/CpuSETTLE.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -msse4.1 -S /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuSETTLE.cpp -o CMakeFiles/OpenMMCPU.dir/__/src/CpuSETTLE.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cpu/sharedTarget && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)    -S /ccs/home/hm0/Pkgs/openmm/platforms/cpu/src/CpuSETTLE.cpp -o CMakeFiles/OpenMMCPU.dir/__/src/CpuSETTLE.cpp.s
 
 # Object files for target OpenMMCPU
 OpenMMCPU_OBJECTS = \

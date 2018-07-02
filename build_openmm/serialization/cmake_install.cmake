@@ -49,9 +49,3 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/openmm/serialization" TYPE FILE FILES "/ccs/home/hm0/Pkgs/openmm/serialization/include/openmm/serialization/XmlSerializer.h")
 endif()
 
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for each subdirectory.
-  include("/ccs/home/hm0/Pkgs/openmm/build_openmm/serialization/tests/cmake_install.cmake")
-
-endif()
-

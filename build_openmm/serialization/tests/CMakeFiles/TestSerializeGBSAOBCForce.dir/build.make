@@ -60,15 +60,15 @@ include serialization/tests/CMakeFiles/TestSerializeGBSAOBCForce.dir/flags.make
 serialization/tests/CMakeFiles/TestSerializeGBSAOBCForce.dir/TestSerializeGBSAOBCForce.cpp.o: serialization/tests/CMakeFiles/TestSerializeGBSAOBCForce.dir/flags.make
 serialization/tests/CMakeFiles/TestSerializeGBSAOBCForce.dir/TestSerializeGBSAOBCForce.cpp.o: ../serialization/tests/TestSerializeGBSAOBCForce.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object serialization/tests/CMakeFiles/TestSerializeGBSAOBCForce.dir/TestSerializeGBSAOBCForce.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/serialization/tests && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TestSerializeGBSAOBCForce.dir/TestSerializeGBSAOBCForce.cpp.o -c /ccs/home/hm0/Pkgs/openmm/serialization/tests/TestSerializeGBSAOBCForce.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/serialization/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TestSerializeGBSAOBCForce.dir/TestSerializeGBSAOBCForce.cpp.o -c /ccs/home/hm0/Pkgs/openmm/serialization/tests/TestSerializeGBSAOBCForce.cpp
 
 serialization/tests/CMakeFiles/TestSerializeGBSAOBCForce.dir/TestSerializeGBSAOBCForce.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TestSerializeGBSAOBCForce.dir/TestSerializeGBSAOBCForce.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/serialization/tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/serialization/tests/TestSerializeGBSAOBCForce.cpp > CMakeFiles/TestSerializeGBSAOBCForce.dir/TestSerializeGBSAOBCForce.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/serialization/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/serialization/tests/TestSerializeGBSAOBCForce.cpp > CMakeFiles/TestSerializeGBSAOBCForce.dir/TestSerializeGBSAOBCForce.cpp.i
 
 serialization/tests/CMakeFiles/TestSerializeGBSAOBCForce.dir/TestSerializeGBSAOBCForce.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestSerializeGBSAOBCForce.dir/TestSerializeGBSAOBCForce.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/serialization/tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/serialization/tests/TestSerializeGBSAOBCForce.cpp -o CMakeFiles/TestSerializeGBSAOBCForce.dir/TestSerializeGBSAOBCForce.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/serialization/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/serialization/tests/TestSerializeGBSAOBCForce.cpp -o CMakeFiles/TestSerializeGBSAOBCForce.dir/TestSerializeGBSAOBCForce.cpp.s
 
 # Object files for target TestSerializeGBSAOBCForce
 TestSerializeGBSAOBCForce_OBJECTS = \

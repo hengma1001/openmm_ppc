@@ -60,15 +60,15 @@ include tests/CMakeFiles/TestSplineFitter.dir/flags.make
 tests/CMakeFiles/TestSplineFitter.dir/TestSplineFitter.cpp.o: tests/CMakeFiles/TestSplineFitter.dir/flags.make
 tests/CMakeFiles/TestSplineFitter.dir/TestSplineFitter.cpp.o: ../tests/TestSplineFitter.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/CMakeFiles/TestSplineFitter.dir/TestSplineFitter.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/tests && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TestSplineFitter.dir/TestSplineFitter.cpp.o -c /ccs/home/hm0/Pkgs/openmm/tests/TestSplineFitter.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TestSplineFitter.dir/TestSplineFitter.cpp.o -c /ccs/home/hm0/Pkgs/openmm/tests/TestSplineFitter.cpp
 
 tests/CMakeFiles/TestSplineFitter.dir/TestSplineFitter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TestSplineFitter.dir/TestSplineFitter.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/tests/TestSplineFitter.cpp > CMakeFiles/TestSplineFitter.dir/TestSplineFitter.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/tests/TestSplineFitter.cpp > CMakeFiles/TestSplineFitter.dir/TestSplineFitter.cpp.i
 
 tests/CMakeFiles/TestSplineFitter.dir/TestSplineFitter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestSplineFitter.dir/TestSplineFitter.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/tests/TestSplineFitter.cpp -o CMakeFiles/TestSplineFitter.dir/TestSplineFitter.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/tests/TestSplineFitter.cpp -o CMakeFiles/TestSplineFitter.dir/TestSplineFitter.cpp.s
 
 # Object files for target TestSplineFitter
 TestSplineFitter_OBJECTS = \

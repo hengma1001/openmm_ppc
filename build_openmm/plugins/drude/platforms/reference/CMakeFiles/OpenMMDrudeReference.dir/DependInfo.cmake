@@ -28,7 +28,6 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../plugins/drude/openmmapi/include"
   "../plugins/drude/./include"
   "../src"
-  "../libraries/vecmath/include"
   "../libraries/irrxml/include"
   "../serialization/include"
   "../libraries/csha1/include"
@@ -41,7 +40,6 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../olla/include"
   "../openmmapi/include"
   ".././include"
-  "../tests"
   )
 
 # Targets to which this target links.

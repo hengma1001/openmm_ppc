@@ -72,8 +72,8 @@ UpdateOptions:
 UpdateType: git
 
 # Compiler info
-Compiler: /usr/bin/g++
-CompilerVersion: 4.8.5
+Compiler: /sw/summitdev/gcc/6.3.1-20170301/bin/g++
+CompilerVersion: 6.3.1
 
 # Dynamic analysis (MemCheck)
 PurifyCommand: 
@@ -86,7 +86,7 @@ MemoryCheckCommandOptions:
 MemoryCheckSuppressionFile: 
 
 # Coverage
-CoverageCommand: /usr/bin/gcov
+CoverageCommand: /sw/summitdev/gcc/6.3.1-20170301/bin/gcov
 CoverageExtraFlags: -l
 
 # Cluster commands

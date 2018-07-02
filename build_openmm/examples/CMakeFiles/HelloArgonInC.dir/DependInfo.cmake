@@ -21,7 +21,6 @@ set(CMAKE_TARGET_DEFINITIONS_C
 set(CMAKE_C_TARGET_INCLUDE_PATH
   "wrappers"
   "../src"
-  "../libraries/vecmath/include"
   "../libraries/irrxml/include"
   "../serialization/include"
   "../platforms/reference/include"
@@ -35,7 +34,6 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../olla/include"
   "../openmmapi/include"
   ".././include"
-  "../tests"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
   "/ccs/home/hm0/Pkgs/openmm/examples/Empty.cpp" "/ccs/home/hm0/Pkgs/openmm/build_openmm/examples/CMakeFiles/HelloArgonInC.dir/Empty.cpp.o"
@@ -54,7 +52,6 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "wrappers"
   "../src"
-  "../libraries/vecmath/include"
   "../libraries/irrxml/include"
   "../serialization/include"
   "../platforms/reference/include"
@@ -68,7 +65,6 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../olla/include"
   "../openmmapi/include"
   ".././include"
-  "../tests"
   )
 
 # Targets to which this target links.

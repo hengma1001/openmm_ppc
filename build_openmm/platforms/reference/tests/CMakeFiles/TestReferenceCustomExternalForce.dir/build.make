@@ -60,15 +60,15 @@ include platforms/reference/tests/CMakeFiles/TestReferenceCustomExternalForce.di
 platforms/reference/tests/CMakeFiles/TestReferenceCustomExternalForce.dir/TestReferenceCustomExternalForce.cpp.o: platforms/reference/tests/CMakeFiles/TestReferenceCustomExternalForce.dir/flags.make
 platforms/reference/tests/CMakeFiles/TestReferenceCustomExternalForce.dir/TestReferenceCustomExternalForce.cpp.o: ../platforms/reference/tests/TestReferenceCustomExternalForce.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object platforms/reference/tests/CMakeFiles/TestReferenceCustomExternalForce.dir/TestReferenceCustomExternalForce.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/reference/tests && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TestReferenceCustomExternalForce.dir/TestReferenceCustomExternalForce.cpp.o -c /ccs/home/hm0/Pkgs/openmm/platforms/reference/tests/TestReferenceCustomExternalForce.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/reference/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TestReferenceCustomExternalForce.dir/TestReferenceCustomExternalForce.cpp.o -c /ccs/home/hm0/Pkgs/openmm/platforms/reference/tests/TestReferenceCustomExternalForce.cpp
 
 platforms/reference/tests/CMakeFiles/TestReferenceCustomExternalForce.dir/TestReferenceCustomExternalForce.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TestReferenceCustomExternalForce.dir/TestReferenceCustomExternalForce.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/reference/tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/platforms/reference/tests/TestReferenceCustomExternalForce.cpp > CMakeFiles/TestReferenceCustomExternalForce.dir/TestReferenceCustomExternalForce.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/reference/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/platforms/reference/tests/TestReferenceCustomExternalForce.cpp > CMakeFiles/TestReferenceCustomExternalForce.dir/TestReferenceCustomExternalForce.cpp.i
 
 platforms/reference/tests/CMakeFiles/TestReferenceCustomExternalForce.dir/TestReferenceCustomExternalForce.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestReferenceCustomExternalForce.dir/TestReferenceCustomExternalForce.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/reference/tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/platforms/reference/tests/TestReferenceCustomExternalForce.cpp -o CMakeFiles/TestReferenceCustomExternalForce.dir/TestReferenceCustomExternalForce.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/reference/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/platforms/reference/tests/TestReferenceCustomExternalForce.cpp -o CMakeFiles/TestReferenceCustomExternalForce.dir/TestReferenceCustomExternalForce.cpp.s
 
 # Object files for target TestReferenceCustomExternalForce
 TestReferenceCustomExternalForce_OBJECTS = \

@@ -60,15 +60,15 @@ include platforms/cuda/tests/CMakeFiles/TestCudaCustomCompoundBondForce.dir/flag
 platforms/cuda/tests/CMakeFiles/TestCudaCustomCompoundBondForce.dir/TestCudaCustomCompoundBondForce.cpp.o: platforms/cuda/tests/CMakeFiles/TestCudaCustomCompoundBondForce.dir/flags.make
 platforms/cuda/tests/CMakeFiles/TestCudaCustomCompoundBondForce.dir/TestCudaCustomCompoundBondForce.cpp.o: ../platforms/cuda/tests/TestCudaCustomCompoundBondForce.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object platforms/cuda/tests/CMakeFiles/TestCudaCustomCompoundBondForce.dir/TestCudaCustomCompoundBondForce.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/tests && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TestCudaCustomCompoundBondForce.dir/TestCudaCustomCompoundBondForce.cpp.o -c /ccs/home/hm0/Pkgs/openmm/platforms/cuda/tests/TestCudaCustomCompoundBondForce.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TestCudaCustomCompoundBondForce.dir/TestCudaCustomCompoundBondForce.cpp.o -c /ccs/home/hm0/Pkgs/openmm/platforms/cuda/tests/TestCudaCustomCompoundBondForce.cpp
 
 platforms/cuda/tests/CMakeFiles/TestCudaCustomCompoundBondForce.dir/TestCudaCustomCompoundBondForce.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TestCudaCustomCompoundBondForce.dir/TestCudaCustomCompoundBondForce.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/platforms/cuda/tests/TestCudaCustomCompoundBondForce.cpp > CMakeFiles/TestCudaCustomCompoundBondForce.dir/TestCudaCustomCompoundBondForce.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/platforms/cuda/tests/TestCudaCustomCompoundBondForce.cpp > CMakeFiles/TestCudaCustomCompoundBondForce.dir/TestCudaCustomCompoundBondForce.cpp.i
 
 platforms/cuda/tests/CMakeFiles/TestCudaCustomCompoundBondForce.dir/TestCudaCustomCompoundBondForce.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestCudaCustomCompoundBondForce.dir/TestCudaCustomCompoundBondForce.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/platforms/cuda/tests/TestCudaCustomCompoundBondForce.cpp -o CMakeFiles/TestCudaCustomCompoundBondForce.dir/TestCudaCustomCompoundBondForce.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/cuda/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/platforms/cuda/tests/TestCudaCustomCompoundBondForce.cpp -o CMakeFiles/TestCudaCustomCompoundBondForce.dir/TestCudaCustomCompoundBondForce.cpp.s
 
 # Object files for target TestCudaCustomCompoundBondForce
 TestCudaCustomCompoundBondForce_OBJECTS = \

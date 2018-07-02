@@ -60,15 +60,15 @@ include platforms/reference/tests/CMakeFiles/TestReferenceCMAPTorsionForce.dir/f
 platforms/reference/tests/CMakeFiles/TestReferenceCMAPTorsionForce.dir/TestReferenceCMAPTorsionForce.cpp.o: platforms/reference/tests/CMakeFiles/TestReferenceCMAPTorsionForce.dir/flags.make
 platforms/reference/tests/CMakeFiles/TestReferenceCMAPTorsionForce.dir/TestReferenceCMAPTorsionForce.cpp.o: ../platforms/reference/tests/TestReferenceCMAPTorsionForce.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object platforms/reference/tests/CMakeFiles/TestReferenceCMAPTorsionForce.dir/TestReferenceCMAPTorsionForce.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/reference/tests && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TestReferenceCMAPTorsionForce.dir/TestReferenceCMAPTorsionForce.cpp.o -c /ccs/home/hm0/Pkgs/openmm/platforms/reference/tests/TestReferenceCMAPTorsionForce.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/reference/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TestReferenceCMAPTorsionForce.dir/TestReferenceCMAPTorsionForce.cpp.o -c /ccs/home/hm0/Pkgs/openmm/platforms/reference/tests/TestReferenceCMAPTorsionForce.cpp
 
 platforms/reference/tests/CMakeFiles/TestReferenceCMAPTorsionForce.dir/TestReferenceCMAPTorsionForce.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TestReferenceCMAPTorsionForce.dir/TestReferenceCMAPTorsionForce.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/reference/tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/platforms/reference/tests/TestReferenceCMAPTorsionForce.cpp > CMakeFiles/TestReferenceCMAPTorsionForce.dir/TestReferenceCMAPTorsionForce.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/reference/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/platforms/reference/tests/TestReferenceCMAPTorsionForce.cpp > CMakeFiles/TestReferenceCMAPTorsionForce.dir/TestReferenceCMAPTorsionForce.cpp.i
 
 platforms/reference/tests/CMakeFiles/TestReferenceCMAPTorsionForce.dir/TestReferenceCMAPTorsionForce.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestReferenceCMAPTorsionForce.dir/TestReferenceCMAPTorsionForce.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/reference/tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/platforms/reference/tests/TestReferenceCMAPTorsionForce.cpp -o CMakeFiles/TestReferenceCMAPTorsionForce.dir/TestReferenceCMAPTorsionForce.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/platforms/reference/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/platforms/reference/tests/TestReferenceCMAPTorsionForce.cpp -o CMakeFiles/TestReferenceCMAPTorsionForce.dir/TestReferenceCMAPTorsionForce.cpp.s
 
 # Object files for target TestReferenceCMAPTorsionForce
 TestReferenceCMAPTorsionForce_OBJECTS = \

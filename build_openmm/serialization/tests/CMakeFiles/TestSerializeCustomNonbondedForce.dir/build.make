@@ -60,15 +60,15 @@ include serialization/tests/CMakeFiles/TestSerializeCustomNonbondedForce.dir/fla
 serialization/tests/CMakeFiles/TestSerializeCustomNonbondedForce.dir/TestSerializeCustomNonbondedForce.cpp.o: serialization/tests/CMakeFiles/TestSerializeCustomNonbondedForce.dir/flags.make
 serialization/tests/CMakeFiles/TestSerializeCustomNonbondedForce.dir/TestSerializeCustomNonbondedForce.cpp.o: ../serialization/tests/TestSerializeCustomNonbondedForce.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object serialization/tests/CMakeFiles/TestSerializeCustomNonbondedForce.dir/TestSerializeCustomNonbondedForce.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/serialization/tests && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TestSerializeCustomNonbondedForce.dir/TestSerializeCustomNonbondedForce.cpp.o -c /ccs/home/hm0/Pkgs/openmm/serialization/tests/TestSerializeCustomNonbondedForce.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/serialization/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TestSerializeCustomNonbondedForce.dir/TestSerializeCustomNonbondedForce.cpp.o -c /ccs/home/hm0/Pkgs/openmm/serialization/tests/TestSerializeCustomNonbondedForce.cpp
 
 serialization/tests/CMakeFiles/TestSerializeCustomNonbondedForce.dir/TestSerializeCustomNonbondedForce.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TestSerializeCustomNonbondedForce.dir/TestSerializeCustomNonbondedForce.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/serialization/tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/serialization/tests/TestSerializeCustomNonbondedForce.cpp > CMakeFiles/TestSerializeCustomNonbondedForce.dir/TestSerializeCustomNonbondedForce.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/serialization/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/serialization/tests/TestSerializeCustomNonbondedForce.cpp > CMakeFiles/TestSerializeCustomNonbondedForce.dir/TestSerializeCustomNonbondedForce.cpp.i
 
 serialization/tests/CMakeFiles/TestSerializeCustomNonbondedForce.dir/TestSerializeCustomNonbondedForce.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestSerializeCustomNonbondedForce.dir/TestSerializeCustomNonbondedForce.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/serialization/tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/serialization/tests/TestSerializeCustomNonbondedForce.cpp -o CMakeFiles/TestSerializeCustomNonbondedForce.dir/TestSerializeCustomNonbondedForce.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/serialization/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/serialization/tests/TestSerializeCustomNonbondedForce.cpp -o CMakeFiles/TestSerializeCustomNonbondedForce.dir/TestSerializeCustomNonbondedForce.cpp.s
 
 # Object files for target TestSerializeCustomNonbondedForce
 TestSerializeCustomNonbondedForce_OBJECTS = \

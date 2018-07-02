@@ -109,11 +109,6 @@ CMakeFiles/OpenMM.dir/libraries/sfmt/src/SFMT.cpp.o
  ../libraries/sfmt/include/sfmt/SFMT.h
  ../openmmapi/include/openmm/internal/windowsExport.h
  /ccs/home/hm0/Pkgs/openmm/libraries/sfmt/src/SFMT.cpp
-CMakeFiles/OpenMM.dir/libraries/vecmath/src/vecmath.cpp.o
- ../libraries/vecmath/include/neon_mathfun.h
- ../libraries/vecmath/include/sse_mathfun.h
- ../openmmapi/include/openmm/internal/windowsExport.h
- /ccs/home/hm0/Pkgs/openmm/libraries/vecmath/src/vecmath.cpp
 CMakeFiles/OpenMM.dir/olla/src/Kernel.cpp.o
  ../olla/include/openmm/Kernel.h
  ../olla/include/openmm/KernelImpl.h

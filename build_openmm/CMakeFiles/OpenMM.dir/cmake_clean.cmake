@@ -180,7 +180,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/OpenMM.dir/serialization/src/dtoa.cpp.o"
   "CMakeFiles/OpenMM.dir/serialization/src/g_fmt.cpp.o"
   "CMakeFiles/OpenMM.dir/libraries/irrxml/src/irrXML.cpp.o"
-  "CMakeFiles/OpenMM.dir/libraries/vecmath/src/vecmath.cpp.o"
   "CMakeFiles/OpenMM.dir/wrappers/OpenMMCWrapper.cpp.o"
   "CMakeFiles/OpenMM.dir/wrappers/OpenMMFortranWrapper.cpp.o"
   "libOpenMM.pdb"

@@ -19,7 +19,6 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/ccs/home/hm0/Pkgs/openmm/libraries/quern/src/quern_order.cpp" "/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles/OpenMM.dir/libraries/quern/src/quern_order.cpp.o"
   "/ccs/home/hm0/Pkgs/openmm/libraries/quern/src/quern_solver.cpp" "/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles/OpenMM.dir/libraries/quern/src/quern_solver.cpp.o"
   "/ccs/home/hm0/Pkgs/openmm/libraries/sfmt/src/SFMT.cpp" "/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles/OpenMM.dir/libraries/sfmt/src/SFMT.cpp.o"
-  "/ccs/home/hm0/Pkgs/openmm/libraries/vecmath/src/vecmath.cpp" "/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles/OpenMM.dir/libraries/vecmath/src/vecmath.cpp.o"
   "/ccs/home/hm0/Pkgs/openmm/olla/src/Kernel.cpp" "/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles/OpenMM.dir/olla/src/Kernel.cpp.o"
   "/ccs/home/hm0/Pkgs/openmm/olla/src/KernelImpl.cpp" "/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles/OpenMM.dir/olla/src/KernelImpl.cpp.o"
   "/ccs/home/hm0/Pkgs/openmm/olla/src/Platform.cpp" "/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles/OpenMM.dir/olla/src/Platform.cpp.o"
@@ -202,7 +201,6 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../src"
-  "../libraries/vecmath/include"
   "../libraries/irrxml/include"
   "../serialization/include"
   "../platforms/reference/include"
@@ -216,7 +214,6 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../olla/include"
   "../openmmapi/include"
   ".././include"
-  "../tests"
   )
 
 # Targets to which this target links.

@@ -60,15 +60,15 @@ include plugins/drude/serialization/tests/CMakeFiles/TestSerializeDrudeForce.dir
 plugins/drude/serialization/tests/CMakeFiles/TestSerializeDrudeForce.dir/TestSerializeDrudeForce.cpp.o: plugins/drude/serialization/tests/CMakeFiles/TestSerializeDrudeForce.dir/flags.make
 plugins/drude/serialization/tests/CMakeFiles/TestSerializeDrudeForce.dir/TestSerializeDrudeForce.cpp.o: ../plugins/drude/serialization/tests/TestSerializeDrudeForce.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object plugins/drude/serialization/tests/CMakeFiles/TestSerializeDrudeForce.dir/TestSerializeDrudeForce.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude/serialization/tests && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TestSerializeDrudeForce.dir/TestSerializeDrudeForce.cpp.o -c /ccs/home/hm0/Pkgs/openmm/plugins/drude/serialization/tests/TestSerializeDrudeForce.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude/serialization/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TestSerializeDrudeForce.dir/TestSerializeDrudeForce.cpp.o -c /ccs/home/hm0/Pkgs/openmm/plugins/drude/serialization/tests/TestSerializeDrudeForce.cpp
 
 plugins/drude/serialization/tests/CMakeFiles/TestSerializeDrudeForce.dir/TestSerializeDrudeForce.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TestSerializeDrudeForce.dir/TestSerializeDrudeForce.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude/serialization/tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/plugins/drude/serialization/tests/TestSerializeDrudeForce.cpp > CMakeFiles/TestSerializeDrudeForce.dir/TestSerializeDrudeForce.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude/serialization/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/plugins/drude/serialization/tests/TestSerializeDrudeForce.cpp > CMakeFiles/TestSerializeDrudeForce.dir/TestSerializeDrudeForce.cpp.i
 
 plugins/drude/serialization/tests/CMakeFiles/TestSerializeDrudeForce.dir/TestSerializeDrudeForce.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestSerializeDrudeForce.dir/TestSerializeDrudeForce.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude/serialization/tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/plugins/drude/serialization/tests/TestSerializeDrudeForce.cpp -o CMakeFiles/TestSerializeDrudeForce.dir/TestSerializeDrudeForce.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/plugins/drude/serialization/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/plugins/drude/serialization/tests/TestSerializeDrudeForce.cpp -o CMakeFiles/TestSerializeDrudeForce.dir/TestSerializeDrudeForce.cpp.s
 
 # Object files for target TestSerializeDrudeForce
 TestSerializeDrudeForce_OBJECTS = \

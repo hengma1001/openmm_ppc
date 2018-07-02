@@ -6,4 +6,3 @@
 # testing this directory and lists subdirectories to be tested as well.
 subdirs("platforms/reference")
 subdirs("platforms/cuda")
-subdirs("serialization/tests")

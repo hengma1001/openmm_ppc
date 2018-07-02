@@ -60,15 +60,15 @@ include serialization/tests/CMakeFiles/TestSerializeCMMotionRemover.dir/flags.ma
 serialization/tests/CMakeFiles/TestSerializeCMMotionRemover.dir/TestSerializeCMMotionRemover.cpp.o: serialization/tests/CMakeFiles/TestSerializeCMMotionRemover.dir/flags.make
 serialization/tests/CMakeFiles/TestSerializeCMMotionRemover.dir/TestSerializeCMMotionRemover.cpp.o: ../serialization/tests/TestSerializeCMMotionRemover.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ccs/home/hm0/Pkgs/openmm/build_openmm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object serialization/tests/CMakeFiles/TestSerializeCMMotionRemover.dir/TestSerializeCMMotionRemover.cpp.o"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/serialization/tests && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TestSerializeCMMotionRemover.dir/TestSerializeCMMotionRemover.cpp.o -c /ccs/home/hm0/Pkgs/openmm/serialization/tests/TestSerializeCMMotionRemover.cpp
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/serialization/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TestSerializeCMMotionRemover.dir/TestSerializeCMMotionRemover.cpp.o -c /ccs/home/hm0/Pkgs/openmm/serialization/tests/TestSerializeCMMotionRemover.cpp
 
 serialization/tests/CMakeFiles/TestSerializeCMMotionRemover.dir/TestSerializeCMMotionRemover.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TestSerializeCMMotionRemover.dir/TestSerializeCMMotionRemover.cpp.i"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/serialization/tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/serialization/tests/TestSerializeCMMotionRemover.cpp > CMakeFiles/TestSerializeCMMotionRemover.dir/TestSerializeCMMotionRemover.cpp.i
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/serialization/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ccs/home/hm0/Pkgs/openmm/serialization/tests/TestSerializeCMMotionRemover.cpp > CMakeFiles/TestSerializeCMMotionRemover.dir/TestSerializeCMMotionRemover.cpp.i
 
 serialization/tests/CMakeFiles/TestSerializeCMMotionRemover.dir/TestSerializeCMMotionRemover.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestSerializeCMMotionRemover.dir/TestSerializeCMMotionRemover.cpp.s"
-	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/serialization/tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/serialization/tests/TestSerializeCMMotionRemover.cpp -o CMakeFiles/TestSerializeCMMotionRemover.dir/TestSerializeCMMotionRemover.cpp.s
+	cd /ccs/home/hm0/Pkgs/openmm/build_openmm/serialization/tests && /sw/summitdev/gcc/6.3.1-20170301/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ccs/home/hm0/Pkgs/openmm/serialization/tests/TestSerializeCMMotionRemover.cpp -o CMakeFiles/TestSerializeCMMotionRemover.dir/TestSerializeCMMotionRemover.cpp.s
 
 # Object files for target TestSerializeCMMotionRemover
 TestSerializeCMMotionRemover_OBJECTS = \

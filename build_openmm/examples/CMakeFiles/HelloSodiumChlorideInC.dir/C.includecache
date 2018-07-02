@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/ccs/home/hm0/Pkgs/openmm/examples/HelloSodiumChlorideInC.c
+stdio.h
+-
+stdlib.h
+-
+OpenMMCWrapper.h
+/ccs/home/hm0/Pkgs/openmm/examples/OpenMMCWrapper.h
+
+wrappers/OpenMMCWrapper.h
+
