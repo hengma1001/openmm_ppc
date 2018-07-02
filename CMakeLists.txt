@@ -33,6 +33,11 @@ MARK_AS_ADVANCED(DART_ROOT)
 # We have custom cmake modules for FindOpenMM and running python tests
 SET(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake_modules")
 
+# Check if the system is IBM_PPC, have simlimar configuration with PNACL
+if (${CMAKE_SYSTEM_PROCESSOR} MATCHES "ppc64")
+    SET (IBM_PPC True) #HM
+endif(${CMAKE_SYSTEM_PROCESSOR} MATCHES "ppc64")
+
 # Where to install
 IF(WIN32)
     IF(NOT OPENMM_INSTALL_PREFIX)
@@ -69,7 +74,8 @@ ENDIF(${CMAKE_INSTALL_PREFIX_INITIALIZED_TO_DEFAULT})
 
 # The source is organized into subdirectories, but we handle them all from
 # this CMakeLists file rather than letting CMake visit them as SUBDIRS.
-SET(OPENMM_SOURCE_SUBDIRS . openmmapi olla libraries/jama libraries/quern libraries/lepton libraries/sfmt libraries/lbfgs libraries/hilbert libraries/csha1 platforms/reference serialization libraries/irrxml) #HM  libraries/vecmath)
+SET(OPENMM_SOURCE_SUBDIRS . openmmapi olla libraries/jama libraries/quern libraries/lepton libraries/sfmt libraries/lbfgs libraries/hilbert libraries/csha1 platforms/reference serialization libraries/irrxml libraries/vecmath)
+
 IF(WIN32)
     SET(OPENMM_SOURCE_SUBDIRS ${OPENMM_SOURCE_SUBDIRS} libraries/pthreads)
 ELSE(WIN32)
@@ -81,7 +87,6 @@ ELSE(WIN32)
 ENDIF(WIN32)
 
 SET (CMAKE_CXX_STANDARD 11)
-
 IF (APPLE AND (NOT PNACL))
     # Build 64 bit binaries compatible with OS X 10.7
     IF (NOT CMAKE_OSX_DEPLOYMENT_TARGET)
@@ -101,10 +106,9 @@ IF (APPLE AND (NOT PNACL))
 
     # Improve the linking behavior of Mac libraries
     SET (CMAKE_INSTALL_NAME_DIR "@rpath")
-    SET(EXTRA_COMPILE_FLAGS "-stdlib=libc++")
-    #HM SET(EXTRA_COMPILE_FLAGS "-msse2 -stdlib=libc++")
-ELSE (APPLE AND (NOT PNACL))
-    IF (MSVC OR ANDROID OR PNACL)
+    SET(EXTRA_COMPILE_FLAGS "-msse2 -stdlib=libc++")
+ELSE (APPLE AND (NOT PNACL))    
+    IF (MSVC OR ANDROID OR PNACL OR IBM_PPC)
         SET(EXTRA_COMPILE_FLAGS)
         IF (MSVC)
             # Use warning level 2, not whatever warning level CMake picked.
@@ -112,9 +116,9 @@ ELSE (APPLE AND (NOT PNACL))
             # Explicitly suppress warnings 4305 and 4244.
             SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} /wd4305 /wd4244")
         ENDIF (MSVC)
-#HM    ELSE (MSVC OR ANDROID OR PNACL)
-#HM        SET(EXTRA_COMPILE_FLAGS "-msse2")
-    ENDIF (MSVC OR ANDROID OR PNACL)
+    ELSE (MSVC OR ANDROID OR PNACL OR IBM_PPC)
+        SET(EXTRA_COMPILE_FLAGS "-msse2")
+    ENDIF (MSVC OR ANDROID OR PNACL OR IBM_PPC)
 ENDIF (APPLE AND (NOT PNACL))
 
 IF(UNIX AND NOT CMAKE_BUILD_TYPE)
@@ -220,20 +224,19 @@ FOREACH(subdir ${OPENMM_SOURCE_SUBDIRS})
     ## OpenMM was previously installed there.
     INCLUDE_DIRECTORIES(BEFORE ${CMAKE_CURRENT_SOURCE_DIR}/${subdir}/include)
 ENDFOREACH(subdir)
-SET_SOURCE_FILES_PROPERTIES(${CMAKE_SOURCE_DIR}/libraries/sfmt/src/SFMT.cpp PROPERTIES COMPILE_FLAGS "-UHAVE_SSE2")
-#   IF (ANDROID OR PNACL)
-#       SET_SOURCE_FILES_PROPERTIES(${CMAKE_SOURCE_DIR}/libraries/sfmt/src/SFMT.cpp PROPERTIES COMPILE_FLAGS "-UHAVE_SSE2")
-#   ELSE (ANDROID OR PNACL)
-#       SET_SOURCE_FILES_PROPERTIES(${CMAKE_SOURCE_DIR}/libraries/sfmt/src/SFMT.cpp PROPERTIES COMPILE_FLAGS "-DHAVE_SSE2=1") #hM
-#   ENDIF(ANDROID OR PNACL)
-#HM   IF (NOT (ANDROID OR PNACL OR (WIN32 AND OPENMM_BUILD_STATIC_LIB)))
-#       FILE(GLOB src_files ${CMAKE_CURRENT_SOURCE_DIR}/libraries/asmjit/*/*.cpp)
-#       FILE(GLOB incl_files ${CMAKE_CURRENT_SOURCE_DIR}/libraries/asmjit/*.h)
-#       SET(SOURCE_FILES ${SOURCE_FILES} ${src_files})
-#       SET(SOURCE_INCLUDE_FILES ${SOURCE_INCLUDE_FILES} ${incl_files})
-#       INCLUDE_DIRECTORIES(BEFORE "${CMAKE_CURRENT_SOURCE_DIR}/libraries/asmjit")
-#       SET(EXTRA_COMPILE_FLAGS "${EXTRA_COMPILE_FLAGS} -DLEPTON_USE_JIT")
-#   ENDIF (NOT (ANDROID OR PNACL OR (WIN32 AND OPENMM_BUILD_STATIC_LIB)))
+IF (ANDROID OR PNACL OR IBM_PPC)
+    SET_SOURCE_FILES_PROPERTIES(${CMAKE_SOURCE_DIR}/libraries/sfmt/src/SFMT.cpp PROPERTIES COMPILE_FLAGS "-UHAVE_SSE2")
+ELSE (ANDROID OR PNACL OR IBM_PPC)
+    SET_SOURCE_FILES_PROPERTIES(${CMAKE_SOURCE_DIR}/libraries/sfmt/src/SFMT.cpp PROPERTIES COMPILE_FLAGS "-DHAVE_SSE2=1") #hM
+ENDIF(ANDROID OR PNACL OR IBM_PPC)
+IF (NOT (ANDROID OR PNACL OR IBM_PPC OR (WIN32 AND OPENMM_BUILD_STATIC_LIB)))
+    FILE(GLOB src_files ${CMAKE_CURRENT_SOURCE_DIR}/libraries/asmjit/*/*.cpp)
+    FILE(GLOB incl_files ${CMAKE_CURRENT_SOURCE_DIR}/libraries/asmjit/*.h)
+    SET(SOURCE_FILES ${SOURCE_FILES} ${src_files})
+    SET(SOURCE_INCLUDE_FILES ${SOURCE_INCLUDE_FILES} ${incl_files})
+    INCLUDE_DIRECTORIES(BEFORE "${CMAKE_CURRENT_SOURCE_DIR}/libraries/asmjit")
+    SET(EXTRA_COMPILE_FLAGS "${EXTRA_COMPILE_FLAGS} -DLEPTON_USE_JIT")
+ENDIF (NOT (ANDROID OR PNACL OR IBM_PPC OR (WIN32 AND OPENMM_BUILD_STATIC_LIB)))
 
 # If API wrappers are being generated, and add them to the build.
 SET(OPENMM_BUILD_C_AND_FORTRAN_WRAPPERS ON CACHE BOOL "Build wrappers for C and Fortran")
@@ -330,6 +333,11 @@ ENDIF(OPENMM_BUILD_OPENCL_LIB)
 # Optimized CPU platform
 
 SET(OPENMM_BUILD_CPU_LIB ON CACHE BOOL "Build optimized CPU platform")
+
+if(IBM_PPC)
+    set(OPENMM_BUILD_CPU_LIB off) #HM
+endif(IBM_PPC)
+
 IF(OPENMM_BUILD_CPU_LIB)
    ADD_SUBDIRECTORY(platforms/cpu)
 ENDIF(OPENMM_BUILD_CPU_LIB)
