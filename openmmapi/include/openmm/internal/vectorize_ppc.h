@@ -1,5 +1,5 @@
-#ifndef OPENMM_VECTORIZE_PNACL_H_
-#define OPENMM_VECTORIZE_PNACL_H_
+#ifndef OPENMM_VECTORIZE_PPC_H_
+#define OPENMM_VECTORIZE_PPC_H_
 
 /* -------------------------------------------------------------------------- *
  *                                   OpenMM                                   *
@@ -9,7 +9,7 @@
  * Biological Structures at Stanford, funded under the NIH Roadmap for        *
  * Medical Research, grant U54 GM072970. See https://simtk.org.               *
  *                                                                            *
- * Portions copyright (c) 2013-2015 Stanford University and the Authors.      *
+ * Portions copyright (c) 2013 Stanford University and the Authors.           *
  * Authors: Peter Eastman                                                     *
  * Contributors:                                                              *
  *                                                                            *
@@ -32,10 +32,15 @@
  * USE OR OTHER DEALINGS IN THE SOFTWARE.                                     *
  * -------------------------------------------------------------------------- */
 
+#include "altivec.h"
 #include <cmath>
 #include <cstdlib>
 
-// This file defines classes and functions to simplify vectorizing code with portable SIMD vectors.
+// This file defines classes and functions to simplify vectorizing code with PPC.
+
+// These two functions are defined in the vecmath library, which is linked into OpenMM.
+//hm __m128 exp_ps(__m128);
+//hm __m128 log_ps(__m128);
 
 /**
  * Determine whether ivec4 and fvec4 are supported on this processor.
@@ -44,8 +49,8 @@ static bool isVec4Supported() {
     return true;
 }
 
-typedef float __m128 __attribute__((vector_size(16), aligned(4)));
-typedef int __m128i __attribute__((vector_size(16), aligned(4)));
+typedef vector float __m128;
+typedef vector int __m128i;
 
 class ivec4;
 
@@ -55,7 +60,7 @@ class ivec4;
 class fvec4 {
 public:
     __m128 val;
-    
+
     fvec4() {}
     fvec4(float v) {
         val = (__m128) {v, v, v, v};
@@ -74,49 +79,59 @@ public:
         return val[i];
     }
     void store(float* v) const {
-        *((__m128*) v) = val;
+        *((__m128*) v) = val; 
     }
     fvec4 operator+(const fvec4& other) const {
-        return fvec4(val[0]+other[0], val[1]+other[1], val[2]+other[2], val[3]+other[3]);
+        return vec_add(val, other);
     }
     fvec4 operator-(const fvec4& other) const {
-        return fvec4(val[0]-other[0], val[1]-other[1], val[2]-other[2], val[3]-other[3]);
+        return vec_sub(val, other);
     }
     fvec4 operator*(const fvec4& other) const {
-        return fvec4(val[0]*other[0], val[1]*other[1], val[2]*other[2], val[3]*other[3]);
+        return vec_mul(val, other);
     }
     fvec4 operator/(const fvec4& other) const {
-        return fvec4(val[0]/other[0], val[1]/other[1], val[2]/other[2], val[3]/other[3]);
+        return vec_div(val, other);
     }
     void operator+=(const fvec4& other) {
-        val = fvec4(val[0]+other[0], val[1]+other[1], val[2]+other[2], val[3]+other[3]);
+        val = vec_add(val, other);
     }
     void operator-=(const fvec4& other) {
-        val = fvec4(val[0]-other[0], val[1]-other[1], val[2]-other[2], val[3]-other[3]);
+        val = vec_sub(val, other);
     }
     void operator*=(const fvec4& other) {
-        val = fvec4(val[0]*other[0], val[1]*other[1], val[2]*other[2], val[3]*other[3]);
+        val = _mm_mul_ps(val, other);
     }
     void operator/=(const fvec4& other) {
-        val = fvec4(val[0]/other[0], val[1]/other[1], val[2]/other[2], val[3]/other[3]);
+        val = _mm_div_ps(val, other);
     }
     fvec4 operator-() const {
-        return -val;
+        return _mm_sub_ps(_mm_set1_ps(0.0f), val);
     }
     fvec4 operator&(const fvec4& other) const {
-        return fvec4(((int)val[0])&((int)other[0]), ((int)val[1])&((int)other[1]), 
-                    ((int)val[2])&((int)other[2]), ((int)val[3])&((int)other[3]));
+        return _mm_and_ps(val, other);
     }
     fvec4 operator|(const fvec4& other) const {
-        return fvec4(((int)val[0])|((int)other[0]), ((int)val[1])|((int)other[1]),
-                ((int)val[2])|((int)other[2]), ((int)val[3])|((int)other[3]));
+        return _mm_or_ps(val, other);
     }
-    ivec4 operator==(const fvec4& other) const;
-    ivec4 operator!=(const fvec4& other) const;
-    ivec4 operator>(const fvec4& other) const;
-    ivec4 operator<(const fvec4& other) const;
-    ivec4 operator>=(const fvec4& other) const;
-    ivec4 operator<=(const fvec4& other) const;
+    fvec4 operator==(const fvec4& other) const {
+        return _mm_cmpeq_ps(val, other);
+    }
+    fvec4 operator!=(const fvec4& other) const {
+        return _mm_cmpneq_ps(val, other);
+    }
+    fvec4 operator>(const fvec4& other) const {
+        return _mm_cmpgt_ps(val, other);
+    }
+    fvec4 operator<(const fvec4& other) const {
+        return _mm_cmplt_ps(val, other);
+    }
+    fvec4 operator>=(const fvec4& other) const {
+        return _mm_cmpge_ps(val, other);
+    }
+    fvec4 operator<=(const fvec4& other) const {
+        return _mm_cmple_ps(val, other);
+    }
     operator ivec4() const;
 };
 
@@ -128,166 +143,164 @@ public:
     __m128i val;
     
     ivec4() {}
-    ivec4(int v) {
-        val = (__m128i) {v, v, v, v};
-    }
-    ivec4(int v1, int v2, int v3, int v4) {
-        val = (__m128i) {v1, v2, v3, v4};
-    }
+    ivec4(int v) : val(_mm_set1_epi32(v)) {}
+    ivec4(int v1, int v2, int v3, int v4) : val(_mm_set_epi32(v4, v3, v2, v1)) {}
     ivec4(__m128i v) : val(v) {}
-    ivec4(const int* v) {
-        val = *((__m128i*) v);
-    }
+    ivec4(const int* v) : val(_mm_loadu_si128((const __m128i*) v)) {}
     operator __m128i() const {
         return val;
     }
     int operator[](int i) const {
-        return val[i];
+        int result[4];
+        store(result);
+        return result[i];
     }
     void store(int* v) const {
-        *((__m128i*) v) = val;
+        _mm_storeu_si128((__m128i*) v, val);
     }
     ivec4 operator+(const ivec4& other) const {
-        return ivec4(val[0]+other[0], val[1]+other[1], val[2]+other[2], val[3]+other[3]);
+        return _mm_add_epi32(val, other);
     }
     ivec4 operator-(const ivec4& other) const {
-        return ivec4(val[0]-other[0], val[1]-other[1], val[2]-other[2], val[3]-other[3]);
+        return _mm_sub_epi32(val, other);
     }
     ivec4 operator*(const ivec4& other) const {
-        return ivec4(val[0]*other[0], val[1]*other[1], val[2]*other[2], val[3]*other[3]);
+        return _mm_mullo_epi32(val, other);
     }
     void operator+=(const ivec4& other) {
-        val = ivec4(val[0]+other[0], val[1]+other[1], val[2]+other[2], val[3]+other[3]);
+        val = _mm_add_epi32(val, other);
     }
     void operator-=(const ivec4& other) {
-        val = ivec4(val[0]-other[0], val[1]-other[1], val[2]-other[2], val[3]-other[3]);
+        val = _mm_sub_epi32(val, other);
     }
     void operator*=(const ivec4& other) {
-        val = ivec4(val[0]*other[0], val[1]*other[1], val[2]*other[2], val[3]*other[3]);
+        val = _mm_mullo_epi32(val, other);
     }
     ivec4 operator-() const {
-        return -val;
+        return _mm_sub_epi32(_mm_set1_epi32(0), val);
     }
     ivec4 operator&(const ivec4& other) const {
-        return val&other.val;
+        return _mm_and_si128(val, other);
     }
     ivec4 operator|(const ivec4& other) const {
-        return val|other.val;
+        return _mm_or_si128(val, other);
     }
     ivec4 operator==(const ivec4& other) const {
-        return (val==other.val);
+        return _mm_cmpeq_epi32(val, other);
     }
     ivec4 operator!=(const ivec4& other) const {
-        return (val!=other.val);
+        return _mm_xor_si128(*this==other, _mm_set1_epi32(0xFFFFFFFF));
     }
     ivec4 operator>(const ivec4& other) const {
-        return (val>other.val);
+        return _mm_cmpgt_epi32(val, other);
     }
     ivec4 operator<(const ivec4& other) const {
-        return (val<other.val);
+        return _mm_cmplt_epi32(val, other);
     }
     ivec4 operator>=(const ivec4& other) const {
-        return (val>=other.val);
+        return _mm_xor_si128(_mm_cmplt_epi32(val, other), _mm_set1_epi32(0xFFFFFFFF));
     }
     ivec4 operator<=(const ivec4& other) const {
-        return (val<=other.val);
+        return _mm_xor_si128(_mm_cmpgt_epi32(val, other), _mm_set1_epi32(0xFFFFFFFF));
     }
     operator fvec4() const;
 };
 
 // Conversion operators.
 
-inline ivec4 fvec4::operator==(const fvec4& other) const {
-    return (__m128i) (val==other.val);
-}
-
-inline ivec4 fvec4::operator!=(const fvec4& other) const {
-    return (__m128i) (val!=other.val);
-}
-
-inline ivec4 fvec4::operator>(const fvec4& other) const {
-    return (__m128i) (val>other.val);
-}
-
-inline ivec4 fvec4::operator<(const fvec4& other) const {
-    return (__m128i) (val<other.val);
-}
-
-inline ivec4 fvec4::operator>=(const fvec4& other) const {
-    return (__m128i) (val>=other.val);
-}
-
-inline ivec4 fvec4::operator<=(const fvec4& other) const {
-    return (__m128i) (val<=other.val);
-}
-
 inline fvec4::operator ivec4() const {
-    return __builtin_convertvector(val, __m128i);
+    return _mm_cvttps_epi32(val);
 }
 
 inline ivec4::operator fvec4() const {
-    return __builtin_convertvector(val, __m128);
+    return _mm_cvtepi32_ps(val);
 }
 
 // Functions that operate on fvec4s.
 
+static inline fvec4 floor(const fvec4& v) {
+    return fvec4(_mm_floor_ps(v.val));
+}
+
+static inline fvec4 ceil(const fvec4& v) {
+    return fvec4(_mm_ceil_ps(v.val));
+}
+
+static inline fvec4 round(const fvec4& v) {
+    return fvec4(_mm_round_ps(v.val, _MM_FROUND_TO_NEAREST_INT));
+}
+
+static inline fvec4 min(const fvec4& v1, const fvec4& v2) {
+    return fvec4(_mm_min_ps(v1.val, v2.val));
+}
+
+static inline fvec4 max(const fvec4& v1, const fvec4& v2) {
+    return fvec4(_mm_max_ps(v1.val, v2.val));
+}
+
 static inline fvec4 abs(const fvec4& v) {
-    return v&(__m128) ivec4(0x7FFFFFFF);
+    static const __m128 mask = _mm_castsi128_ps(_mm_set1_epi32(0x7FFFFFFF));
+    return fvec4(_mm_and_ps(v.val, mask));
+}
+
+static inline fvec4 sqrt(const fvec4& v) {
+    return fvec4(_mm_sqrt_ps(v.val));
+}
+
+static inline fvec4 rsqrt(const fvec4& v) {
+    // Initial estimate of rsqrt().
+
+    fvec4 y(_mm_rsqrt_ps(v.val));
+
+    // Perform an iteration of Newton refinement.
+
+    fvec4 x2 = v*0.5f;
+    y *= fvec4(1.5f)-x2*y*y;
+    return y;
 }
 
 static inline fvec4 exp(const fvec4& v) {
-    return fvec4(expf(v[0]), expf(v[1]), expf(v[2]), expf(v[3]));
+    return fvec4(exp_ps(v.val));
 }
 
 static inline fvec4 log(const fvec4& v) {
-    return fvec4(logf(v[0]), logf(v[1]), logf(v[2]), logf(v[3]));
+    return fvec4(log_ps(v.val));
 }
 
 static inline float dot3(const fvec4& v1, const fvec4& v2) {
-    fvec4 r = v1*v2;
-    return r[0]+r[1]+r[2];
+    return _mm_cvtss_f32(_mm_dp_ps(v1, v2, 0x71));
 }
 
 static inline float dot4(const fvec4& v1, const fvec4& v2) {
-    fvec4 r = v1*v2;
-    fvec4 temp = __builtin_shufflevector(r.val, r.val, 0, 1, -1, -1)+__builtin_shufflevector(r.val, r.val, 2, 3, -1, -1);
-    return temp[0]+temp[1];
+    return _mm_cvtss_f32(_mm_dp_ps(v1, v2, 0xF1));
 }
 
 static inline fvec4 cross(const fvec4& v1, const fvec4& v2) {
-    __m128 temp = v2.val*__builtin_shufflevector(v1.val, v1.val, 2, 0, 1, 3) -
-                  v1.val*__builtin_shufflevector(v2.val, v2.val, 2, 0, 1, 3);
-    return __builtin_shufflevector(temp, temp, 2, 0, 1, 3);
+    fvec4 temp = fvec4(_mm_mul_ps(v1, _mm_shuffle_ps(v2, v2, _MM_SHUFFLE(3, 0, 2, 1)))) -
+                 fvec4(_mm_mul_ps(v2, _mm_shuffle_ps(v1, v1, _MM_SHUFFLE(3, 0, 2, 1))));
+    return _mm_shuffle_ps(temp, temp, _MM_SHUFFLE(3, 0, 2, 1));
 }
 
 static inline void transpose(fvec4& v1, fvec4& v2, fvec4& v3, fvec4& v4) {
-    __m128 a1 = __builtin_shufflevector(v1.val, v2.val, 0, 4, 2, 6);
-    __m128 a2 = __builtin_shufflevector(v1.val, v2.val, 1, 5, 3, 7);
-    __m128 a3 = __builtin_shufflevector(v3.val, v4.val, 0, 4, 2, 6);
-    __m128 a4 = __builtin_shufflevector(v3.val, v4.val, 1, 5, 3, 7);
-    v1 = __builtin_shufflevector(a1, a3, 0, 1, 4, 5);
-    v2 = __builtin_shufflevector(a2, a4, 0, 1, 4, 5);
-    v3 = __builtin_shufflevector(a1, a3, 2, 3, 6, 7);
-    v4 = __builtin_shufflevector(a2, a4, 2, 3, 6, 7);
+    _MM_TRANSPOSE4_PS(v1, v2, v3, v4);
 }
 
 // Functions that operate on ivec4s.
 
 static inline ivec4 min(const ivec4& v1, const ivec4& v2) {
-    return ivec4(std::min(v1[0], v2[0]), std::min(v1[1], v2[1]), std::min(v1[2], v2[2]), std::min(v1[3], v2[3]));
+    return ivec4(_mm_min_epi32(v1.val, v2.val));
 }
 
 static inline ivec4 max(const ivec4& v1, const ivec4& v2) {
-    return ivec4(std::max(v1[0], v2[0]), std::max(v1[1], v2[1]), std::max(v1[2], v2[2]), std::max(v1[3], v2[3]));
+    return ivec4(_mm_max_epi32(v1.val, v2.val));
 }
 
 static inline ivec4 abs(const ivec4& v) {
-    return ivec4(abs(v[0]), abs(v[1]), abs(v[2]), abs(v[3]));
+    return ivec4(_mm_abs_epi32(v.val));
 }
 
-static inline bool any(const __m128i& v) {
-    ivec4 temp = __builtin_shufflevector(v, v, 0, 1, -1, -1) | __builtin_shufflevector(v, v, 2, 3, -1, -1);
-    return (temp[0] || temp[1]);
+static inline bool any(const ivec4& v) {
+    return !_mm_test_all_zeros(v, _mm_set1_epi32(0xFFFFFFFF));
 }
 
 // Mathematical operators involving a scalar and a vector.
@@ -310,55 +323,9 @@ static inline fvec4 operator/(float v1, const fvec4& v2) {
 
 // Operations for blending fvec4s based on an ivec4.
 
-static inline fvec4 blend(const fvec4& v1, const fvec4& v2, const __m128i& mask) {
-    return (__m128) ((mask&(__m128i)v2) + ((ivec4(0xFFFFFFFF)-ivec4(mask))&(__m128i)v1));
+static inline fvec4 blend(const fvec4& v1, const fvec4& v2, const ivec4& mask) {
+    return fvec4(_mm_blendv_ps(v1.val, v2.val, _mm_castsi128_ps(mask.val)));
 }
 
-// These are at the end since they involve other functions defined above.
-
-static inline fvec4 min(const fvec4& v1, const fvec4& v2) {
-    return blend(v1, v2, v1 > v2);
-}
-
-static inline fvec4 max(const fvec4& v1, const fvec4& v2) {
-    return blend(v1, v2, v1 < v2);
-}
-
-static inline fvec4 round(const fvec4& v) {
-    fvec4 shift(0x1.0p23f);
-    fvec4 absResult = (abs(v)+shift)-shift;
-    return (__m128) ((ivec4(0x80000000)&(__m128i)v) + (ivec4(0x7FFFFFFF)&(__m128i)absResult));
-}
-
-static inline fvec4 floor(const fvec4& v) {
-    fvec4 truncated = __builtin_convertvector(__builtin_convertvector(v.val, __m128i), __m128);
-    return truncated + blend(0.0f, -1.0f, truncated>v);
-}
-
-static inline fvec4 ceil(const fvec4& v) {
-    fvec4 truncated = __builtin_convertvector(__builtin_convertvector(v.val, __m128i), __m128);
-    return truncated + blend(0.0f, 1.0f, truncated<v);
-}
-
-static inline fvec4 rsqrt(const fvec4& v) {
-    // Initial estimate of rsqrt().
-
-    ivec4 i = (__m128i) v;
-    i = ivec4(0x5f375a86)-ivec4(i.val>>ivec4(1).val);
-    fvec4 y = (__m128) i;
-
-    // Perform three iterations of Newton refinement.
-
-    fvec4 x2 = 0.5f*v;
-    y *= 1.5f-x2*y*y;
-    y *= 1.5f-x2*y*y;
-    y *= 1.5f-x2*y*y;
-    return y;
-}
-
-static inline fvec4 sqrt(const fvec4& v) {
-    return rsqrt(v)*v;
-}
-
-#endif /*OPENMM_VECTORIZE_PNACL_H_*/
+#endif /*OPENMM_VECTORIZE_PPC_H_*/
 
