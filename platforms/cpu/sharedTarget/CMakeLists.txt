@@ -1,3 +1,7 @@
+if (${CMAKE_SYSTEM_PROCESSOR} MATCHES "ppc64")
+    SET (IBM_PPC ON) #HM
+endif(${CMAKE_SYSTEM_PROCESSOR} MATCHES "ppc64")
+
 FOREACH(file ${SOURCE_FILES})
     IF (file MATCHES ".*Vec8.*")
         IF (MSVC)
@@ -10,7 +14,9 @@ FOREACH(file ${SOURCE_FILES})
     ELSE (file MATCHES ".*Vec8.*")
         IF (NOT MSVC)
             IF (NOT ANDROID)
-                SET_SOURCE_FILES_PROPERTIES(${file} PROPERTIES COMPILE_FLAGS "${EXTRA_COMPILE_FLAGS} -msse4.1")
+                if (NOT IBM_PPC)
+                    SET_SOURCE_FILES_PROPERTIES(${file} PROPERTIES COMPILE_FLAGS "${EXTRA_COMPILE_FLAGS} -msse4.1")
+                endif(NOT IBM_PPC)
             ENDIF (NOT ANDROID)
         ENDIF (NOT MSVC)
     ENDIF (file MATCHES ".*Vec8.*")

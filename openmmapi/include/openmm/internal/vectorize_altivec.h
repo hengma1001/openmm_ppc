@@ -79,37 +79,37 @@ public:
     void store(float* v) const {
         *((__m128*) v) = val;
     }
-    fvec4 operator+(const fvec4& other) const {
+    fvec4 operator+(const __m128& other) const {
         return vec_add(val, other);
     }
-    fvec4 operator-(const fvec4& other) const {
+    fvec4 operator-(const __m128& other) const {
         return vec_sub(val, other);
     }
-    fvec4 operator*(const fvec4& other) const {
+    fvec4 operator*(const __m128& other) const {
         return vec_mul(val, other);
     }
-    fvec4 operator/(const fvec4& other) const {
+    fvec4 operator/(const __m128& other) const {
         return vec_div(val, other);
     }
-    void operator+=(const fvec4& other) {
+    void operator+=(const __m128& other) {
         val = vec_add(val, other); 
     }
-    void operator-=(const fvec4& other) {
+    void operator-=(const __m128& other) {
         val = vec_sub(val, other);
     }
-    void operator*=(const fvec4& other) {
+    void operator*=(const __m128& other) {
         val = vec_mul(val, other); 
     }
-    void operator/=(const fvec4& other) {
+    void operator/=(const __m128& other) {
         val = vec_div(val, other); 
     }
     fvec4 operator-() const {
         return -val;
     }
-    fvec4 operator&(const fvec4& other) const {
+    fvec4 operator&(const __m128& other) const {
         return vec_and(val, other);
     }
-    fvec4 operator|(const fvec4& other) const {
+    fvec4 operator|(const __m128& other) const {
         return vec_or(val, other); 
     }
     ivec4 operator==(const fvec4& other) const;
@@ -148,23 +148,23 @@ public:
     void store(int* v) const {
         *((__m128i*) v) = val;
     }
-    ivec4 operator+(const ivec4& other) const {
+    ivec4 operator+(const __m128i& other) const {
         return vec_add(val, other);
     }
-    ivec4 operator-(const ivec4& other) const {
+    ivec4 operator-(const __m128i& other) const {
         return vec_sub(val, other);
     }
-    ivec4 operator*(const ivec4& other) const {
-        return vec_mul(val, other); 
+    ivec4 operator*(const __m128i& other) const {
+        return ivec4(val[0]*other[0], val[1]*other[1], val[2]*other[2], val[3]*other[3]); 
     }
-    void operator+=(const ivec4& other) {
-        val = ivec4(val[0]+other[0], val[1]+other[1], val[2]+other[2], val[3]+other[3]);
+    void operator+=(const __m128i& other) {
+        val = vec_add(val, other);
     }
-    void operator-=(const ivec4& other) {
-        val = ivec4(val[0]-other[0], val[1]-other[1], val[2]-other[2], val[3]-other[3]);
+    void operator-=(const __m128i& other) {
+        val = vec_sub(val, other);
     }
-    void operator*=(const ivec4& other) {
-        val = ivec4(val[0]*other[0], val[1]*other[1], val[2]*other[2], val[3]*other[3]);
+    void operator*=(const __m128i& other) {
+        val = val*other;
     }
     ivec4 operator-() const {
         return -val;
@@ -223,17 +223,17 @@ inline ivec4 fvec4::operator<=(const fvec4& other) const {
 }
 
 inline fvec4::operator ivec4() const {
-    return __builtin_convertvector(val, __m128i);
+    return ivec4((int)val[0], (int)val[1], (int)val[2], (int)val[3]);
 }
 
 inline ivec4::operator fvec4() const {
-    return __builtin_convertvector(val, __m128);
+    return fvec4((float)val[0], (float)val[1], (float)val[2], (float)val[3]);
 }
 
 // Functions that operate on fvec4s.
 
 static inline fvec4 abs(const fvec4& v) {
-    return v&(__m128) ivec4(0x7FFFFFFF);
+    return fvec4(abs(v[0]), abs(v[1]), abs(v[2]), abs(v[3]));
 }
 
 static inline fvec4 exp(const fvec4& v) {
@@ -251,8 +251,8 @@ static inline float dot3(const fvec4& v1, const fvec4& v2) {
 
 static inline float dot4(const fvec4& v1, const fvec4& v2) {
     fvec4 r = v1*v2;
-    fvec4 temp = __builtin_shufflevector(r.val, r.val, 0, 1, -1, -1)+__builtin_shufflevector(r.val, r.val, 2, 3, -1, -1);
-    return temp[0]+temp[1];
+    //fvec4 temp = __builtin_shufflevector(r.val, r.val, 0, 1, -1, -1)+__builtin_shufflevector(r.val, r.val, 2, 3, -1, -1);
+    return r[0]+r[1]+r[2]+r[3];
 }
 
 static inline fvec4 cross(const fvec4& v1, const fvec4& v2) {
