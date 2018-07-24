@@ -32,11 +32,9 @@
 /**
  * This tests vectorized operations.
  */
-
 #include "openmm/internal/AssertionUtilities.h"
 #include "openmm/internal/vectorize8.h"
 #include <iostream>
-
 
 #ifndef __AVX__
 bool isVec8Supported() {
