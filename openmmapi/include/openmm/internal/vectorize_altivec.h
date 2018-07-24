@@ -48,7 +48,7 @@ static bool isVec4Supported() {
 //typedef float __m128 __attribute__((vector_size(16), aligned(4)));
 //typedef int __m128i __attribute__((vector_size(16), aligned(4)));
 typedef vector float __m128;
-typedef vector int __m128i;
+typedef vector signed int __m128i;
 
 class ivec4;
 
