@@ -44,8 +44,15 @@ static bool isVec4Supported() {
     return true;
 }
 
+<<<<<<< HEAD:openmmapi/include/openmm/internal/vectorize_gcc.h
 typedef float __m128 __attribute__((vector_size(16), aligned(4)));
 typedef int __m128i __attribute__((vector_size(16), aligned(4)));
+=======
+//typedef float __m128 __attribute__((vector_size(16), aligned(4)));
+//typedef int __m128i __attribute__((vector_size(16), aligned(4)));
+typedef vector float __m128;
+typedef vector signed int __m128i;
+>>>>>>> 5fec2bfa72da236b5d7feaa1cbe4d11c430e4138:openmmapi/include/openmm/internal/vectorize_altivec.h
 
 class ivec4;
 

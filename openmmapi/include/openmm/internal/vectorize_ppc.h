@@ -79,6 +79,7 @@ public:
     void store(float* v) const {
         *((__m128*) v) = val;
     }
+<<<<<<< HEAD
     fvec4 operator+(const __m128& other) const {
         return vec_add(val, other);
     }
@@ -102,6 +103,31 @@ public:
     }
     void operator/=(const __m128& other) {
         val = vec_div(val, other); 
+=======
+    fvec4 operator+(const fvec4& other) const {
+        return val+other.val;
+    }
+    fvec4 operator-(const fvec4& other) const {
+        return val-other.val;
+    }
+    fvec4 operator*(const fvec4& other) const {
+        return val*other.val;
+    }
+    fvec4 operator/(const fvec4& other) const {
+        return val/other.val;
+    }
+    void operator+=(const fvec4& other) {
+        val = val+other.val;
+    }
+    void operator-=(const fvec4& other) {
+        val = val-other.val;
+    }
+    void operator*=(const fvec4& other) {
+        val = val*other.val;
+    }
+    void operator/=(const fvec4& other) {
+        val = val/other.val;
+>>>>>>> 5fec2bfa72da236b5d7feaa1cbe4d11c430e4138
     }
     fvec4 operator-() const {
         return -val;
@@ -133,7 +159,11 @@ public:
         val = (__m128i) {v, v, v, v};
     }
     ivec4(int v1, int v2, int v3, int v4) {
+<<<<<<< HEAD
         val = (__m128i) {v1, v2, v3, v4};
+=======
+        val = (__m128i){v1, v2, v3, v4};
+>>>>>>> 5fec2bfa72da236b5d7feaa1cbe4d11c430e4138
     }
     ivec4(__m128i v) : val(v) {}
     ivec4(const int* v) {
@@ -148,6 +178,7 @@ public:
     void store(int* v) const {
         *((__m128i*) v) = val;
     }
+<<<<<<< HEAD
     ivec4 operator+(const __m128i& other) const {
         return vec_add(val, other);
     }
@@ -165,6 +196,25 @@ public:
     }
     void operator*=(const __m128i& other) {
         val = val*other;
+=======
+    ivec4 operator+(const ivec4& other) const {
+        return val+other.val;
+    }
+    ivec4 operator-(const ivec4& other) const {
+        return val-other.val;
+    }
+    ivec4 operator*(const ivec4& other) const {
+        return val*other.val;
+    }
+    void operator+=(const ivec4& other) {
+        val = val+other.val;
+    }
+    void operator-=(const ivec4& other) {
+        val = val-other.val;
+    }
+    void operator*=(const ivec4& other) {
+        val = val*other.val;
+>>>>>>> 5fec2bfa72da236b5d7feaa1cbe4d11c430e4138
     }
     ivec4 operator-() const {
         return -val;
@@ -223,7 +273,7 @@ inline ivec4 fvec4::operator<=(const fvec4& other) const {
 }
 
 inline fvec4::operator ivec4() const {
-    return ivec4((int)val[0], (int)val[1], (int)val[2], (int)val[3]);
+    return (__m128i) val;
 }
 
 inline ivec4::operator fvec4() const {
@@ -251,25 +301,30 @@ static inline float dot3(const fvec4& v1, const fvec4& v2) {
 
 static inline float dot4(const fvec4& v1, const fvec4& v2) {
     fvec4 r = v1*v2;
+<<<<<<< HEAD
     //fvec4 temp = __builtin_shufflevector(r.val, r.val, 0, 1, -1, -1)+__builtin_shufflevector(r.val, r.val, 2, 3, -1, -1);
     return r[0]+r[1]+r[2]+r[3];
+=======
+    fvec4 temp = __builtin_shuffle(r.val, r.val, (__m128i) {0, 1, -1, -1})+__builtin_shuffle(r.val, r.val, (__m128i) {2, 3, -1, -1});
+    return temp[0]+temp[1];
+>>>>>>> 5fec2bfa72da236b5d7feaa1cbe4d11c430e4138
 }
 
 static inline fvec4 cross(const fvec4& v1, const fvec4& v2) {
-    __m128 temp = v2.val*__builtin_shufflevector(v1.val, v1.val, 2, 0, 1, 3) -
-                  v1.val*__builtin_shufflevector(v2.val, v2.val, 2, 0, 1, 3);
-    return __builtin_shufflevector(temp, temp, 2, 0, 1, 3);
+    __m128 temp = v2.val*__builtin_shuffle(v1.val, v1.val, (__m128i) {2, 0, 1, 3}) -
+                  v1.val*__builtin_shuffle(v2.val, v2.val, (__m128i) {2, 0, 1, 3});
+    return __builtin_shuffle(temp, temp, (__m128i) {2, 0, 1, 3});
 }
 
 static inline void transpose(fvec4& v1, fvec4& v2, fvec4& v3, fvec4& v4) {
-    __m128 a1 = __builtin_shufflevector(v1.val, v2.val, 0, 4, 2, 6);
-    __m128 a2 = __builtin_shufflevector(v1.val, v2.val, 1, 5, 3, 7);
-    __m128 a3 = __builtin_shufflevector(v3.val, v4.val, 0, 4, 2, 6);
-    __m128 a4 = __builtin_shufflevector(v3.val, v4.val, 1, 5, 3, 7);
-    v1 = __builtin_shufflevector(a1, a3, 0, 1, 4, 5);
-    v2 = __builtin_shufflevector(a2, a4, 0, 1, 4, 5);
-    v3 = __builtin_shufflevector(a1, a3, 2, 3, 6, 7);
-    v4 = __builtin_shufflevector(a2, a4, 2, 3, 6, 7);
+    __m128 a1 = __builtin_shuffle(v1.val, v2.val, (__m128i) {0, 4, 2, 6});
+    __m128 a2 = __builtin_shuffle(v1.val, v2.val, (__m128i) {1, 5, 3, 7});
+    __m128 a3 = __builtin_shuffle(v3.val, v4.val, (__m128i) {0, 4, 2, 6});
+    __m128 a4 = __builtin_shuffle(v3.val, v4.val, (__m128i) {1, 5, 3, 7});
+    v1 = __builtin_shuffle(a1, a3, (__m128i) {0, 1, 4, 5});
+    v2 = __builtin_shuffle(a2, a4, (__m128i) {0, 1, 4, 5});
+    v3 = __builtin_shuffle(a1, a3, (__m128i) {2, 3, 6, 7});
+    v4 = __builtin_shuffle(a2, a4, (__m128i) {2, 3, 6, 7});
 }
 
 // Functions that operate on ivec4s.
@@ -287,7 +342,7 @@ static inline ivec4 abs(const ivec4& v) {
 }
 
 static inline bool any(const __m128i& v) {
-    ivec4 temp = __builtin_shufflevector(v, v, 0, 1, -1, -1) | __builtin_shufflevector(v, v, 2, 3, -1, -1);
+    ivec4 temp = __builtin_shuffle(v, v, (__m128i) {0, 1, -1, -1}) | __builtin_shuffle(v, v, (__m128i) {2, 3, -1, -1});
     return (temp[0] || temp[1]);
 }
 
