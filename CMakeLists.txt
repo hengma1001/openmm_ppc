@@ -36,8 +36,8 @@ SET(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake_modules")
 # Check if the system is IBM_PPC, have simlimar configuration with PNACL
 if (${CMAKE_SYSTEM_PROCESSOR} MATCHES "ppc64")
     SET (IBM_PPC ON) #HM
-    SET (BUILD_TESTING OFF)
-    message(STATUS "Turning off building test due to PPC incompatibility. ") 
+    #    SET (BUILD_TESTING OFF)
+    #message(STATUS "Turning off building test due to PPC incompatibility. ") 
 endif(${CMAKE_SYSTEM_PROCESSOR} MATCHES "ppc64")
 
 # Where to install
@@ -336,11 +336,12 @@ ENDIF(OPENMM_BUILD_OPENCL_LIB)
 # Optimized CPU platform
 
 
-if(IBM_PPC)
-    SET(OPENMM_BUILD_CPU_LIB OFF CACHE BOOL "Build optimized CPU platform")
-else(IBM_PPC)
-    SET(OPENMM_BUILD_CPU_LIB ON CACHE BOOL "Build optimized CPU platform")
-endif(IBM_PPC)
+#   if(IBM_PPC)
+#       SET(OPENMM_BUILD_CPU_LIB OFF CACHE BOOL "Build optimized CPU platform")
+#   else(IBM_PPC)
+#       SET(OPENMM_BUILD_CPU_LIB ON CACHE BOOL "Build optimized CPU platform")
+#   endif(IBM_PPC)
+SET(OPENMM_BUILD_CPU_LIB ON CACHE BOOL "Build optimized CPU platform")
 
 IF(OPENMM_BUILD_CPU_LIB)
    ADD_SUBDIRECTORY(platforms/cpu)
