@@ -1,5 +1,5 @@
-#ifndef OPENMM_VECTORIZE_PNACL_H_
-#define OPENMM_VECTORIZE_PNACL_H_
+#ifndef OPENMM_VECTORIZE_PPC_H_
+#define OPENMM_VECTORIZE_PPC_H_
 
 /* -------------------------------------------------------------------------- *
  *                                   OpenMM                                   *
@@ -63,12 +63,18 @@ public:
     fvec4(float v1, float v2, float v3, float v4) {
         val = (__m128) {v1, v2, v3, v4};
     }
+    fvec4(__m128i v){
+        val = (__m128) {(float)v[0], (float)v[1], (float)v[2], (float)v[3]};
+    }
     fvec4(__m128 v) : val(v) {}
     fvec4(const float* v) {
         val = *((__m128*) v);
     }
     operator __m128() const {
         return val;
+    }
+    operator __m128i() const {
+        return (__m128i) {(int)val[0], (int)val[1], (int)val[2], (int)val[3]};
     }
     float operator[](int i) const {
         return val[i];
@@ -104,10 +110,10 @@ public:
         return -val;
     }
     fvec4 operator&(const fvec4& other) const {
-        return (fvec4) (((__m128i)val)&((__m128i)other.val));
+        return fvec4(((__m128i) fvec4(val))&((__m128i) other));
     }
     fvec4 operator|(const fvec4& other) const {
-        return (fvec4) (((__m128i)val)|((__m128i)other.val));
+        return fvec4(((__m128i) fvec4(val))|((__m128i) other));
     }
     ivec4 operator==(const fvec4& other) const;
     ivec4 operator!=(const fvec4& other) const;
@@ -132,12 +138,18 @@ public:
     ivec4(int v1, int v2, int v3, int v4) {
         val = (__m128i){v1, v2, v3, v4};
     }
+    ivec4(__m128 v){
+        val = (__m128i) {(int)v[0], (int)v[1], (int)v[2], (int)v[3]};
+    }
     ivec4(__m128i v) : val(v) {}
     ivec4(const int* v) {
         val = *((__m128i*) v);
     }
     operator __m128i() const {
         return val;
+    }
+    operator __m128() const {
+        return (__m128) {(float)val[0], (float)val[1], (float)val[2], (float)val[3]};
     }
     int operator[](int i) const {
         return val[i];
@@ -220,11 +232,13 @@ inline ivec4 fvec4::operator<=(const fvec4& other) const {
 }
 
 inline fvec4::operator ivec4() const {
-    return __builtin_convertvector(val, __m128i);
+    //return ivec4((int)val[0], (int)val[1], (int)val[2], (int)val[3]); //__builtin_convertvector(val, __m128i);
+    return ivec4(val).val;
 }
 
 inline ivec4::operator fvec4() const {
-    return __builtin_convertvector(val, __m128);
+    //return fvec4((float)val[0], (float)val[1], (float)val[2], (float)val[3]); //__builtin_convertvector(val, __m128);
+    return fvec4(val).val;
 }
 
 // Functions that operate on fvec4s.
@@ -309,7 +323,11 @@ static inline fvec4 operator/(float v1, const fvec4& v2) {
 // Operations for blending fvec4s based on an ivec4.
 
 static inline fvec4 blend(const fvec4& v1, const fvec4& v2, const __m128i& mask) {
-    return (__m128) ((mask&(__m128i)v2) + ((ivec4(0xFFFFFFFF)-ivec4(mask))&(__m128i)v1));
+    //  __m128i temp_v1 = (__m128i) {(int)v1[0], (int)v1[1], (int)v1[2], (int)v1[3]};
+    //  __m128i temp_v2 = (__m128i) {(int)v2[0], (int)v2[1], (int)v2[2], (int)v2[3]};
+    //  __m128i temp = ivec4(mask&temp_v2) + ((ivec4(0xFFFFFFFF)-ivec4(mask))&temp_v1);
+    //  return (__m128) {(float)temp[0], (float)temp[1], (float)temp[2], (float)temp[3]};
+    return (__m128) ((fvec4(mask)&v2) + ((ivec4(0xFFFFFFFF)-ivec4(mask))&(__m128i)v1));
 }
 
 // These are at the end since they involve other functions defined above.
@@ -329,12 +347,12 @@ static inline fvec4 round(const fvec4& v) {
 }
 
 static inline fvec4 floor(const fvec4& v) {
-    fvec4 truncated = __builtin_convertvector(__builtin_convertvector(v.val, __m128i), __m128);
+    fvec4 truncated = (__m128) ((__m128i) v); //__builtin_convertvector(__builtin_convertvector(v.val, __m128i), __m128);
     return truncated + blend(0.0f, -1.0f, truncated>v);
 }
 
 static inline fvec4 ceil(const fvec4& v) {
-    fvec4 truncated = __builtin_convertvector(__builtin_convertvector(v.val, __m128i), __m128);
+    fvec4 truncated = (__m128) ((__m128i) v); //__builtin_convertvector(__builtin_convertvector(v.val, __m128i), __m128);
     return truncated + blend(0.0f, 1.0f, truncated<v);
 }
 
@@ -358,5 +376,5 @@ static inline fvec4 sqrt(const fvec4& v) {
     return rsqrt(v)*v;
 }
 
-#endif /*OPENMM_VECTORIZE_PNACL_H_*/
+#endif /*OPENMM_VECTORIZE_PPC_H_*/
 
