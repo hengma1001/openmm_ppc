@@ -79,7 +79,6 @@ public:
     void store(float* v) const {
         *((__m128*) v) = val;
     }
-<<<<<<< HEAD
     fvec4 operator+(const __m128& other) const {
         return vec_add(val, other);
     }
@@ -103,31 +102,6 @@ public:
     }
     void operator/=(const __m128& other) {
         val = vec_div(val, other); 
-=======
-    fvec4 operator+(const fvec4& other) const {
-        return val+other.val;
-    }
-    fvec4 operator-(const fvec4& other) const {
-        return val-other.val;
-    }
-    fvec4 operator*(const fvec4& other) const {
-        return val*other.val;
-    }
-    fvec4 operator/(const fvec4& other) const {
-        return val/other.val;
-    }
-    void operator+=(const fvec4& other) {
-        val = val+other.val;
-    }
-    void operator-=(const fvec4& other) {
-        val = val-other.val;
-    }
-    void operator*=(const fvec4& other) {
-        val = val*other.val;
-    }
-    void operator/=(const fvec4& other) {
-        val = val/other.val;
->>>>>>> 5fec2bfa72da236b5d7feaa1cbe4d11c430e4138
     }
     fvec4 operator-() const {
         return -val;
@@ -159,11 +133,7 @@ public:
         val = (__m128i) {v, v, v, v};
     }
     ivec4(int v1, int v2, int v3, int v4) {
-<<<<<<< HEAD
         val = (__m128i) {v1, v2, v3, v4};
-=======
-        val = (__m128i){v1, v2, v3, v4};
->>>>>>> 5fec2bfa72da236b5d7feaa1cbe4d11c430e4138
     }
     ivec4(__m128i v) : val(v) {}
     ivec4(const int* v) {
@@ -178,7 +148,6 @@ public:
     void store(int* v) const {
         *((__m128i*) v) = val;
     }
-<<<<<<< HEAD
     ivec4 operator+(const __m128i& other) const {
         return vec_add(val, other);
     }
@@ -196,25 +165,6 @@ public:
     }
     void operator*=(const __m128i& other) {
         val = val*other;
-=======
-    ivec4 operator+(const ivec4& other) const {
-        return val+other.val;
-    }
-    ivec4 operator-(const ivec4& other) const {
-        return val-other.val;
-    }
-    ivec4 operator*(const ivec4& other) const {
-        return val*other.val;
-    }
-    void operator+=(const ivec4& other) {
-        val = val+other.val;
-    }
-    void operator-=(const ivec4& other) {
-        val = val-other.val;
-    }
-    void operator*=(const ivec4& other) {
-        val = val*other.val;
->>>>>>> 5fec2bfa72da236b5d7feaa1cbe4d11c430e4138
     }
     ivec4 operator-() const {
         return -val;
@@ -301,13 +251,8 @@ static inline float dot3(const fvec4& v1, const fvec4& v2) {
 
 static inline float dot4(const fvec4& v1, const fvec4& v2) {
     fvec4 r = v1*v2;
-<<<<<<< HEAD
-    //fvec4 temp = __builtin_shufflevector(r.val, r.val, 0, 1, -1, -1)+__builtin_shufflevector(r.val, r.val, 2, 3, -1, -1);
-    return r[0]+r[1]+r[2]+r[3];
-=======
     fvec4 temp = __builtin_shuffle(r.val, r.val, (__m128i) {0, 1, -1, -1})+__builtin_shuffle(r.val, r.val, (__m128i) {2, 3, -1, -1});
     return temp[0]+temp[1];
->>>>>>> 5fec2bfa72da236b5d7feaa1cbe4d11c430e4138
 }
 
 static inline fvec4 cross(const fvec4& v1, const fvec4& v2) {
@@ -367,7 +312,7 @@ static inline fvec4 operator/(float v1, const fvec4& v2) {
 // Operations for blending fvec4s based on an ivec4.
 
 static inline fvec4 blend(const fvec4& v1, const fvec4& v2, const __m128i& mask) {
-    return (__m128) ((mask&(__m128i)v2) + ((ivec4(0xFFFFFFFF)-ivec4(mask))&(__m128i)v1));
+    return (__m128) ((mask&(__m128i)v2.val) + ((ivec4(0xFFFFFFFF)-ivec4(mask))&(__m128i)v1.val).val);
 }
 
 // These are at the end since they involve other functions defined above.
@@ -383,11 +328,11 @@ static inline fvec4 max(const fvec4& v1, const fvec4& v2) {
 static inline fvec4 round(const fvec4& v) {
     fvec4 shift(0x1.0p23f);
     fvec4 absResult = (abs(v)+shift)-shift;
-    return (__m128) ((ivec4(0x80000000)&(__m128i)v) + (ivec4(0x7FFFFFFF)&(__m128i)absResult));
+    return (__m128) ((ivec4(0x80000000)&(__m128i)v.val) + (ivec4(0x7FFFFFFF)&(__m128i)absResult.val)).val;
 }
 
 static inline fvec4 floor(const fvec4& v) {
-    fvec4 truncated = __builtin_convertvector(__builtin_convertvector(v.val, __m128i), __m128);
+    fvec4 truncated = (__m128) (__m128i) v.val; //__builtin_convertvector(__builtin_convertvector(v.val, __m128i), __m128);
     return truncated + blend(0.0f, -1.0f, truncated>v);
 }
 
