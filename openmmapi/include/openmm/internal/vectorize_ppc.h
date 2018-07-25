@@ -337,7 +337,7 @@ static inline fvec4 floor(const fvec4& v) {
 }
 
 static inline fvec4 ceil(const fvec4& v) {
-    fvec4 truncated = __builtin_convertvector(__builtin_convertvector(v.val, __m128i), __m128);
+    fvec4 truncated = (__m128) (__m128i) v.val; //__builtin_convertvector(__builtin_convertvector(v.val, __m128i), __m128);
     return truncated + blend(0.0f, 1.0f, truncated<v);
 }
 
