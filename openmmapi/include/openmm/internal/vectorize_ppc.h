@@ -1,5 +1,5 @@
-#ifndef OPENMM_VECTORIZE_PNACL_H_
-#define OPENMM_VECTORIZE_PNACL_H_
+#ifndef OPENMM_VECTORIZE_PPC_H_
+#define OPENMM_VECTORIZE_PPC_H_
 
 /* -------------------------------------------------------------------------- *
  *                                   OpenMM                                   *
@@ -79,38 +79,38 @@ public:
     void store(float* v) const {
         *((__m128*) v) = val;
     }
-    fvec4 operator+(const __m128& other) const {
-        return vec_add(val, other);
+    fvec4 operator+(const fvec4& other) const {
+        return vec_add(val, other.val);
     }
-    fvec4 operator-(const __m128& other) const {
-        return vec_sub(val, other);
+    fvec4 operator-(const fvec4& other) const {
+        return vec_sub(val, other.val);
     }
-    fvec4 operator*(const __m128& other) const {
-        return vec_mul(val, other);
+    fvec4 operator*(const fvec4& other) const {
+        return vec_mul(val, other.val);
     }
-    fvec4 operator/(const __m128& other) const {
-        return vec_div(val, other);
+    fvec4 operator/(const fvec4& other) const {
+        return vec_div(val, other.val);
     }
-    void operator+=(const __m128& other) {
-        val = vec_add(val, other); 
+    void operator+=(const fvec4& other) {
+        val = vec_add(val, other.val); 
     }
-    void operator-=(const __m128& other) {
-        val = vec_sub(val, other);
+    void operator-=(const fvec4& other) {
+        val = vec_sub(val, other.val);
     }
-    void operator*=(const __m128& other) {
-        val = vec_mul(val, other); 
+    void operator*=(const fvec4& other) {
+        val = vec_mul(val, other.val); 
     }
-    void operator/=(const __m128& other) {
-        val = vec_div(val, other); 
+    void operator/=(const fvec4& other) {
+        val = vec_div(val, other.val); 
     }
     fvec4 operator-() const {
         return -val;
     }
-    fvec4 operator&(const __m128& other) const {
-        return vec_and(val, other);
+    fvec4 operator&(const fvec4& other) const {
+        return vec_and(val, other.val);
     }
-    fvec4 operator|(const __m128& other) const {
-        return vec_or(val, other); 
+    fvec4 operator|(const fvec4& other) const {
+        return vec_or(val, other.val); 
     }
     ivec4 operator==(const fvec4& other) const;
     ivec4 operator!=(const fvec4& other) const;
@@ -148,23 +148,23 @@ public:
     void store(int* v) const {
         *((__m128i*) v) = val;
     }
-    ivec4 operator+(const __m128i& other) const {
-        return vec_add(val, other);
+    ivec4 operator+(const ivec4& other) const {
+        return vec_add(val, other.val);
     }
-    ivec4 operator-(const __m128i& other) const {
-        return vec_sub(val, other);
+    ivec4 operator-(const ivec4& other) const {
+        return vec_sub(val, other.val);
     }
-    ivec4 operator*(const __m128i& other) const {
-        return ivec4(val[0]*other[0], val[1]*other[1], val[2]*other[2], val[3]*other[3]); 
+    ivec4 operator*(const ivec4& other) const {
+        return val * other.val; //(__m128i) {val[0]*other[0], val[1]*other[1], val[2]*other[2], val[3]*other[3]}; 
     }
-    void operator+=(const __m128i& other) {
-        val = vec_add(val, other);
+    void operator+=(const ivec4& other) {
+        val = vec_add(val, other.val);
     }
-    void operator-=(const __m128i& other) {
-        val = vec_sub(val, other);
+    void operator-=(const ivec4& other) {
+        val = vec_sub(val, other.val);
     }
-    void operator*=(const __m128i& other) {
-        val = val*other;
+    void operator*=(const ivec4& other) {
+        val = val*other.val;
     }
     ivec4 operator-() const {
         return -val;
@@ -223,17 +223,17 @@ inline ivec4 fvec4::operator<=(const fvec4& other) const {
 }
 
 inline fvec4::operator ivec4() const {
-    return (__m128i) val;
+    return (__m128i) {(int)val[0], (int)val[1], (int)val[2], (int)val[3]};
 }
 
 inline ivec4::operator fvec4() const {
-    return fvec4((float)val[0], (float)val[1], (float)val[2], (float)val[3]);
+    return (__m128) {(float)val[0], (float)val[1], (float)val[2], (float)val[3]};
 }
 
 // Functions that operate on fvec4s.
 
 static inline fvec4 abs(const fvec4& v) {
-    return fvec4(abs(v[0]), abs(v[1]), abs(v[2]), abs(v[3]));
+    return fvec4(fabs(v[0]), fabs(v[1]), fabs(v[2]), fabs(v[3]));
 }
 
 static inline fvec4 exp(const fvec4& v) {
@@ -275,11 +275,11 @@ static inline void transpose(fvec4& v1, fvec4& v2, fvec4& v3, fvec4& v4) {
 // Functions that operate on ivec4s.
 
 static inline ivec4 min(const ivec4& v1, const ivec4& v2) {
-    return ivec4(std::min(v1[0], v2[0]), std::min(v1[1], v2[1]), std::min(v1[2], v2[2]), std::min(v1[3], v2[3]));
+    return vec_min(v1.val, v2.val);
 }
 
 static inline ivec4 max(const ivec4& v1, const ivec4& v2) {
-    return ivec4(std::max(v1[0], v2[0]), std::max(v1[1], v2[1]), std::max(v1[2], v2[2]), std::max(v1[3], v2[3]));
+    return vec_max(v1.val, v2.val);
 }
 
 static inline ivec4 abs(const ivec4& v) {
@@ -318,48 +318,32 @@ static inline fvec4 blend(const fvec4& v1, const fvec4& v2, const __m128i& mask)
 // These are at the end since they involve other functions defined above.
 
 static inline fvec4 min(const fvec4& v1, const fvec4& v2) {
-    return blend(v1, v2, v1 > v2);
+    return vec_min(v1.val, v2.val);
 }
 
 static inline fvec4 max(const fvec4& v1, const fvec4& v2) {
-    return blend(v1, v2, v1 < v2);
+    return vec_max(v1.val, v2.val);
 }
 
 static inline fvec4 round(const fvec4& v) {
-    fvec4 shift(0x1.0p23f);
-    fvec4 absResult = (abs(v)+shift)-shift;
-    return (__m128) ((ivec4(0x80000000)&(__m128i)v.val) + (ivec4(0x7FFFFFFF)&(__m128i)absResult.val)).val;
+    return vec_round(v.val);
 }
 
 static inline fvec4 floor(const fvec4& v) {
-    fvec4 truncated = (__m128) (__m128i) v.val; //__builtin_convertvector(__builtin_convertvector(v.val, __m128i), __m128);
-    return truncated + blend(0.0f, -1.0f, truncated>v);
+    return vec_floor(v.val);
 }
 
 static inline fvec4 ceil(const fvec4& v) {
-    fvec4 truncated = (__m128) (__m128i) v.val; //__builtin_convertvector(__builtin_convertvector(v.val, __m128i), __m128);
-    return truncated + blend(0.0f, 1.0f, truncated<v);
+    return vec_ceil(v.val);
 }
 
 static inline fvec4 rsqrt(const fvec4& v) {
-    // Initial estimate of rsqrt().
-
-    ivec4 i = (__m128i) v;
-    i = ivec4(0x5f375a86)-ivec4(i.val>>ivec4(1).val);
-    fvec4 y = (__m128) i;
-
-    // Perform three iterations of Newton refinement.
-
-    fvec4 x2 = 0.5f*v;
-    y *= 1.5f-x2*y*y;
-    y *= 1.5f-x2*y*y;
-    y *= 1.5f-x2*y*y;
-    return y;
+    return fvec4(1.0/sqrt(v[0]), 1.0/sqrt(v[1]), 1.0/sqrt(v[2]), 1.0/sqrt(v[3]));
 }
 
 static inline fvec4 sqrt(const fvec4& v) {
-    return rsqrt(v)*v;
+    return vec_sqrt(v.val);
 }
 
-#endif /*OPENMM_VECTORIZE_PNACL_H_*/
+#endif /*OPENMM_VECTORIZE_PPC_H_*/
 
