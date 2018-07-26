@@ -199,27 +199,27 @@ public:
 // Conversion operators.
 
 inline ivec4 fvec4::operator==(const fvec4& other) const {
-    return (__m128i) (val==other.val);
+    return  (val==other.val);
 }
 
 inline ivec4 fvec4::operator!=(const fvec4& other) const {
-    return (__m128i) (val!=other.val);
+    return  (val!=other.val);
 }
 
 inline ivec4 fvec4::operator>(const fvec4& other) const {
-    return (__m128i) (val>other.val);
+    return  (val>other.val);
 }
 
 inline ivec4 fvec4::operator<(const fvec4& other) const {
-    return (__m128i) (val<other.val);
+    return  (val<other.val);
 }
 
 inline ivec4 fvec4::operator>=(const fvec4& other) const {
-    return (__m128i) (val>=other.val);
+    return  (val>=other.val);
 }
 
 inline ivec4 fvec4::operator<=(const fvec4& other) const {
-    return (__m128i) (val<=other.val);
+    return  (val<=other.val);
 }
 
 inline fvec4::operator ivec4() const {
