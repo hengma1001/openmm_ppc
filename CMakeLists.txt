@@ -36,8 +36,6 @@ SET(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake_modules")
 # Check if the system is IBM_PPC, have simlimar configuration with PNACL
 if (${CMAKE_SYSTEM_PROCESSOR} MATCHES "ppc64")
     SET (IBM_PPC ON) #HM
-    #    SET (BUILD_TESTING OFF)
-    #message(STATUS "Turning off building test due to PPC incompatibility. ") 
 endif(${CMAKE_SYSTEM_PROCESSOR} MATCHES "ppc64")
 
 # Where to install
